@@ -2,7 +2,7 @@ step1:
 
 unzip SCRIPTS/plumed-2.3.7.tgz
 
-tar zxvf test.tgz -C /directory/
+tar zxvf plumed-2.3.7.tgz -C /directory/
 
 
 step2: 
