@@ -1,0 +1,33 @@
+;
+;	User spoel (236)
+;	Wed Nov  3 17:12:44 1993
+;	Input file
+;
+cpp                 =  /lib/cpp
+define              =  -DPOSRES -DFLEXIBLE
+constraints         =  none
+integrator          =  steep
+nsteps              =  5000
+lincs_iter          =  8
+;
+;	Energy minimizing stuff
+;
+emtol               =  100
+emstep              =  0.01
+
+nstcomm             =  1
+ns_type             =  grid
+rlist               =  1.4
+table-extension     =  10
+coulombtype         =  Shift
+epsilon_r           = 15 
+vdwtype             =  Shift
+rcoulomb            =  1.2
+rcoulomb_switch     =  0.0
+rvdw                =  1.2
+rvdw_switch         =  0.9
+Tcoupl              =  no
+Pcoupl              =  no
+gen_vel             =  no
+
+
