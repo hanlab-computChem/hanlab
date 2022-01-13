@@ -1,6 +1,6 @@
 step1: 
 
-unzip SCRIPTS/plumed-2.3.7.tgz
+Download https://github.com/plumed/plumed2/releases/tag/v2.3.7/plumed-2.3.7.tgz
 
 tar zxvf plumed-2.3.7.tgz -C /directory/
 
