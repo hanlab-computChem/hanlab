@@ -1,1 +1,1 @@
-# hanlab
+./run.sh
