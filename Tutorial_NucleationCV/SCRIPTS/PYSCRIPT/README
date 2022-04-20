@@ -1,3 +1,5 @@
+Python version: python2.7
+
 Pyscripts used in build kinetic transition network:
 
 1. map_network.py
