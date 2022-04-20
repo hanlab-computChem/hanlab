@@ -1,5 +1,5 @@
 
-python ../../PYSCRIPT/map_network.py fe-6mmol.xvg 6.0
+▶︎ python ../../PYSCRIPT/map_network.py fe-6mmol.xvg 6.0
 
 ∙ Inputfile: fe-6mmol.xvg (oligomer size n, number of beta-sheet, depth of misregistered structures, fe)
 
@@ -8,7 +8,7 @@ python ../../PYSCRIPT/map_network.py fe-6mmol.xvg 6.0
 ∙ Output: network.xvg, fe.xvg, br.xvg, crd.xvg
 
 
-./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
+▶︎ ./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
 -source source.xvg -sink sink.xvg -nt 1 -GillespieSingle yes -GillespieOpt seq/mfpt/pfold/seqDetour 100000
 
 ∙ Inputfile: network.xvg, fe.xvg, br.xvg, source.xvg, sink.xvg 
