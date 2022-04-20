@@ -22,3 +22,8 @@ python ../../PYSCRIPT/map_network.py fe-6mmol.xvg 6.0
 ∙ pfold: pfold value of each state when running 10e5 gillespie
 
 ∙ seqDetour: considering the detour path when running 10e5 gillespie
+
+
+
+
+
