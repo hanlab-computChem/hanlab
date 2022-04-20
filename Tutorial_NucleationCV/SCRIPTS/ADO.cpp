@@ -62,7 +62,7 @@ void ADO::registerKeywords( Keywords& keys )
     keys.add("compulsory","D_0","0.0","The d_0 parameter of the switching function");
     keys.add("compulsory","R_0","The r_0 parameter of the switching function");
     keys.add("compulsory","SWITCH","This keyword is used if you want to employ an alternative to the continuous swiching function defined above. ");
-    //如果有很多个角度？？？
+    
     keys.add("compulsory", "REFO", "The reference angle of orientaion");
     keys.add("compulsory", "REFA1", "The reference angle of one-dimensional arrangement");
     
@@ -112,7 +112,7 @@ ADO::ADO(const ActionOptions&ao):
     parseFlag("NOPBC",nopbc);
     pbc=!nopbc;
     */
-    //计算atoms
+    //calculate atoms
     size1 = atoms1.size();
     size2 = atoms2.size();
     if(atoms2.size()>0)
@@ -254,17 +254,10 @@ void ADO::calculate()
 	                    
 	                    double pre_Dist;
 	                    
-	                    if(distlen < D_0)
-	                    {
-	                        scoreDis = 1;
-	                        pre_Dist = 0.;
-	                    }
-	                    else
-	                    {
-			                double rdis = (distlen-D_0)/R_0;
-	                        scoreDis = exp(-0.5*rdis*rdis);
-	                        pre_Dist = -scoreDis*rdis/R_0;           
-	                    }
+			    double rdis = (distlen-D_0)/R_0;
+	                    scoreDis = exp(-0.5*rdis*rdis);
+	                    pre_Dist = -scoreDis*rdis/R_0;           
+
 	                    //The value of the cv
 	                    cv_val += scoreOrien * scoreAngle * scoreDis / (numTotal/2/2);
 	                    
@@ -399,17 +392,10 @@ void ADO::calculate()
 	                
 	                double pre_Dist;
 	                
-	                if(distlen < D_0)
-	                {
-	                    scoreDis = 1;
-	                    pre_Dist = 0.;
-	                }
-	                else
-	                {
-			            double rdis = (distlen-D_0)/R_0;
-	                    scoreDis = exp(-0.5*rdis*rdis);
-	                    pre_Dist = -scoreDis*rdis/R_0; 
-	                }
+	                double rdis = (distlen-D_0)/R_0;
+	                scoreDis = exp(-0.5*rdis*rdis);
+	                pre_Dist = -scoreDis*rdis/R_0; 
+
 	                //The value of the cv
 	                cv_val += scoreOrien * scoreAngle * scoreDis / (numTotal/2);
 	                
