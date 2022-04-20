@@ -5,7 +5,7 @@ python ../../PYSCRIPT/map_network.py fe-6mmol.xvg 6.0
 
 ∙ 6.0 represents the monomer concentration in mM unit
 
-∙ output: network.xvg, fe.xvg, br.xvg, crd.xvg
+∙ Output: network.xvg, fe.xvg, br.xvg, crd.xvg
 
 
 ./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
