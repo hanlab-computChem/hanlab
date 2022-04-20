@@ -1,0 +1,8 @@
+Pyscripts used in build kinetic transition network:
+
+1. map_network.py
+2. networkutil.py
+3. cal_pn.py
+
+Pyscript used in MC:
+comp_comb.py
