@@ -1,3 +1,5 @@
+PLUMED Installation:
+
 step1: 
 
 Download https://github.com/plumed/plumed2/releases/tag/v2.3.7/plumed-2.3.7.tgz
@@ -7,7 +9,7 @@ tar zxvf plumed-2.3.7.tgz -C /directory/
 
 step2: 
 
-mv SCRIPTS/ADO.cpp /directory/plumed-2.3.7/src/colvar/
+mv SCRIPTS/PLUMED/ADO.cpp /directory/plumed-2.3.7/src/colvar/
 
 step3: 
 
