@@ -6,5 +6,5 @@ Pyscripts used in build kinetic transition network:
 2. networkutil.py
 3. cal_pn.py
 
-Pyscript used in MC:
+Pyscript used in clustering:
 comp_comb.py
