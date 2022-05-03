@@ -1,28 +1,33 @@
 
-▶︎ python ../../PYSCRIPT/map_network.py fe-6mmol.xvg 6.0
+Step 1: build the file containing the coordinations and free energy.
+    Here, we provide an example -- fe-6mmol.xvg.
 
-● Inputfile: fe-6mmol.xvg (oligomer size n, number of beta-sheet, depth of misregistered structures, fe)
-
-● 6.0 represents the monomer concentration in mM unit
-
-● Output: network.xvg, fe.xvg, br.xvg, crd.xvg
-
-
-▶︎ ./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
+Step 2: according the file provided in step 1, several imformation can be obtained by pyscript map_network.py.
+    ▶︎ python ../../PYSCRIPT/map_network.py fe-6mmol.xvg 6.0
+    ● Two inputs: 
+         the file in step 1,
+         the monomer concentration, whose unit is mM.
+    ● Four outputs: 
+         crd.xvg: all states in the transition process
+         network.xvg: which states have transition
+         fe.xvg: the free energy of each state
+         br.xvg: the base rate of every transition
+         
+Step 3: do MC simulations.
+    ▶︎ ./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
 -source source.xvg -sink sink.xvg -nt 1 -GillespieSingle yes -GillespieOpt seq/mfpt/pfold/seqDetour 100000
-
-● Inputfile: network.xvg, fe.xvg, br.xvg, source.xvg, sink.xvg 
-
-● source.xvg: start point, sink.xvg: end point, and their numbers come from crd.xvg
-
-● seq: 10e5 sequences of gillespie results
-
-● mfpt: mean first-passage time of running 10e5 gillespie
-
-● pfold: pfold value of each state when running 10e5 gillespie
-
-● seqDetour: considering the detour path when running 10e5 gillespie
-
+    ● Five inputfiles: 
+         network.xvg
+         fe.xvg
+         br.xvg
+         source.xvg: the start point of MC simulation
+         sink.xvg: the end point of MC simulation
+    ● 100000 represents how many MC simulations run
+    ● Choice of -GillespieOpt commond decides the output of MC simulation:
+         seq: sequences of MC simulation results
+         mfpt: mean first-passage time of MC simulation
+         pfold: pfold value of each state when running MC simulation
+         seqDetour: the detour path when running MC simulation
 
 
 
