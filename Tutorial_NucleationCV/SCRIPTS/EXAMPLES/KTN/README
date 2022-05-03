@@ -24,10 +24,11 @@ Step 3: do MC simulations.
          sink.xvg: the end point of MC simulation
     ● 100000 represents how many MC simulations run
     ● Choice of -GillespieOpt commond decides the output of MC simulation:
-         seq: sequences of MC simulation results
+         seq: sequences and time of MC simulation results
          mfpt: mean first-passage time of MC simulation
          pfold: pfold value of each state when running MC simulation
-         seqDetour: the detour path when running MC simulation
+         seqDetour: the detour path and its time when running MC simulation
+    ● the time in output should be divided by 10 to get the real time, and the unit of time is μs
 
 
 
