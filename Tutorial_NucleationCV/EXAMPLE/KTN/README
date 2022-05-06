@@ -12,7 +12,7 @@ Step 2: building knetic network,
         catching the states and their free energies in the network,
         calculating the base rate of each transition between states.
         
-    ▶︎ python ../../PYSCRIPT/map_network.py example-fe.xvg 6.0
+    ▶︎ python ../../SCRIPTS/PYSCRIPT/map_network.py example-fe.xvg 6.0
     ● Two inputs: 
          the file in step 1,
          the monomer concentration, whose unit is mM.
@@ -24,7 +24,7 @@ Step 2: building knetic network,
          
 Step 3: doing MC simulations.
 
-    ▶︎ ./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
+    ▶︎ ./../../SCRIPTS/PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
 -source source.xvg -sink sink.xvg -nt 1 -GillespieSingle yes -GillespieOpt seq/mfpt/pfold/seqDetour 10000
     ● Five inputfiles: 
          network.xvg
