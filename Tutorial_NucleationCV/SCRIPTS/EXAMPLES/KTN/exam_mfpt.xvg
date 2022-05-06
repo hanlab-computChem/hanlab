@@ -1,0 +1,8 @@
+Info : Loading connection network.xvg
+Info : 0 edges loaded and found 740 nodes
+Info : free energy loaded for 740 states 
+Info : source file : source.xvg
+Info : sink file : sink.xvg
+Info : Loading base rate for each transition from br.xvg ...
+Info : Performing Gillespie stocastic simulations for single particle
+Info : mfpt  44.0521 0.447328
