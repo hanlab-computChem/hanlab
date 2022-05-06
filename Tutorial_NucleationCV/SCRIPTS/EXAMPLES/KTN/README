@@ -45,7 +45,7 @@ Step 3: do MC simulations.
          -- 10000 sequences with detour
          -- the time of each state on the sequences
          
-    * the time in seq, mfpt and seqDetour output should be divided by 10 to get the real time, and the unit of time is μs
+    * the time in seq, mfpt and seqDetour output should be divided by 10 to get the actual time, and the unit of time is μs
 
 
 
