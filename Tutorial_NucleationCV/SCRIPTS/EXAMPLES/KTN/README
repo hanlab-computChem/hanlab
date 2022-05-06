@@ -1,12 +1,12 @@
 
-Step 1: build a file containing the coordinations and free energy.
+Step 1: building a file containing the coordinations and free energy.
     Here, we provide an example file -- example-fe.xvg, which contains four columns of data
     -- 1st: n value, the size of a cluster
     -- 2nd: nbeta value, the number of peptides in beta-strand conformation in this cluster
     -- 3rd: m value, the depth of misregistered structures
     -- 4th: free energy
 
-Step 2: according the file provided in step 1, several imformation can be obtained by pyscript map_network.py.
+Step 2: building knetic network, catch the states and their free energies in the network and calculate the base rate of each transition between states.
     ▶︎ python ../../PYSCRIPT/map_network.py example-fe.xvg 6.0
     ● Two inputs: 
          the file in step 1,
@@ -17,7 +17,7 @@ Step 2: according the file provided in step 1, several imformation can be obtain
          fe.xvg: the free energy of each state
          br.xvg: the base rate of each transition
          
-Step 3: do MC simulations.
+Step 3: doing MC simulations.
     ▶︎ ./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
 -source source.xvg -sink sink.xvg -nt 1 -GillespieSingle yes -GillespieOpt seq/mfpt/pfold/seqDetour 10000
     ● Five inputfiles: 
