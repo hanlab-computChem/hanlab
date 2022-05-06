@@ -1,1 +1,11 @@
 Raw data for Rate constants
+
+File: raw_data_rate_constant.xvg, including seven columns of data
+1st: monomer conc in unit of mM  
+2nd: rate constant k
+3rd: supersaturation S=ln(conc/ce) and ce = 0.36 mmol
+4th: deltaF = F(n=2) - F(n=1)
+5th: alpha = 1+exp(-deltaF)
+6th: P(n)
+7th: ln(J) = lnalpha + lnP(n) + ln(k) + S
+
