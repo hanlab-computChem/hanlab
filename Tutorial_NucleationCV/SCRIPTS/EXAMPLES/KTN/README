@@ -3,7 +3,7 @@ Step 1: build a file containing the coordinations and free energy.
     Here, we provide an example file -- example-fe.xvg, which contains four columns of data
     -- 1st: n value, the size of a cluster
     -- 2nd: nbeta value, the number of peptides in beta-strand conformation in this cluster
-    -- 3rd: m value: the depth of misregistered structures
+    -- 3rd: m value, the depth of misregistered structures
     -- 4th: free energy
 
 Step 2: according the file provided in step 1, several imformation can be obtained by pyscript map_network.py.
