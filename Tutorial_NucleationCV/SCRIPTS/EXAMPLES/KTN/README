@@ -1,4 +1,5 @@
 
+
 Step 1: building a file containing the coordinations and free energy.
 
     Here, we provide an example file -- example-fe.xvg, which contains four columns of data
@@ -22,6 +23,7 @@ Step 2: building knetic network,
          br.xvg: the base rate of each transition
          
 Step 3: doing MC simulations.
+
     ▶︎ ./../../PROGRAM/anaNetwork_t -kineticNetwork yes -in network.xvg -kineticNetworkPop fe.xvg -baseRate br.xvg \
 -source source.xvg -sink sink.xvg -nt 1 -GillespieSingle yes -GillespieOpt seq/mfpt/pfold/seqDetour 10000
     ● Five inputfiles: 
