@@ -1,7 +1,10 @@
 Raw data for Rate constants
 
-File: raw_data_rate_constant.xvg, including seven columns of data
-1st: monomer conc in unit of mM  
+File: 
+-- raw_data_rate_constant.xvg
+-- represent raw data of rate constant k and nucleation rate J at different concentration in Fig. 4a in main text
+-- including seven columns of data
+1st: monomer concentration in unit of mM  
 2nd: rate constant k
 3rd: supersaturation S=ln(conc/ce) and ce = 0.36 mmol
 4th: deltaF = F(n=2) - F(n=1)
@@ -9,3 +12,11 @@ File: raw_data_rate_constant.xvg, including seven columns of data
 6th: P(n)
 7th: ln(J) = lnalpha + lnP(n) + ln(k) + S
 
+
+File: 
+-- raw_data_timescale.xvg
+-- represent raw data of timescales of τ_n and τ_(n_β ) at different concentration in Fig. 4b in main text
+-- including three columns of data
+1st: monomer concentration in unit of mM  
+2nd: timescale of association/dissociation (τ_n)
+3rd: timescale of internal structural rearrangements (τ_(n_β ))
