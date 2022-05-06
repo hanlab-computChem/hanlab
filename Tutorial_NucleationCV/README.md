@@ -20,3 +20,7 @@ PLUMED Installization
 make
 
 make install
+
+
+*fftw version: 3.3.8 https://fftw.org/pub/fftw/
+*GROMACS version: 5.1.4 https://manual.gromacs.org/documentation/5.1.4/download.html
