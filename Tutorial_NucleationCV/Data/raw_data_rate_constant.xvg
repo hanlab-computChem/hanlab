@@ -1,7 +1,7 @@
 #monomer conc (mmol)    rate constant k   S=ln(conc/ce)    deltaF    alpha    p(n)     ln(J)
 #ce = 0.36 mmol
 #deltaF = max(F)-F(n=1) 
-#ln(J) = ln(k) + ln(alpha) + ln(p(n)]) + S
+#ln(J) = ln(k) + ln(alpha) + ln(p(n)) + S
 
 0.38    0.00072174	     0.054067221	    2.571186207	     1.076444812       0.624164066	    -7.577456261			
 0.4	    0.001195869	     0.105360516	    2.519892912	     1.080468223       0.830824552	    -6.731463801		   
