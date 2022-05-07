@@ -33,6 +33,6 @@ PLUMED Installization
 
 Example of Metadynamics:
 
-Files of gro, top, itp, mdp and script of building simulation are in Folder SETUP
+• Files of gro, top, itp, mdp and script of building simulation are in Folder SETUP
 
-Files of production run are in Folder TOPO
+• Files of production run are in Folder TOPO
