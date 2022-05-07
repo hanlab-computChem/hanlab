@@ -28,6 +28,9 @@ PLUMED Installization
 
 *GROMACS version: 5.1.4 https://manual.gromacs.org/documentation/5.1.4/download.html
 
+
+
+
 Example of Metadynamics:
 
 Files of gro, top, itp, mdp and script of building simulation are in Folder SETUP
