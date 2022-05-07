@@ -27,3 +27,9 @@ PLUMED Installization
 *fftw version: 3.3.8 https://fftw.org/pub/fftw/
 
 *GROMACS version: 5.1.4 https://manual.gromacs.org/documentation/5.1.4/download.html
+
+Example of Metadynamics:
+
+Files of gro, top, itp, mdp and script of building simulation are in Folder SETUP
+
+Files of production run are in Folder TOPO
