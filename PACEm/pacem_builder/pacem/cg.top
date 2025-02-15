@@ -1,0 +1,13 @@
+#include "martini.itp"
+    
+#define RUBBER_BANDS
+  
+#include "Protein_P.itp"
+    
+[ system ]
+; name
+Martini system from pace.pdb
+    
+[ molecules ]
+; name        number
+Protein_P 	 1

@@ -1,0 +1,3289 @@
+[ defaults ]
+  1             1               no              1.0     1.0
+[ atomtypes ]
+SH           33.000      0.000      A       0.0      0.0
+S            32.000      0.000      A       0.0      0.0
+SP           32.000      0.000      A       0.0      0.0
+SHP          33.000      0.000      A       0.0      0.0
+CZ           13.000      0.000      A       0.0      0.0
+CZA           13.000      0.000      A       0.0      0.0
+CZB           13.000      0.000      A       0.0      0.0
+CZC           13.000      0.000      A       0.0      0.0
+CZD           13.000      0.000      A       0.0      0.0
+CZP          13.000      0.000      A       0.0      0.0
+CH2          14.000      0.000      A       0.0      0.0
+CH3          15.000      0.000      A       0.0      0.0
+COH          15.000      0.000      A       0.0      0.0
+CH1          13.000      0.000      A       0.0      0.0
+C3P          15.000      0.000      A       0.0      0.0
+C1P          13.000      0.000      A       0.0      0.0
+C2P          14.000      0.000      A       0.0      0.0
+CB3          15.000      0.000      A       0.0      0.0
+CB3P          15.000      0.000      A       0.0      0.0
+CB2          14.000      0.000      A       0.0      0.0
+CB1          13.000      0.000      A       0.0      0.0
+W            72.000      0.000      A       0.0      0.0
+OH           17.000      0.000      A       0.0      0.0
+OHP          17.000      0.000      A       0.0      0.0
+KAL           14.000      0.000      A       0.0      0.0
+CO           12.000      0.000      A       0.0      0.0
+COP           12.000      0.000      A       0.0      0.0
+OC           16.000      0.000      A       0.0      0.0
+OCP           16.000      0.000      A       0.0      0.0
+CX           14.000      0.000      A       0.0      0.0
+C            12.000      0.000      A       0.0      0.0
+CP            12.000      0.000      A       0.0      0.0
+C-           12.000      0.000      A       0.0      0.0
+C+           14.000      0.000      A       0.0      0.0
+CA           13.000      0.000      A       0.0      0.0
+Nr           16.000      0.000      A       0.0      0.0
+Cr           12.000      0.000      A       0.0      0.0
+NZ           14.000      0.000      A       0.0      0.0
+NZ0          10.000      0.000      A       0.0      0.0
+NZ+          10.000      0.000      A       0.0      0.0
+NT           6.000      0.000      A       0.0      0.0
+NTP          14.000      0.000      A       0.0      0.0
+N            10.000      0.000      A       0.0      0.0
+NP           14.000      0.000      A       0.0      0.0
+O            16.000      0.000      A       0.0      0.0
+OP            16.000      0.000      A       0.0      0.0
+O-           16.000      0.000      A       0.0      0.0
+HD            5.000      0.000      A       0.0      0.0
+HDP           5.000      0.000      A       0.0      0.0
+NPR          14.000      0.000      A       0.0      0.0
+CBX          14.000      0.000      A       0.0      0.0
+N+           17.000      0.000      A       0.0      0.0
+N+P           17.000      0.000      A       0.0      0.0
+HA            5.000      0.000      A       0.0      0.0
+HH            5.000      0.000      A       0.0      0.0
+H+            5.000      0.000      A       0.0      0.0
+HDD 5.000 0.000 A 0.0 0.0 ; add 20220812
+
+; MARTINI_v2.2
+; STANDARD types, 4:1 mapping
+; polar type
+P5 72.0 0.000 A 0.0 0.0
+P4 72.0 0.000 A 0.0 0.0
+P3 72.0 0.000 A 0.0 0.0
+P2 72.0 0.000 A 0.0 0.0
+P1 72.0 0.000 A 0.0 0.0
+; intermediate polar
+Nda 72.0 0.000 A 0.0 0.0 
+Nd 72.0 0.000 A 0.0 0.0
+Na 72.0 0.000 A 0.0 0.0
+N0 72.0 0.000 A 0.0 0.0
+; apolar
+C5 72.0 0.000 A 0.0 0.0
+C4 72.0 0.000 A 0.0 0.0
+C3 72.0 0.000 A 0.0 0.0
+C2 72.0 0.000 A 0.0 0.0
+C1 72.0 0.000 A 0.0 0.0
+; charged
+Qda 72.0 0.000 A 0.0 0.0
+Qd 72.0 0.000 A 0.0 0.0
+Qa 72.0 0.000 A 0.0 0.0
+Q0 72.0 0.000 A 0.0 0.0
+
+; RING types, 2-3:1 mapping 
+SP5 45.0 0.000 A 0.0 0.0
+SP4 45.0 0.000 A 0.0 0.0
+SP3 45.0 0.000 A 0.0 0.0
+SP2 45.0 0.000 A 0.0 0.0
+SP1 45.0 0.000 A 0.0 0.0
+SNda 45.0 0.000 A 0.0 0.0
+SNd 45.0 0.000 A 0.0 0.0
+SNa 45.0 0.000 A 0.0 0.0
+SN0 45.0 0.000 A 0.0 0.0
+SC5 45.0 0.000 A 0.0 0.0
+SC4 45.0 0.000 A 0.0 0.0
+SC3 45.0 0.000 A 0.0 0.0
+SC2 45.0 0.000 A 0.0 0.0
+SC1 45.0 0.000 A 0.0 0.0
+SQda 45.0 0.000 A 0.0 0.0
+SQd 45.0 0.000 A 0.0 0.0
+SQa 45.0 0.000 A 0.0 0.0
+SQ0 45.0 0.000 A 0.0 0.0
+; AMINO ACIDS (required for Q-C interactions inside proteins)
+AC2 72.0 0.000 A 0.0 0.0
+AC1 72.0 0.000 A 0.0 0.0
+; BIG particle type (to prevent freezing of water)
+BP4 72.0 0.000 A 0.0 0.0
+
+; new C1 C3 Qa Qd Q0 Na for lipid and ion
+; lipid
+LC1 72.0 0.000 A 0.0 0.0
+LC3 72.0 0.000 A 0.0 0.0
+LQa 72.0 0.000 A 0.0 0.0
+LQd 72.0 0.000 A 0.0 0.0
+LQ0 72.0 0.000 A 0.0 0.0
+LNa 72.0 0.000 A 0.0 0.0
+; ion
+IQa 72.0 0.000 A 0.0 0.0
+IQd 72.0 0.000 A 0.0 0.0
+IQ0 72.0 0.000 A 0.0 0.0
+
+[ nonbond_params ]
+; nonbonded interaction between martini particles and  martini particles
+; levels of LJ interaction:
+; O 	- supra attractive: 	(eps=5.6, s=0.47) 
+; I 	- attractive: 		(eps=5.0, s=0.47) 
+; II 	- almost attractive: 	(eps=4.5, s=0.47)
+; III 	- semi attractive:	(eps=4.0, s=0.47) 
+; IV 	- intermediate: 	(eps=3.5, s=0.47) 
+; V 	- almost intermediate: 	(eps=3.1, s=0.47) 
+; VI 	- semi repulsive: 	(eps=2.7, s=0.47) 
+; VII 	- almost repulsive: 	(eps=2.3, s=0.47) 
+; VIII	- repulsive: 		(eps=2.0, s=0.47)
+; IX 	- super repulsive: 	(eps=2.0, s=0.62)
+;
+; RINGS: for ring-ring interactions eps is reduced to 75%, sigma=0.43.
+; i j	funda c6 c12 
+; self terms
+  P5 	P5 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	SP5 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  P4 	P4 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  BP4 	BP4 	1 	0.21558E-00 	0.23238E-02 ; attractive
+  SP4 	SP4 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  P3 	P3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP3 	SP3 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  P2 	P2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP2 	SP2 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  P1 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP1 	SP1 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  Nda 	Nda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SNda 	SNda 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  Nd 	Nd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNd 	SNd 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  Na 	Na 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Na    LNa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  LNa   LNa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNa 	SNa 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  N0 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0 	SN0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  C5 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC5 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  C4 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC4 	SC4 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  C3 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C3    LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  LC3   LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SC3 	SC3 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  C2 	C2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  AC2 	AC2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC2 	SC2 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  C1 	C1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C1    LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  LC1   LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  AC1 	AC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC1 	SC1 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  Qda 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SQda 	SQda 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  Qd 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Qd    LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  LQd   LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Qd    IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  IQd   IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  IQd   LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SQd 	SQd 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  Qa 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Qa    LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  LQa   LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Qa    IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  IQa   IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  IQa   LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SQa 	SQa 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  Q0 	Q0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Q0    LQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  LQ0   LQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  Q0    IQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  IQ0   IQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  IQ0   LQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SQ0 	SQ0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+; cross terms
+  P5 	SP5 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	P4 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	BP4 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	SP4 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	P3 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	SP3 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	P2 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	SP2 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	P1 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	SP1 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	Nda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P5 	SNda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P5 	Nd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P5 	SNd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P5 	Na 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P5    LNa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P5 	SNa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P5 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P5 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P5 	C5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P5 	SC5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P5 	C4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P5 	SC4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P5 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P5    LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  P5 	SC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P5 	C2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P5 	AC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P5 	SC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P5 	C1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  P5    LC1     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  P5 	AC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  P5 	SC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  P5 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	SQda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5    LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P5    IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P5 	SQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5    LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P5    IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P5 	SQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P5 	Q0 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P5    LQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P5    IQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P5 	SQ0 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP5 	P4 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	BP4 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	SP4 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP5 	P3 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	SP3 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP5 	P2 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	SP2 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP5 	P1 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	SP1 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP5 	Nda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP5 	SNda 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP5 	Nd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP5 	SNd 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP5 	Na 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP5   LNa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP5 	SNa 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP5 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP5 	SN0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP5 	C5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SP5 	SC5 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SP5 	C4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP5 	SC4 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SP5 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP5   LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SP5 	SC3 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SP5 	C2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP5 	AC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP5 	SC2 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  SP5 	C1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  SP5   LC1     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  SP5 	AC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  SP5 	SC1 	1 	0.37928E-01 	0.23976E-03 ; 75repulsive, s=0.43
+  SP5 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	SQda 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP5 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5   LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP5   IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP5 	SQd 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP5 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP5   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP5 	SQa 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP5 	Q0 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP5   LQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP5   IQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP5 	SQ0 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  P4 	BP4 	1 	0.76824E-00 	0.26348E-01 ; supra attractive, s=0.57
+  P4 	SP4 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P4 	P3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P4 	SP3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P4 	P2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P4 	SP2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P4 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P4 	SP1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P4 	Nda 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P4 	SNda 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P4 	Nd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P4 	SNd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P4 	Na 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P4    LNa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  P4 	SNa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P4 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P4 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P4 	C5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P4 	SC5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P4 	C4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P4 	SC4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P4 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P4    LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  P4 	SC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P4 	C2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P4 	AC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P4 	SC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P4 	C1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  P4    LC1     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  P4 	AC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  P4 	SC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  P4 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4 	SQda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4    LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P4    IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P4 	SQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4    LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P4    IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P4 	SQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4 	Q0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4    LQ0     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P4    IQ0     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P4 	SQ0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4	SP4 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  BP4	P3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  BP4	SP3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  BP4 	P2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  BP4 	SP2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  BP4 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  BP4 	SP1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  BP4 	Nda 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  BP4 	SNda 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  BP4 	Nd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  BP4 	SNd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  BP4 	Na 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  BP4   LNa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  BP4 	SNa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  BP4 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  BP4 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  BP4 	C5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  BP4 	SC5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  BP4 	C4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  BP4 	SC4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  BP4 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  BP4   LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  BP4 	SC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  BP4 	C2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  BP4 	AC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  BP4 	SC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  BP4 	C1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  BP4   LC1     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  BP4 	AC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  BP4 	SC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  BP4 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4 	SQda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4   LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  BP4   IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  BP4 	SQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  BP4   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  BP4 	SQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4 	Q0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  BP4   LQ0     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  BP4   IQ0     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  BP4 	SQ0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP4 	P3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP4 	SP3 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP4 	P2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP4 	SP2 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP4 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP4 	SP1 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP4 	Nda 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SP4 	SNda 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  SP4 	Nd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SP4 	SNd 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  SP4 	Na 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SP4   LNa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SP4 	SNa 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  SP4 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP4 	SN0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP4 	C5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SP4 	SC5 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SP4 	C4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP4 	SC4 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SP4 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP4   LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SP4 	SC3 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SP4 	C2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP4 	AC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP4 	SC2 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  SP4 	C1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  SP4   LC1     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  SP4 	AC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  SP4 	SC1 	1 	0.37928E-01 	0.23976E-03 ; 75repulsive, s=0.43
+  SP4 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP4 	SQda 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP4 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP4   LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP4   IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP4 	SQd 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP4 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP4   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP4   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP4 	SQa 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP4 	Q0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP4   LQ0     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP4   IQ0     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP4 	SQ0 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  P3 	SP3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P3 	P2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	SP2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	SP1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	Nda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	SNda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	SNd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3    LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  P3 	SNa 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P3 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P3 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P3 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P3 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P3 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P3 	SC4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P3 	C3 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P3    LC3     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  P3 	SC3 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P3 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P3 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P3 	SC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P3 	C1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P3    LC1     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  P3 	AC1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P3 	SC1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P3 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P3 	SQda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P3 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P3    LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P3    IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P3 	SQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P3 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P3    LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P3    IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  P3 	SQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P3 	Q0 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P3    LQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P3    IQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P3 	SQ0 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP3 	P2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP3 	SP2 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP3 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP3 	SP1 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP3 	Nda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP3 	SNda 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP3 	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP3 	SNd 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP3 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP3   LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SP3 	SNa 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP3 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP3 	SN0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP3 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP3 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP3 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SP3 	SC4 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SP3 	C3 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SP3   LC3     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SP3 	SC3 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SP3 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP3 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP3 	SC2 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SP3 	C1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP3   LC1     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SP3 	AC1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP3 	SC1 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  SP3 	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP3 	SQda 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP3 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP3   LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP3   IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP3 	SQd 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP3 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP3   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP3   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SP3 	SQa 	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SP3 	Q0 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP3   LQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP3   IQ0     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP3 	SQ0 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  P2 	SP2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	SP1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	Nda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	SNda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	SNd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2    LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  P2 	SNa 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2 	N0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P2 	SN0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P2 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P2 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P2 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P2 	SC4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P2 	C3 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P2    LC3     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  P2 	SC3 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P2 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P2 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P2 	SC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P2 	C1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P2    LC1     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  P2 	AC1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P2 	SC1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  P2 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P2 	SQda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P2 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P2    LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P2    IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P2 	SQd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P2 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P2    LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P2    IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P2 	SQa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P2 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P2    LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  P2    IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  P2 	SQ0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP2 	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP2 	SP1 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP2 	Nda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP2 	SNda 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP2 	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP2 	SNd 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP2 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP2   LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SP2 	SNa 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP2 	N0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SP2 	SN0 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  SP2 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP2 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP2 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP2 	SC4 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP2 	C3 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SP2   LC3     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SP2 	SC3 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SP2 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP2 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP2 	SC2 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SP2 	C1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP2   LC1     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SP2 	AC1 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SP2 	SC1 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  SP2 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP2 	SQda 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP2 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP2   LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP2   IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP2 	SQd 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP2 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP2   LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP2   IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP2 	SQa 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP2 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP2   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SP2   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SP2 	SQ0 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  P1 	SP1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P1 	Nda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P1 	SNda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P1 	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P1 	SNd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P1 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P1    LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  P1 	SNa 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  P1 	N0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P1 	SN0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P1 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P1 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P1 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P1 	SC4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P1 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P1    LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  P1 	SC3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  P1 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P1 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P1 	SC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  P1 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P1    LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  P1 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P1 	SC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  P1 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P1 	SQda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P1 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P1    LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P1    IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P1 	SQd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P1 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P1    LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P1    IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  P1 	SQa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  P1 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  P1    LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  P1    IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  P1 	SQ0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SP1	Nda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP1 	SNda 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP1	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP1 	SNd 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP1 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SP1   LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SP1 	SNa 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SP1 	N0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SP1 	SN0 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  SP1 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP1 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP1 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP1 	SC4 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP1 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SP1   LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SP1 	SC3 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SP1 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SP1 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SP1 	SC2 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SP1 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP1   LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SP1 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SP1 	SC1 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SP1 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP1 	SQda 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP1 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP1   LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP1   IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP1 	SQd 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP1 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SP1   LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP1   IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SP1 	SQa 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SP1 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SP1   LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SP1   IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SP1 	SQ0 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  Nda 	SNda 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Nda 	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Nda 	SNd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Nda 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Nda   LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Nda 	SNa 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Nda 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nda 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nda 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nda 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nda 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  Nda 	SC4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  Nda 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda   LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Nda 	SC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda 	SC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda   LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Nda 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda 	SC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nda 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nda 	SQda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nda 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nda   LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Nda   IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Nda 	SQd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nda 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nda   LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Nda   IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Nda 	SQa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nda 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Nda   LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Nda   IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Nda 	SQ0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNda 	Nd 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SNda 	SNd 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SNda 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SNda  LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SNda 	SNa 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SNda 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SNda 	SN0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SNda 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SNda 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SNda 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SNda 	SC4 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SNda 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNda  LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SNda 	SC3 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNda 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNda 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNda 	SC2 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNda 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNda  LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SNda 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNda 	SC1 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNda 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SNda 	SQda 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SNda 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SNda  LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNda  IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNda 	SQd 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SNda 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SNda  LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNda  IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNda 	SQa 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SNda 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNda  LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNda  IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNda 	SQ0 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  Nd 	SNd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Nd 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Nd    LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Nd 	SNa 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Nd 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nd 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nd 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nd 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  Nd 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  Nd 	SC4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  Nd 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd    LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Nd 	SC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd 	SC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd    LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Nd 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd 	SC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Nd 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nd 	SQda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nd 	Qd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Nd    LQd     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Nd    IQd     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Nd 	SQd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Nd 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nd    LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Nd    IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Nd 	SQa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Nd 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Nd    LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Nd    IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Nd 	SQ0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNd 	Na 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SNd   LNa     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SNd 	SNa 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  SNd 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SNd 	SN0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SNd 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SNd 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SNd 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SNd 	SC4 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SNd 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNd   LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SNd 	SC3 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNd 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNd 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNd 	SC2 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNd 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNd   LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SNd 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNd 	SC1 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNd 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SNd 	SQda 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SNd 	Qd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNd   LQd     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNd   IQd     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNd 	SQd 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  SNd 	Qa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SNd   LQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNd   IQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNd 	SQa 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SNd 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNd   LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNd   IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNd 	SQ0 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  Na 	SNa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  LNa   SNa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Na 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LNa   N0      1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  Na 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LNa   SN0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  Na 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LNa   C5      1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  Na 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LNa   SC5     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  Na 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  LNa   C4      1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  Na 	SC4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  LNa   SC4     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  Na 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Na    LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  LNa   C3      1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  LNa   LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	SC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  LNa   SC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  LNa   C2      1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  LNa   AC2     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	SC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  LNa   SC2     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  Na    LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  LNa   C1      1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  LNa   LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  LNa   AC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	SC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  LNa   SC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  Na 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  LNa   Qda     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Na 	SQda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  LNa   SQda    1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Na 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  Na    LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  LNa   Qd      1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  LNa   LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Na    IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  LNa   IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Na 	SQd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  LNa   SQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Na 	Qa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Na    LQa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  LNa   Qa      1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  LNa   LQa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Na    IQa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  LNa   IQa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Na 	SQa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  LNa   SQa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Na 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  Na    LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  LNa   Q0      1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  LNa   LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Na    IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  LNa   IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  Na 	SQ0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  LNa   SQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNa 	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SNa 	SN0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SNa 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SNa 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SNa 	C4 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SNa 	SC4 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SNa 	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNa   LC3     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SNa 	SC3 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNa 	C2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNa 	AC2 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNa 	SC2 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNa 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNa   LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SNa 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SNa 	SC1 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SNa 	Qda 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SNa 	SQda 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SNa 	Qd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  SNa   LQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNa   IQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  SNa 	SQd 	1 	0.94820E-01 	0.59939E-03 ; 75attractive, s=0.43
+  SNa 	Qa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNa   LQa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNa   IQa     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNa 	SQa 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  SNa 	Q0 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  SNa   LQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNa   IQ0     1       0.17246E-00     0.18590E-02 ; semi attractive new_cg_type
+  SNa 	SQ0 	1 	0.75856E-01 	0.47952E-03 ; 75semi attractive, s=0.43
+  N0 	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	SC4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0    LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  N0 	SC3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  N0 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  N0 	SC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  N0 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  N0    LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  N0 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  N0 	SC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  N0 	Qda 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	SQda 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	Qd 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0    LQd     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  N0    IQd     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  N0 	SQd 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	Qa 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0    LQa     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  N0    IQa     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  N0 	SQa 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0 	Q0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  N0    LQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  N0    IQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  N0 	SQ0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0 	C5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0 	SC5 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SN0 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0 	SC4 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SN0 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0   LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SN0 	SC3 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SN0 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SN0 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SN0 	SC2 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SN0 	C1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SN0   LC1     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SN0 	AC1 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SN0 	SC1 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SN0 	Qda 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0 	SQda 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SN0 	Qd 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0   LQd     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SN0   IQd     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SN0 	SQd 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SN0 	Qa 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0   LQa     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SN0   IQa     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SN0 	SQa 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SN0 	Q0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SN0   LQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SN0   IQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SN0 	SQ0 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  C5 	SC5 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C5 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C5 	SC4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C5 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C5    LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C5 	SC3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C5 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	SC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	C1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5    LC1     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C5 	AC1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	SC1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	Qda 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	SQda 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	Qd 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5    LQd     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C5    IQd     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C5 	SQd 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	Qa 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5    LQa     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C5    IQa     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C5 	SQa 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5 	Q0 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C5    LQ0     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C5    IQ0     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C5 	SQ0 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5 	C4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC5 	SC4 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SC5 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC5   LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SC5 	SC3 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SC5 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5 	SC2 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SC5 	C1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5   LC1     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC5 	AC1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5 	SC1 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SC5 	Qda 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5 	SQda 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SC5 	Qd 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5   LQd     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC5   IQd     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC5 	SQd 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SC5 	Qa 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5   LQa     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC5   IQa     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC5 	SQa 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SC5 	Q0 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC5   LQ0     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC5   IQ0     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC5 	SQ0 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  C4 	SC4 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C4 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C4    LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C4 	SC3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C4 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C4 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C4 	SC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C4 	C1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C4    LC1     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  C4 	AC1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C4 	SC1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  C4 	Qda 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  C4 	SQda 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  C4 	Qd 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  C4    LQd     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  C4    IQd     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  C4 	SQd 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  C4 	Qa 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  C4    LQa     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  C4    IQa     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  C4 	SQa 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  C4 	Q0 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  C4    LQ0     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  C4    IQ0     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  C4 	SQ0 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SC4 	C3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC4   LC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SC4 	SC3 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SC4 	C2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC4 	AC2 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC4 	SC2 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SC4 	C1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC4   LC1     1       0.13366E-00     0.14408E-02 ; almost intermediate new_cg_type
+  SC4 	AC1 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  SC4 	SC1 	1 	0.58789E-01 	0.37162E-03 ; 75almost intermediate, s=0.43
+  SC4 	Qda 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SC4 	SQda 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SC4 	Qd 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SC4   LQd     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SC4   IQd     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SC4 	SQd 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SC4 	Qa 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SC4   LQa     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SC4   IQa     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SC4 	SQa 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  SC4 	Q0 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  SC4   LQ0     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SC4   IQ0     1       0.11642E-00     0.12549E-02 ; semi repulsive new_cg_type
+  SC4 	SQ0 	1 	0.51203E-01 	0.32367E-03 ; 75semi repulsive s=0.43
+  C3 	SC3 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC3   SC3     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C3 	C2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC3   C2      1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C3 	AC2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC3   AC2     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C3 	SC2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC3   SC2     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C3 	C1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C3    LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  LC3   C1      1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  LC3   LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C3 	AC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC3   AC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C3 	SC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC3   SC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C3 	Qda 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  LC3   Qda     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3 	SQda 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  LC3   SQda    1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3 	Qd 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  C3    LQd     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   Qd      1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   LQd     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3    IQd     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   IQd     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3 	SQd 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  LC3   SQd     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3 	Qa 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  C3    LQa     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   Qa      1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   LQa     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3    IQa     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   IQa     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3 	SQa 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  LC3   SQa     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3 	Q0 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  C3    LQ0     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   Q0      1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   LQ0     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3    IQ0     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  LC3   IQ0     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  C3 	SQ0 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  LC3   SQ0     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SC3 	C2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC3 	AC2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC3 	SC2 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SC3 	C1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC3   LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SC3 	AC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC3 	SC1 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SC3 	Qda 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SC3 	SQda 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  SC3 	Qd 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SC3   LQd     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SC3   IQd     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SC3 	SQd 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  SC3 	Qa 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SC3   LQa     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SC3   IQa     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SC3 	SQa 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  SC3 	Q0 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  SC3   LQ0     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SC3   IQ0     1       0.99167E-01     0.10690E-02 ; almost repulsive new_cg_type
+  SC3 	SQ0 	1 	0.43617E-01 	0.27572E-03 ; 75almost repulsive, s=0.43
+  C2 	AC2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C2 	SC2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C2 	C1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C2    LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C2 	AC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C2 	SC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  C2 	Qda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C2 	SQda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C2 	Qd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C2    LQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C2    IQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C2 	SQd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C2 	Qa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C2    LQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C2    IQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C2 	SQa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C2 	Q0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C2    LQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C2    IQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C2 	SQ0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  AC2 	SC2 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  AC2 	C1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  AC2   LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  AC2 	AC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  AC2 	SC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  AC2 	Qda 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC2 	SQda 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC2 	Qd 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC2   LQd     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC2   IQd     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC2 	SQd 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC2 	Qa 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC2   LQa     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC2   IQa     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC2 	SQa 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC2 	Q0 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC2   LQ0     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC2   IQ0     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC2 	SQ0 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  SC2 	C1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC2   LC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  SC2 	AC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  SC2 	SC1 	1 	0.66375E-01 	0.41957E-03 ; 75intermediate, s=0.43
+  SC2 	Qda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC2 	SQda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC2 	Qd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC2   LQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC2   IQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC2 	SQd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC2 	Qa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC2   LQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC2   IQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC2 	SQa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC2 	Q0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC2   LQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC2   IQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC2 	SQ0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C1 	AC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC1   AC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C1 	SC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LC1   SC1     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  C1 	Qda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  LC1   Qda     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1 	SQda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  LC1   SQda    1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1 	Qd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C1    LQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   Qd      1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   LQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1    IQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   IQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1 	SQd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  LC1   SQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1 	Qa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C1    LQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   Qa      1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   LQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1    IQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   IQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1 	SQa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  LC1   SQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1 	Q0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  C1    LQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   Q0      1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   LQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1    IQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  LC1   IQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  C1 	SQ0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  LC1   SQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  AC1 	SC1 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  AC1 	Qda 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC1 	SQda 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC1 	Qd 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC1   LQd     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC1   IQd     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC1 	SQd 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC1 	Qa 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC1   LQa     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC1   IQa     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC1 	SQa 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC1 	Q0 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  AC1   LQ0     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC1   IQ0     1       0.86233E-01     0.92953E-03 ; repulsive new_cg_type
+  AC1 	SQ0 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  SC1 	Qda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC1 	SQda 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC1 	Qd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC1   LQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC1   IQd     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC1 	SQd 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC1 	Qa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC1   LQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC1   IQa     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC1 	SQa 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC1 	Q0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  SC1   LQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC1   IQ0     1       0.45440E-00     0.25810E-01 ; super repulsive, s=0.62 new_cg_type
+  SC1 	SQ0 	1 	0.45440E-00 	0.25810E-01 ; super repulsive, s=0.62
+  Qda 	SQda	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  Qda 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  Qda   LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  Qda   IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  Qda 	SQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  Qda 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  Qda   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  Qda   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  Qda 	SQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  Qda 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Qda   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Qda   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Qda 	SQ0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SQda 	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SQda  LQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SQda  IQd     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SQda 	SQd  	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SQda 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SQda  LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SQda  IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SQda 	SQa  	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SQda 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SQda  LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQda  IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQda 	SQ0 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  Qd 	SQd 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  LQd   SQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  IQd   SQd     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Qd 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  Qd    LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  LQd   Qa      1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  LQd   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  Qd    IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  IQd   Qa      1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  IQd   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  LQd   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  IQd   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  Qd 	SQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  LQd   SQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  IQd   SQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  Qd 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Qd    LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  LQd   Q0      1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  LQd   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Qd    IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQd   Q0      1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQd   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  LQd   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQd   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Qd 	SQ0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  LQd   SQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQd   SQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQd 	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SQd   LQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SQd   IQa     1       0.24145E-00     0.26027E-02 ; supra attractive new_cg_type
+  SQd 	SQa  	1 	0.10620E-00 	0.67132E-03 ; 75supra attractive, s=0.43
+  SQd 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SQd   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQd   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQd 	SQ0 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  Qa 	SQa 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  LQa   SQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  IQa   SQa     1       0.21558E-00     0.23238E-02 ; attractive new_cg_type
+  Qa 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  Qa    LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  LQa   Q0      1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  LQa   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Qa    IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQa   Q0      1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQa   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  LQa   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQa   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  Qa 	SQ0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  LQa   SQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  IQa   SQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQa 	Q0 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  SQa   LQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQa   IQ0     1       0.19402E-00     0.20914E-02 ; almost attractive new_cg_type
+  SQa 	SQ0 	1 	0.85338E-01 	0.53946E-03 ; 75almost attractive, s=0.43
+  Q0 	SQ0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  LQ0   SQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+  IQ0   SQ0     1       0.15091E-00     0.16267E-02 ; intermediate new_cg_type
+
+; new nonbonded interaction between PACE protein particles and MARTINI protein particles
+; new para 0.70
+   P5    CZ    1   2.795076e-02  1.589842e-04 ; 1.228 0.422
+   P5   CH3    1   4.188541e-02  2.647729e-04 ; 1.657 0.430
+   P5   CH2    1   3.244430e-02  2.050922e-04 ; 1.283 0.430
+   P5   CH1    1   2.294158e-02  1.450221e-04 ; 0.907 0.430
+   P5    OH    1   3.154450e-02  9.497848e-05 ; 2.619 0.380
+   P5    CO    1   2.193640e-02  1.120608e-04 ; 1.074 0.415
+   P5    OC    1   1.648104e-02  4.583236e-05 ; 1.482 0.375
+   P5    CX    1   3.244430e-02  2.050922e-04 ; 1.283 0.430
+   P5    NT    1   2.427487e-02  9.942988e-05 ; 1.482 0.400
+   P5   NZ0    1   2.427487e-02  9.942988e-05 ; 1.482 0.400
+   P5    C-    1   2.193640e-02  1.120608e-04 ; 1.074 0.415
+   P5    O-    1   1.648104e-02  4.583236e-05 ; 1.482 0.375
+   P5    N+    1   2.427487e-02  9.942988e-05 ; 1.482 0.400
+   P5    Nr    1   2.427487e-02  9.942988e-05 ; 1.482 0.400
+   P5    Cr    1   2.193640e-02  1.120608e-04 ; 1.074 0.415
+   P5    NZ    1   2.427487e-02  9.942988e-05 ; 1.482 0.400
+   P5     S    1   4.623301e-02  2.040245e-04 ; 2.619 0.405
+   P5    SH    1   4.623301e-02  2.040245e-04 ; 2.619 0.405
+   P5     N    1   2.714013e-02  1.111660e-04 ; 1.657 0.400
+   P5     O    1   1.648104e-02  4.583236e-05 ; 1.482 0.375
+   P5    CA    1   2.809759e-02  1.776151e-04 ; 1.111 0.430
+   P5   NPR    1   2.714013e-02  1.111660e-04 ; 1.657 0.400
+   P5     C    1   5.457922e-02  2.788148e-04 ; 2.671 0.415
+   P5   CB3    1   4.188541e-02  2.647729e-04 ; 1.657 0.430
+   P5   CB2    1   3.244430e-02  2.050922e-04 ; 1.283 0.430
+   P5   CB1    1   2.294158e-02  1.450221e-04 ; 0.907 0.430
+   P5   CBX    1   3.244430e-02  2.050922e-04 ; 1.283 0.430
+   P5    H+    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P5    HA    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P5    HD    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P5    HH    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P4    CZ    1   2.641099e-02  1.502259e-04 ; 1.161 0.422
+   P4   CH3    1   3.957799e-02  2.501869e-04 ; 1.565 0.430
+   P4   CH2    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   P4   CH1    1   2.167776e-02  1.370330e-04 ; 0.857 0.430
+   P4    OH    1   2.980675e-02  8.974623e-05 ; 2.475 0.380
+   P4    CO    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   P4    OC    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   P4    CX    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   P4    NT    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   P4   NZ0    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   P4    C-    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   P4    O-    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   P4    N+    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   P4    Nr    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   P4    Cr    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   P4    NZ    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   P4     S    1   4.368609e-02  1.927850e-04 ; 2.475 0.405
+   P4    SH    1   4.368609e-02  1.927850e-04 ; 2.475 0.405
+   P4     N    1   2.564502e-02  1.050420e-04 ; 1.565 0.400
+   P4     O    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   P4    CA    1   2.654972e-02  1.678304e-04 ; 1.050 0.430
+   P4   NPR    1   2.564502e-02  1.050420e-04 ; 1.565 0.400
+   P4     C    1   5.157251e-02  2.634553e-04 ; 2.524 0.415
+   P4   CB3    1   3.957799e-02  2.501869e-04 ; 1.565 0.430
+   P4   CB2    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   P4   CB1    1   2.167776e-02  1.370330e-04 ; 0.857 0.430
+   P4   CBX    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   P4    H+    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P4    HA    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P4    HD    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P4    HH    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   P1    CZ    1   2.505566e-02  1.425168e-04 ; 1.101 0.422
+   P1   CH3    1   3.754698e-02  2.373481e-04 ; 1.485 0.430
+   P1   CH2    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+   P1   CH1    1   2.056533e-02  1.300009e-04 ; 0.813 0.430
+   P1    OH    1   2.827717e-02  8.514075e-05 ; 2.348 0.380
+   P1    CO    1   1.966426e-02  1.004537e-04 ; 0.962 0.415
+   P1    OC    1   1.477396e-02  4.108511e-05 ; 1.328 0.375
+   P1    CX    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+   P1    NT    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+   P1   NZ0    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+   P1    C-    1   1.966426e-02  1.004537e-04 ; 0.962 0.415
+   P1    O-    1   1.477396e-02  4.108511e-05 ; 1.328 0.375
+   P1    N+    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+   P1    Nr    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+   P1    Cr    1   1.966426e-02  1.004537e-04 ; 0.962 0.415
+   P1    NZ    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+   P1     S    1   4.144426e-02  1.828919e-04 ; 2.348 0.405
+   P1    SH    1   4.144426e-02  1.828919e-04 ; 2.348 0.405
+   P1     N    1   2.432900e-02  9.965158e-05 ; 1.485 0.400
+   P1     O    1   1.477396e-02  4.108511e-05 ; 1.328 0.375
+   P1    CA    1   2.518728e-02  1.592179e-04 ; 0.996 0.430
+   P1   NPR    1   2.432900e-02  9.965158e-05 ; 1.485 0.400
+   P1     C    1   4.892598e-02  2.499356e-04 ; 2.394 0.415
+   P1   CB3    1   3.754698e-02  2.373481e-04 ; 1.485 0.430
+   P1   CB2    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+   P1   CB1    1   2.056533e-02  1.300009e-04 ; 0.813 0.430
+   P1   CBX    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+   P1    H+    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   P1    HA    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   P1    HD    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   P1    HH    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+  SP1    CZ    1   2.168276e-02  1.233317e-04 ; 0.953 0.422
+  SP1   CH3    1   3.249254e-02  2.053972e-04 ; 1.285 0.430
+  SP1   CH2    1   2.516862e-02  1.591000e-04 ; 0.995 0.430
+  SP1   CH1    1   1.779690e-02  1.125007e-04 ; 0.704 0.430
+  SP1    OH    1   2.447060e-02  7.367941e-05 ; 2.032 0.380
+  SP1    CO    1   1.701713e-02  8.693102e-05 ; 0.833 0.415
+  SP1    OC    1   1.278514e-02  3.555439e-05 ; 1.149 0.375
+  SP1    CX    1   2.516862e-02  1.591000e-04 ; 0.995 0.430
+  SP1    NT    1   1.883120e-02  7.713258e-05 ; 1.149 0.400
+  SP1   NZ0    1   1.883120e-02  7.713258e-05 ; 1.149 0.400
+  SP1    C-    1   1.701713e-02  8.693102e-05 ; 0.833 0.415
+  SP1    O-    1   1.278514e-02  3.555439e-05 ; 1.149 0.375
+  SP1    N+    1   1.883120e-02  7.713258e-05 ; 1.149 0.400
+  SP1    Nr    1   1.883120e-02  7.713258e-05 ; 1.149 0.400
+  SP1    Cr    1   1.701713e-02  8.693102e-05 ; 0.833 0.415
+  SP1    NZ    1   1.883120e-02  7.713258e-05 ; 1.149 0.400
+  SP1     S    1   3.586519e-02  1.582717e-04 ; 2.032 0.405
+  SP1    SH    1   3.586519e-02  1.582717e-04 ; 2.032 0.405
+  SP1     N    1   2.105392e-02  8.623685e-05 ; 1.285 0.400
+  SP1     O    1   1.278514e-02  3.555439e-05 ; 1.149 0.375
+  SP1    CA    1   2.179666e-02  1.377846e-04 ; 0.862 0.430
+  SP1   NPR    1   2.105392e-02  8.623685e-05 ; 1.285 0.400
+  SP1     C    1   4.233974e-02  2.162902e-04 ; 2.072 0.415
+  SP1   CB3    1   3.249254e-02  2.053972e-04 ; 1.285 0.430
+  SP1   CB2    1   2.516862e-02  1.591000e-04 ; 0.995 0.430
+  SP1   CB1    1   1.779690e-02  1.125007e-04 ; 0.704 0.430
+  SP1   CBX    1   2.516862e-02  1.591000e-04 ; 0.995 0.430
+  SP1    H+    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+  SP1    HA    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+  SP1    HD    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+  SP1    HH    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+  Nda    CZ    1   2.505566e-02  1.425168e-04 ; 1.101 0.422
+  Nda   CH3    1   3.754698e-02  2.373481e-04 ; 1.485 0.430
+  Nda   CH2    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+  Nda   CH1    1   2.056533e-02  1.300009e-04 ; 0.813 0.430
+  Nda    OH    1   2.827717e-02  8.514075e-05 ; 2.348 0.380
+  Nda    CO    1   1.966426e-02  1.004537e-04 ; 0.962 0.415
+  Nda    OC    1   1.477396e-02  4.108511e-05 ; 1.328 0.375
+  Nda    CX    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+  Nda    NT    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+  Nda   NZ0    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+  Nda    C-    1   1.966426e-02  1.004537e-04 ; 0.962 0.415
+  Nda    O-    1   1.477396e-02  4.108511e-05 ; 1.328 0.375
+  Nda    N+    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+  Nda    Nr    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+  Nda    Cr    1   1.966426e-02  1.004537e-04 ; 0.962 0.415
+  Nda    NZ    1   2.176052e-02  8.913108e-05 ; 1.328 0.400
+  Nda     S    1   4.144426e-02  1.828919e-04 ; 2.348 0.405
+  Nda    SH    1   4.144426e-02  1.828919e-04 ; 2.348 0.405
+  Nda     N    1   2.432900e-02  9.965158e-05 ; 1.485 0.400
+  Nda     O    1   1.477396e-02  4.108511e-05 ; 1.328 0.375
+  Nda    CA    1   2.518728e-02  1.592179e-04 ; 0.996 0.430
+  Nda   NPR    1   2.432900e-02  9.965158e-05 ; 1.485 0.400
+  Nda     C    1   4.892598e-02  2.499356e-04 ; 2.394 0.415
+  Nda   CB3    1   3.754698e-02  2.373481e-04 ; 1.485 0.430
+  Nda   CB2    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+  Nda   CB1    1   2.056533e-02  1.300009e-04 ; 0.813 0.430
+  Nda   CBX    1   2.908377e-02  1.838490e-04 ; 1.150 0.430
+  Nda    H+    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+  Nda    HA    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+  Nda    HD    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+  Nda    HH    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   Nd    CZ    1   2.362271e-02  1.343662e-04 ; 1.038 0.422
+   Nd   CH3    1   3.539963e-02  2.237739e-04 ; 1.400 0.430
+   Nd   CH2    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Nd   CH1    1   1.938918e-02  1.225660e-04 ; 0.767 0.430
+   Nd    OH    1   2.665997e-02  8.027147e-05 ; 2.214 0.380
+   Nd    CO    1   1.853964e-02  9.470869e-05 ; 0.907 0.415
+   Nd    OC    1   1.392902e-02  3.873542e-05 ; 1.252 0.375
+   Nd    CX    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Nd    NT    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Nd   NZ0    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Nd    C-    1   1.853964e-02  9.470869e-05 ; 0.907 0.415
+   Nd    O-    1   1.392902e-02  3.873542e-05 ; 1.252 0.375
+   Nd    N+    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Nd    Nr    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Nd    Cr    1   1.853964e-02  9.470869e-05 ; 0.907 0.415
+   Nd    NZ    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Nd     S    1   3.907403e-02  1.724322e-04 ; 2.214 0.405
+   Nd    SH    1   3.907403e-02  1.724322e-04 ; 2.214 0.405
+   Nd     N    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Nd     O    1   1.392902e-02  3.873542e-05 ; 1.252 0.375
+   Nd    CA    1   2.374680e-02  1.501121e-04 ; 0.939 0.430
+   Nd   NPR    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Nd     C    1   4.612786e-02  2.356415e-04 ; 2.257 0.415
+   Nd   CB3    1   3.539963e-02  2.237739e-04 ; 1.400 0.430
+   Nd   CB2    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Nd   CB1    1   1.938918e-02  1.225660e-04 ; 0.767 0.430
+   Nd   CBX    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Nd    H+    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   Nd    HA    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   Nd    HD    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   Nd    HH    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+  SNd    CZ    1   2.045786e-02  1.163645e-04 ; 0.899 0.422
+  SNd   CH3    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+  SNd   CH2    1   2.374680e-02  1.501121e-04 ; 0.939 0.430
+  SNd   CH1    1   1.679152e-02  1.061453e-04 ; 0.664 0.430
+  SNd    OH    1   2.308821e-02  6.951713e-05 ; 1.917 0.380
+  SNd    CO    1   1.605580e-02  8.202013e-05 ; 0.786 0.415
+  SNd    OC    1   1.206289e-02  3.354585e-05 ; 1.084 0.375
+  SNd    CX    1   2.374680e-02  1.501121e-04 ; 0.939 0.430
+  SNd    NT    1   1.776739e-02  7.277522e-05 ; 1.084 0.400
+  SNd   NZ0    1   1.776739e-02  7.277522e-05 ; 1.084 0.400
+  SNd    C-    1   1.605580e-02  8.202013e-05 ; 0.786 0.415
+  SNd    O-    1   1.206289e-02  3.354585e-05 ; 1.084 0.375
+  SNd    N+    1   1.776739e-02  7.277522e-05 ; 1.084 0.400
+  SNd    Nr    1   1.776739e-02  7.277522e-05 ; 1.084 0.400
+  SNd    Cr    1   1.605580e-02  8.202013e-05 ; 0.786 0.415
+  SNd    NZ    1   1.776739e-02  7.277522e-05 ; 1.084 0.400
+  SNd     S    1   3.383910e-02  1.493306e-04 ; 1.917 0.405
+  SNd    SH    1   3.383910e-02  1.493306e-04 ; 1.917 0.405
+  SNd     N    1   1.986454e-02  8.136517e-05 ; 1.212 0.400
+  SNd     O    1   1.206289e-02  3.354585e-05 ; 1.084 0.375
+  SNd    CA    1   2.056533e-02  1.300009e-04 ; 0.813 0.430
+  SNd   NPR    1   1.986454e-02  8.136517e-05 ; 1.212 0.400
+  SNd     C    1   3.994790e-02  2.040716e-04 ; 1.955 0.415
+  SNd   CB3    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+  SNd   CB2    1   2.374680e-02  1.501121e-04 ; 0.939 0.430
+  SNd   CB1    1   1.679152e-02  1.061453e-04 ; 0.664 0.430
+  SNd   CBX    1   2.374680e-02  1.501121e-04 ; 0.939 0.430
+  SNd    H+    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+  SNd    HA    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+  SNd    HD    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+  SNd    HH    1   2.102371e-02  5.846514e-05 ; 1.890 0.375
+   Na    CZ    1   2.362271e-02  1.343662e-04 ; 1.038 0.422
+   Na   CH3    1   3.539963e-02  2.237739e-04 ; 1.400 0.430
+   Na   CH2    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Na   CH1    1   1.938918e-02  1.225660e-04 ; 0.767 0.430
+   Na    OH    1   2.665997e-02  8.027147e-05 ; 2.214 0.380
+   Na    CO    1   1.853964e-02  9.470869e-05 ; 0.907 0.415
+   Na    OC    1   1.392902e-02  3.873542e-05 ; 1.252 0.375
+   Na    CX    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Na    NT    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Na   NZ0    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Na    C-    1   1.853964e-02  9.470869e-05 ; 0.907 0.415
+   Na    O-    1   1.392902e-02  3.873542e-05 ; 1.252 0.375
+   Na    N+    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Na    Nr    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Na    Cr    1   1.853964e-02  9.470869e-05 ; 0.907 0.415
+   Na    NZ    1   2.051601e-02  8.403359e-05 ; 1.252 0.400
+   Na     S    1   3.907403e-02  1.724322e-04 ; 2.214 0.405
+   Na    SH    1   3.907403e-02  1.724322e-04 ; 2.214 0.405
+   Na     N    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Na     O    1   1.392902e-02  3.873542e-05 ; 1.252 0.375
+   Na    CA    1   2.374680e-02  1.501121e-04 ; 0.939 0.430
+   Na   NPR    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Na     C    1   4.612786e-02  2.356415e-04 ; 2.257 0.415
+   Na   CB3    1   3.539963e-02  2.237739e-04 ; 1.400 0.430
+   Na   CB2    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Na   CB1    1   1.938918e-02  1.225660e-04 ; 0.767 0.430
+   Na   CBX    1   2.742044e-02  1.733345e-04 ; 1.084 0.430
+   Na    H+    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   Na    HA    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   Na    HD    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   Na    HH    1   2.803162e-02  7.795352e-05 ; 2.520 0.375
+   N0    CZ    1   2.209702e-02  1.256880e-04 ; 0.971 0.422
+   N0   CH3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   N0   CH2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   N0   CH1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   N0    OH    1   2.493812e-02  7.508708e-05 ; 2.071 0.380
+   N0    CO    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   N0    OC    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   N0    CX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   N0    NT    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   N0   NZ0    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   N0    C-    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   N0    O-    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   N0    N+    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   N0    Nr    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   N0    Cr    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   N0    NZ    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   N0     S    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   N0    SH    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   N0     N    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   N0     O    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   N0    CA    1   2.221309e-02  1.404170e-04 ; 0.878 0.430
+   N0   NPR    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   N0     C    1   4.314866e-02  2.204225e-04 ; 2.112 0.415
+   N0   CB3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   N0   CB2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   N0   CB1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   N0   CBX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   N0    H+    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   N0    HA    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   N0    HD    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   N0    HH    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C5    CZ    1   2.209702e-02  1.256880e-04 ; 0.971 0.422
+   C5   CH3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C5   CH2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C5   CH1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C5    OH    1   2.493812e-02  7.508708e-05 ; 2.071 0.380
+   C5    CO    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C5    OC    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C5    CX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C5    NT    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C5   NZ0    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C5    C-    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C5    O-    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C5    N+    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C5    Nr    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C5    Cr    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C5    NZ    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C5     S    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C5    SH    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C5     N    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C5     O    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C5    CA    1   2.221309e-02  1.404170e-04 ; 0.878 0.430
+   C5   NPR    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C5     C    1   4.314866e-02  2.204225e-04 ; 2.112 0.415
+   C5   CB3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C5   CB2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C5   CB1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C5   CBX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C5    H+    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C5    HA    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C5    HD    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C5    HH    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  SC5    CZ    1   1.915480e-02  1.089527e-04 ; 0.842 0.422
+  SC5   CH3    1   2.870428e-02  1.814502e-04 ; 1.135 0.430
+  SC5   CH2    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC5   CH1    1   1.572198e-02  9.938435e-05 ; 0.622 0.430
+  SC5    OH    1   2.161760e-02  6.508922e-05 ; 1.795 0.380
+  SC5    CO    1   1.503312e-02  7.679584e-05 ; 0.736 0.415
+  SC5    OC    1   1.129454e-02  3.140914e-05 ; 1.015 0.375
+  SC5    CX    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC5    NT    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC5   NZ0    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC5    C-    1   1.503312e-02  7.679584e-05 ; 0.736 0.415
+  SC5    O-    1   1.129454e-02  3.140914e-05 ; 1.015 0.375
+  SC5    N+    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC5    Nr    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC5    Cr    1   1.503312e-02  7.679584e-05 ; 0.736 0.415
+  SC5    NZ    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC5     S    1   3.168371e-02  1.398190e-04 ; 1.795 0.405
+  SC5    SH    1   3.168371e-02  1.398190e-04 ; 1.795 0.405
+  SC5     N    1   1.859927e-02  7.618260e-05 ; 1.135 0.400
+  SC5     O    1   1.129454e-02  3.140914e-05 ; 1.015 0.375
+  SC5    CA    1   1.925542e-02  1.217205e-04 ; 0.762 0.430
+  SC5   NPR    1   1.859927e-02  7.618260e-05 ; 1.135 0.400
+  SC5     C    1   3.740341e-02  1.910732e-04 ; 1.830 0.415
+  SC5   CB3    1   2.870428e-02  1.814502e-04 ; 1.135 0.430
+  SC5   CB2    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC5   CB1    1   1.572198e-02  9.938435e-05 ; 0.622 0.430
+  SC5   CBX    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC5    H+    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+  SC5    HA    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+  SC5    HD    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+  SC5    HH    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+  SC4    CZ    1   1.915480e-02  1.089527e-04 ; 0.842 0.422
+  SC4   CH3    1   2.870428e-02  1.814502e-04 ; 1.135 0.430
+  SC4   CH2    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC4   CH1    1   1.572198e-02  9.938435e-05 ; 0.622 0.430
+  SC4    OH    1   2.161760e-02  6.508922e-05 ; 1.795 0.380
+  SC4    CO    1   1.503312e-02  7.679584e-05 ; 0.736 0.415
+  SC4    OC    1   1.129454e-02  3.140914e-05 ; 1.015 0.375
+  SC4    CX    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC4    NT    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC4   NZ0    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC4    C-    1   1.503312e-02  7.679584e-05 ; 0.736 0.415
+  SC4    O-    1   1.129454e-02  3.140914e-05 ; 1.015 0.375
+  SC4    N+    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC4    Nr    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC4    Cr    1   1.503312e-02  7.679584e-05 ; 0.736 0.415
+  SC4    NZ    1   1.663569e-02  6.813979e-05 ; 1.015 0.400
+  SC4     S    1   3.168371e-02  1.398190e-04 ; 1.795 0.405
+  SC4    SH    1   3.168371e-02  1.398190e-04 ; 1.795 0.405
+  SC4     N    1   1.859927e-02  7.618260e-05 ; 1.135 0.400
+  SC4     O    1   1.129454e-02  3.140914e-05 ; 1.015 0.375
+  SC4    CA    1   1.925542e-02  1.217205e-04 ; 0.762 0.430
+  SC4   NPR    1   1.859927e-02  7.618260e-05 ; 1.135 0.400
+  SC4     C    1   3.740341e-02  1.910732e-04 ; 1.830 0.415
+  SC4   CB3    1   2.870428e-02  1.814502e-04 ; 1.135 0.430
+  SC4   CB2    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC4   CB1    1   1.572198e-02  9.938435e-05 ; 0.622 0.430
+  SC4   CBX    1   2.223424e-02  1.405507e-04 ; 0.879 0.430
+  SC4    H+    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+  SC4    HA    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+  SC4    HD    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+  SC4    HH    1   1.401581e-02  3.897676e-05 ; 1.260 0.375
+   C3    CZ    1   2.209702e-02  1.256880e-04 ; 0.971 0.422
+   C3   CH3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C3   CH2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C3   CH1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C3    OH    1   2.493812e-02  7.508708e-05 ; 2.071 0.380
+   C3    CO    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C3    OC    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C3    CX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C3    NT    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C3   NZ0    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C3    C-    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C3    O-    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C3    N+    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C3    Nr    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C3    Cr    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C3    NZ    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C3     S    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C3    SH    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C3     N    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C3     O    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C3    CA    1   2.221309e-02  1.404170e-04 ; 0.878 0.430
+   C3   NPR    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C3     C    1   4.314866e-02  2.204225e-04 ; 2.112 0.415
+   C3   CB3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C3   CB2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C3   CB1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C3   CBX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C3    H+    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C3    HA    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C3    HD    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C3    HH    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C2    CZ    1   2.209702e-02  1.256880e-04 ; 0.971 0.422
+   C2   CH3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C2   CH2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C2   CH1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C2    OH    1   2.493812e-02  7.508708e-05 ; 2.071 0.380
+   C2    CO    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C2    OC    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C2    CX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C2    NT    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C2   NZ0    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C2    C-    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C2    O-    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C2    N+    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C2    Nr    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C2    Cr    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C2    NZ    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C2     S    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C2    SH    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C2     N    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C2     O    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C2    CA    1   2.221309e-02  1.404170e-04 ; 0.878 0.430
+   C2   NPR    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C2     C    1   4.314866e-02  2.204225e-04 ; 2.112 0.415
+   C2   CB3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C2   CB2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C2   CB1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C2   CBX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C2    H+    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C2    HA    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C2    HD    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C2    HH    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC2    CZ    1   2.209702e-02  1.256880e-04 ; 0.971 0.422
+  AC2   CH3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+  AC2   CH2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC2   CH1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+  AC2    OH    1   2.493812e-02  7.508708e-05 ; 2.071 0.380
+  AC2    CO    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+  AC2    OC    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+  AC2    CX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC2    NT    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC2   NZ0    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC2    C-    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+  AC2    O-    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+  AC2    N+    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC2    Nr    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC2    Cr    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+  AC2    NZ    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC2     S    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+  AC2    SH    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+  AC2     N    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+  AC2     O    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+  AC2    CA    1   2.221309e-02  1.404170e-04 ; 0.878 0.430
+  AC2   NPR    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+  AC2     C    1   4.314866e-02  2.204225e-04 ; 2.112 0.415
+  AC2   CB3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+  AC2   CB2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC2   CB1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+  AC2   CBX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC2    H+    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC2    HA    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC2    HD    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC2    HH    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C1    CZ    1   2.209702e-02  1.256880e-04 ; 0.971 0.422
+   C1   CH3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C1   CH2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C1   CH1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C1    OH    1   2.493812e-02  7.508708e-05 ; 2.071 0.380
+   C1    CO    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C1    OC    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C1    CX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C1    NT    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C1   NZ0    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C1    C-    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C1    O-    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C1    N+    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C1    Nr    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C1    Cr    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+   C1    NZ    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+   C1     S    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C1    SH    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+   C1     N    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C1     O    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+   C1    CA    1   2.221309e-02  1.404170e-04 ; 0.878 0.430
+   C1   NPR    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+   C1     C    1   4.314866e-02  2.204225e-04 ; 2.112 0.415
+   C1   CB3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+   C1   CB2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C1   CB1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+   C1   CBX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+   C1    H+    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C1    HA    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C1    HD    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   C1    HH    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC1    CZ    1   2.209702e-02  1.256880e-04 ; 0.971 0.422
+  AC1   CH3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+  AC1   CH2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC1   CH1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+  AC1    OH    1   2.493812e-02  7.508708e-05 ; 2.071 0.380
+  AC1    CO    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+  AC1    OC    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+  AC1    CX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC1    NT    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC1   NZ0    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC1    C-    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+  AC1    O-    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+  AC1    N+    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC1    Nr    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC1    Cr    1   1.734224e-02  8.859187e-05 ; 0.849 0.415
+  AC1    NZ    1   1.919097e-02  7.860623e-05 ; 1.171 0.400
+  AC1     S    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+  AC1    SH    1   3.655041e-02  1.612955e-04 ; 2.071 0.405
+  AC1     N    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+  AC1     O    1   1.302941e-02  3.623366e-05 ; 1.171 0.375
+  AC1    CA    1   2.221309e-02  1.404170e-04 ; 0.878 0.430
+  AC1   NPR    1   2.145616e-02  8.788443e-05 ; 1.310 0.400
+  AC1     C    1   4.314866e-02  2.204225e-04 ; 2.112 0.415
+  AC1   CB3    1   3.311332e-02  2.093213e-04 ; 1.310 0.430
+  AC1   CB2    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC1   CB1    1   1.813691e-02  1.146500e-04 ; 0.717 0.430
+  AC1   CBX    1   2.564947e-02  1.621396e-04 ; 1.014 0.430
+  AC1    H+    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC1    HA    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC1    HD    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+  AC1    HH    1   1.868774e-02  5.196902e-05 ; 1.680 0.375
+   Qd    CZ    1   2.641099e-02  1.502259e-04 ; 1.161 0.422
+   Qd   CH3    1   3.957799e-02  2.501869e-04 ; 1.565 0.430
+   Qd   CH2    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qd   CH1    1   2.167776e-02  1.370330e-04 ; 0.857 0.430
+   Qd    OH    1   2.980675e-02  8.974623e-05 ; 2.475 0.380
+   Qd    CO    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   Qd    OC    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   Qd    CX    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qd    NT    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qd   NZ0    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qd    C-    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   Qd    O-    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   Qd    N+    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qd    Nr    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qd    Cr    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   Qd    NZ    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qd     S    1   4.368609e-02  1.927850e-04 ; 2.475 0.405
+   Qd    SH    1   4.368609e-02  1.927850e-04 ; 2.475 0.405
+   Qd     N    1   2.564502e-02  1.050420e-04 ; 1.565 0.400
+   Qd     O    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   Qd    CA    1   2.654972e-02  1.678304e-04 ; 1.050 0.430
+   Qd   NPR    1   2.564502e-02  1.050420e-04 ; 1.565 0.400
+   Qd     C    1   5.157251e-02  2.634553e-04 ; 2.524 0.415
+   Qd   CB3    1   3.957799e-02  2.501869e-04 ; 1.565 0.430
+   Qd   CB2    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qd   CB1    1   2.167776e-02  1.370330e-04 ; 0.857 0.430
+   Qd   CBX    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qd    H+    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   Qd    HA    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   Qd    HD    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   Qd    HH    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   Qa    CZ    1   2.641099e-02  1.502259e-04 ; 1.161 0.422
+   Qa   CH3    1   3.957799e-02  2.501869e-04 ; 1.565 0.430
+   Qa   CH2    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qa   CH1    1   2.167776e-02  1.370330e-04 ; 0.857 0.430
+   Qa    OH    1   2.980675e-02  8.974623e-05 ; 2.475 0.380
+   Qa    CO    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   Qa    OC    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   Qa    CX    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qa    NT    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qa   NZ0    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qa    C-    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   Qa    O-    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   Qa    N+    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qa    Nr    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qa    Cr    1   2.072795e-02  1.058875e-04 ; 1.014 0.415
+   Qa    NZ    1   2.293760e-02  9.395241e-05 ; 1.400 0.400
+   Qa     S    1   4.368609e-02  1.927850e-04 ; 2.475 0.405
+   Qa    SH    1   4.368609e-02  1.927850e-04 ; 2.475 0.405
+   Qa     N    1   2.564502e-02  1.050420e-04 ; 1.565 0.400
+   Qa     O    1   1.557312e-02  4.330751e-05 ; 1.400 0.375
+   Qa    CA    1   2.654972e-02  1.678304e-04 ; 1.050 0.430
+   Qa   NPR    1   2.564502e-02  1.050420e-04 ; 1.565 0.400
+   Qa     C    1   5.157251e-02  2.634553e-04 ; 2.524 0.415
+   Qa   CB3    1   3.957799e-02  2.501869e-04 ; 1.565 0.430
+   Qa   CB2    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qa   CB1    1   2.167776e-02  1.370330e-04 ; 0.857 0.430
+   Qa   CBX    1   3.065698e-02  1.937939e-04 ; 1.212 0.430
+   Qa    H+    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   Qa    HA    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   Qa    HD    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+   Qa    HH    1   3.114624e-02  8.661503e-05 ; 2.800 0.375
+
+; nonboned interaction between PACE protein particles and MARTINI ion particles
+IQa CA  1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa CZ  1  1.59264E-02   9.05897E-05  ;  0.7 0.4225
+IQa CH3 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa CB3 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa CB2 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa CH2 1  1.01142E-02   6.39354E-05  ;  0.4 0.43 
+IQa CB1 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa CBX 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa CX  1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa CH1 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQa  N+  1    3.60448E-02   1.47640E-04  ;  2.2 0.4nm
+IQa C   1  8.17351E-03   4.17539E-05  ;  0.4 0.415
+IQa  C-  1  2.04338E-02   1.04385E-04  ;  1    0.18+0.235
+IQa CO  1  8.17351E-03   4.17539E-05  ;  0.4 0.415
+IQa  Cr  1  2.04338E-02   1.04385E-04  ;  1    0.18+0.235
+IQa O   1  0.0   6.18679E-04  ;  20 0.375
+IQa OC  1  0.0   6.18679E-04  ;  20 0.375
+IQa  O-   1  1.89102E-02   5.25877E-05  ;  1.7  0.375nm
+IQa OH 1  2.40875E-02   7.25259E-05  ;  2.0  0.38 
+IQa N   1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQa NPR 1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQa NT  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQa NZ0  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQa NZ+  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQa NZ  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQa Nr   1  3.60448E-02   1.47640E-04  ;  2.2 0.4nm
+IQa HA  1  5.56183E-02   1.54670E-04   ;  5 0.375
+IQa HD  1  5.56183E-02   1.54670E-04   ;  5 0.375 
+IQa HH  1  6.67419E-02   1.85604E-04   ;  6 0.375
+IQa H+  1  6.67419E-02   1.85604E-04   ;  6 0.375
+IQa S   1  5.29555E-02   2.33691E-04  ;  3.0  0.405
+IQa SH  1  5.29555E-02   2.33691E-04  ;  3.0  0.405
+IQd CA  1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd CZ  1  1.59264E-02   9.05897E-05  ;  0.7 0.4225
+IQd CH3 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd CB3 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd CB2 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd CH2 1  1.01142E-02   6.39354E-05  ;  0.4 0.43 
+IQd CB1 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd CBX 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd CX  1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd CH1 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQd  N+  1  3.60448E-02   1.47640E-04  ;  2.2 0.4nm
+IQd C   1  8.17351E-03   4.17539E-05  ;  0.4 0.415
+IQd  C-  1  2.04338E-02   1.04385E-04  ;  1    0.18+0.235
+IQd CO  1  8.17351E-03   4.17539E-05  ;  0.4 0.415
+IQd  Cr  1  2.04338E-02   1.04385E-04  ;  1    0.18+0.235
+IQd  O   1  2.22473E-02   6.18679E-05  ;  2.0 0.375nm
+IQd  OC  1  2.22473E-02   6.18679E-05  ;  2.0 0.375nm
+IQd  O-  1  1.89102E-02   5.25877E-05  ;  1.7  0.375nm
+IQd OH 1  2.40875E-02   7.25259E-05  ;  2.0  0.38 
+IQd N   1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQd NPR 1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQd NT  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQd NZ0  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQd NZ+  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQd NZ  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQd   Nr  1  3.60448E-02   1.47640E-04  ;  2.2  0.4nm
+IQd HA  1  5.56183E-02   1.54670E-04   ;  5 0.375
+IQd HD  1  5.56183E-02   1.54670E-04   ;  5 0.375 
+IQd HH  1  6.67419E-02   1.85604E-04   ;  6 0.375
+IQd H+  1  6.67419E-02   1.85604E-04   ;  6 0.375
+IQd S   1  5.29555E-02   2.33691E-04  ;  3.0  0.405
+IQd SH  1  5.29555E-02   2.33691E-04  ;  3.0  0.405
+IQ0  CA  1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CZ  1  1.59264E-02   9.05897E-05  ;  0.7 0.4225 
+IQ0  CH3 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CB3 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CB2 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CH2 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CB1 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CBX 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CX  1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0  CH1 1  1.01142E-02   6.39354E-05  ;  0.4 0.43
+IQ0   N+  1  3.60448E-02   1.47640E-04  ;  2.2 0.4nm 
+IQ0  C   1  8.17351E-03   4.17539E-05  ;  0.4 0.415
+IQ0  C-  1  2.04338E-02   1.04385E-04  ;  1    0.18+0.235
+IQ0  CO  1  8.17351E-03   4.17539E-05  ;  0.4 0.415
+IQ0   Cr  1  2.04338E-02   1.04385E-04  ;  1    0.18+0.235
+IQ0  O   1  2.22473E-02   6.18679E-05  ;  2.0 0.375nm
+IQ0  OC  1  2.22473E-02   6.18679E-05  ;  2.0 0.375nm
+IQ0  O-   1  1.89102E-02   5.25877E-05  ;  1.7  0.375nm
+IQ0  OH 1  2.40875E-02   7.25259E-05  ;  2.0  0.38 
+IQ0  N   1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQ0  NPR 1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm 
+IQ0  NT  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQ0  NZ0  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQ0  NZ+  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQ0  NZ  1  3.44064E-02   1.40929E-04  ;  2.1 0.4nm
+IQ0   Nr  1     3.60448E-02   1.47640E-04  ;  2.2 0.4nm 
+IQ0  HA  1  0.0 0.0
+IQ0  HD  1  0.0 0.0
+IQ0  HH  1  0.0 0.0
+IQ0  H+  1  0.0 0.0
+IQ0  S   1  5.29555E-02   2.33691E-04  ;  3.0  0.405
+IQ0  SH  1  5.29555E-02   2.33691E-04  ;  3.0  0.405
+
+; nonbonded interaction between PACE protein and MARTINI lipid
+; scaling factor 0.95
+LC1	CB3	1	4.08360E-02	2.58139E-04	;	1.7	0.43			
+LC1	CH3	1	4.08360E-02	2.58139E-04	;	1.7	0.43			
+LC1	CB2	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC1	CH2	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC1	CB1	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LC1	CH1	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LC1	CBX	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC1	CX	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC1	CA	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC1	CZ	1	1.94530E-02	1.10648E-04	;	0.9	0.4225			
+LC1	CZP	1	0.00000E+00	0.00000E+00						
+LC1	C	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC1	C-	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC1	Cr	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC1	CO	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC1	COP	1	0.00000E+00	0.00000E+00						
+LC1	N+	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LC1	N+P	1	0.00000E+00	0.00000E+00						
+LC1	O	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LC1	OC	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LC1	OCP	1	0.00000E+00	0.00000E+00						
+LC1	O-	1	1.79647E-02	4.99583E-05	;	1.7	0.375nm			
+LC1	OH	1	2.28831E-02	6.88996E-05	;	2	0.38	;	for	Tyr
+LC1	CH1	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LC1	N	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC1	NPR	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC1	NT	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC1	NZ0	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC1	NZ+	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC1	NZ	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC1	Nr	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LC1	HA	1	0.00000E+00	0.00000E+00						
+LC1	HD	1	0.00000E+00	0.00000E+00						
+LC1	HH	1	0.00000E+00	0.00000E+00						
+LC1	H+	1	0.00000E+00	0.00000E+00						
+LC1	S	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LC1	SH	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LC1	SP	1	0.00000E+00	0.00000E+00						
+LC3	CH3	1	4.08360E-02	2.58139E-04	;	1.7	0.43			
+LC3	CH2	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC3	CX	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC3	CB3	1	4.08360E-02	2.58139E-04	;	1.7	0.43			
+LC3	CB2	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC3	CB1	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LC3	CH1	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LC3	CBX	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC3	CA	1	3.12275E-02	1.97401E-04	;	1.3	0.43			
+LC3	CZ	1	1.94530E-02	1.10648E-04	;	0.9	0.4225			
+LC3	CZP	1	0.00000E+00	0.00000E+00						
+LC3	C	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC3	C-	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC3	Cr	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC3	CO	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LC3	COP	1	0.00000E+00	0.00000E+00						
+LC3	N+	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LC3	N+P	1	0.00000E+00	0.00000E+00						
+LC3	OH	1	2.28831E-02	6.88996E-05	;	2	0.38			
+LC3	O	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LC3	OC	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LC3	OCP	1	0.00000E+00	0.00000E+00						
+LC3	O-	1	1.79647E-02	4.99583E-05	;	1.7	0.375nm			
+LC3	CH1	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LC3	N	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC3	NPR	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC3	NT	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC3	NZ	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC3	NZ0	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC3	NZ+	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LC3	Nr	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LC3	HA	1	0.00000E+00	0.00000E+00						
+LC3	HD	1	0.00000E+00	0.00000E+00						
+LC3	HH	1	0.00000E+00	0.00000E+00						
+LC3	H+	1	0.00000E+00	0.00000E+00						
+LC3	S	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LC3	SH	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LC3	SP	1	0.00000E+00	0.00000E+00						
+LQa	CA	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CZ	1	1.51301E-02	8.60602E-05	;	0.7	0.4225			
+LQa	CH3	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CB3	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CB2	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CH2	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CB1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CBX	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CX	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	CH1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQa	N+	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LQa	C	1	7.76483E-03	3.96662E-05	;	0.4	0.415			
+LQa	C-	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LQa	CO	1	7.76483E-03	3.96662E-05	;	0.4	0.415			
+LQa	Cr	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LQa	O	1	0.00000E+00	5.87745E-04	;	20	0.375			
+LQa	OC	1	0.00000E+00	5.87745E-04	;	20	0.375			
+LQa	O-	1	1.79647E-02	4.99583E-05	;	1.7	0.375nm			
+LQa	OH	1	2.28831E-02	6.88996E-05	;	2	0.38			
+LQa	N	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQa	NPR	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQa	NT	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQa	NZ0	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQa	NZ+	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQa	NZ	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQa	Nr	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LQa	HA	1	5.28374E-02	1.46937E-04	;	5	0.375			
+LQa	HD	1	5.28374E-02	1.46937E-04	;	5	0.375			
+LQa	HH	1	6.34048E-02	1.76324E-04	;	6	0.375			
+LQa	H+	1	6.34048E-02	1.76324E-04	;	6	0.375			
+LQa	S	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LQa	SH	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LQd	CA	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CZ	1	1.51301E-02	8.60602E-05	;	0.7	0.4225			
+LQd	CH3	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CB3	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CB2	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CH2	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CB1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CBX	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CX	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	CH1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQd	N+	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LQd	C	1	7.76483E-03	3.96662E-05	;	0.4	0.415			
+LQd	C-	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LQd	CO	1	7.76483E-03	3.96662E-05	;	0.4	0.415			
+LQd	Cr	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LQd	O	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LQd	OC	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LQd	O-	1	1.79647E-02	4.99583E-05	;	1.7	0.375nm			
+LQd	OH	1	2.28831E-02	6.88996E-05	;	2	0.38			
+LQd	N	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQd	NPR	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQd	NT	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQd	NZ0	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQd	NZ+	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQd	NZ	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQd	Nr	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LQd	HA	1	5.28374E-02	1.46937E-04	;	5	0.375			
+LQd	HD	1	5.28374E-02	1.46937E-04	;	5	0.375			
+LQd	HH	1	6.34048E-02	1.76324E-04	;	6	0.375			
+LQd	H+	1	6.34048E-02	1.76324E-04	;	6	0.375			
+LQd	S	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LQd	SH	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LQ0	CA	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CZ	1	1.51301E-02	8.60602E-05	;	0.7	0.4225			
+LQ0	CH3	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CB3	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CB2	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CH2	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CB1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CBX	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CX	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	CH1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LQ0	N+	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LQ0	C	1	7.76483E-03	3.96662E-05	;	0.4	0.415			
+LQ0	C-	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LQ0	CO	1	7.76483E-03	3.96662E-05	;	0.4	0.415			
+LQ0	Cr	1	1.94121E-02	9.91658E-05	;	1	0.18+0.235			
+LQ0	O	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LQ0	OC	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LQ0	O-	1	1.79647E-02	4.99583E-05	;	1.7	0.375nm			
+LQ0	OH	1	2.28831E-02	6.88996E-05	;	2	0.38			
+LQ0	N	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQ0	NPR	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQ0	NT	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQ0	NZ0	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQ0	NZ+	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQ0	NZ	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LQ0	Nr	1	3.42426E-02	1.40258E-04	;	2.2	0.4nm			
+LQ0	HA	1	0.00000E+00	0.00000E+00						
+LQ0	HD	1	0.00000E+00	0.00000E+00						
+LQ0	HH	1	0.00000E+00	0.00000E+00						
+LQ0	H+	1	0.00000E+00	0.00000E+00						
+LQ0	S	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LQ0	SH	1	5.03077E-02	2.22006E-04	;	3	0.405			
+LNa	CA	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LNa	CZ	1	1.51301E-02	8.60602E-05	;	0.7	0.4225			
+LNa	CH3	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LNa	CB3	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LNa	CB2	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LNa	CH2	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LNa	CB1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LNa	CBX	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LNa	CX	1	2.40212E-02	1.51847E-04	;	1	0.43			
+LNa	CH1	1	9.60849E-03	6.07386E-05	;	0.4	0.43			
+LNa	N+	1	1.55648E-01	6.37535E-04	;	10	0.4nm			
+LNa	C	1	1.94121E-02	9.91658E-05	;	1	0.415			
+LNa	C-	1	1.94121E-02	9.91658E-05	;	1	0.415			
+LNa	CO	1	1.94121E-02	9.91658E-05	;	1	0.415			
+LNa	Cr	1	1.94121E-02	9.91658E-05	;	1	0.415			
+LNa	O	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LNa	OC	1	2.11349E-02	5.87745E-05	;	2	0.375nm			
+LNa	O-	1	1.79647E-02	4.99583E-05	;	1.7	0.375nm			
+LNa	OH	1	9.15325E-02	2.75599E-04	;	8	0.38			
+LNa	N	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LNa	NPR	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LNa	NT	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LNa	NZ0	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LNa	NZ+	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LNa	NZ	1	3.26861E-02	1.33883E-04	;	2.1	0.4nm			
+LNa	Nr	1	9.33888E-02	3.82520E-04	;	6	0.4			
+LNa	HA	1	5.28374E-02	1.46937E-04	;	5	0.375			
+LNa	HD	1	5.28374E-02	1.46937E-04	;	5	0.375			
+LNa	HH	1	6.34048E-02	1.76324E-04	;	6	0.375			
+LNa	H+	1	6.34048E-02	1.76324E-04	;	6	0.375			
+LNa	S	1	6.70770E-02	2.96009E-04	;	4	0.405			
+LNa	SH	1	6.70770E-02	2.96009E-04	;	4	0.405			
+
+; nonbonded interaction between W (water, P4) and MARTINI
+  P5 	W 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  SP5 	W 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  P4    W       1       0.21558E-00     0.23238E-02 ; attractive
+  W  	BP4 	1 	0.76824E-00 	0.26348E-01 ; supra attractive, s=0.57
+  W  	SP4 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  W  	P3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  W  	SP3 	1 	0.21558E-00 	0.23238E-02 ; attractive 
+  W  	P2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  W  	SP2 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  W  	P1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  W  	SP1 	1 	0.19402E-00 	0.20914E-02 ; almost attractive
+  W  	Nda 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  W  	SNda 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  W  	Nd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  W  	SNd 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  W  	Na 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  W  	LNa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive  new_cg_type
+  W  	SNa 	1 	0.17246E-00 	0.18590E-02 ; semi attractive
+  W  	N0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  W  	SN0 	1 	0.15091E-00 	0.16267E-02 ; intermediate 
+  W  	C5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  W  	SC5 	1 	0.13366E-00 	0.14408E-02 ; almost intermediate 
+  W  	C4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  W  	SC4 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  W  	C3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  W  	LC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive new_cg_type
+  W  	SC3 	1 	0.11642E-00 	0.12549E-02 ; semi repulsive
+  W  	C2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  W  	AC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  W  	SC2 	1 	0.99167E-01 	0.10690E-02 ; almost repulsive 
+  W  	C1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  W  	LC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive  new_cg_type 
+  W  	AC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  W  	SC1 	1 	0.86233E-01 	0.92953E-03 ; repulsive 
+  W  	Qda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  W  	SQda 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  W  	Qd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  W  	LQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive  new_cg_type
+  W  	IQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive  new_cg_type
+  W  	SQd 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  W  	Qa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  W  	LQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive  new_cg_type
+  W  	IQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive  new_cg_tyep
+  W  	SQa 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  W  	Q0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+  W  	LQ0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive  new_cg_type
+  W  	IQ0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive  new_cg_type
+  W  	SQ0 	1 	0.24145E-00 	0.26027E-02 ; supra attractive
+
+; nonbonded interation between PACE protein particles and PACE protein particles
+CZ CZ 1 0.00254502903914 2.94416945912e-06 ;original 0.00556183 1.5467e-05
+CZP   CZP   1  5.00565E-03   1.39203E-05
+CZ CH3 1 0.00404489020079 5.51533806872e-06 ;original 0.00840565 2.63245e-05
+CZ COH 1 0.00404489020079 5.51533806872e-06 ;original 0.00840565 2.63245e-05
+CZ CH2 1 0.00313315847698 4.27216249777e-06 ;original 0.00563717 1.76543e-05
+CZ CX 1 0.00313315847698 4.27216249777e-06 ;original 0.00563717 1.76543e-05
+CZ CH1 1 0.0022154776056 3.02087507251e-06 ;original 0.00375811 1.17695e-05
+CZP  C3P   1  8.40565E-03    2.63245E-05
+CZ CO 1 0.00195083956338 1.9795985539e-06 ;original 0.00246345 6.06859e-06
+CZ OC 1 0.00182106323031 1.24986676908e-06 ;original 0.00220615 2.72209e-06
+CZ  W  1     2.024931E-02  1.151783E-04 ; 1.84291E-02  1.04825E-04
+NZ   W   1  2.47169E-02  3.81827E-05   
+CH3  W   1  3.28711E-02    2.07790E-04    
+CH2  W   1  2.17455E-02    1.37461E-04    
+CH1  W  1   7.58564E-03   4.79516E-05
+COH  W   1  3.28711E-02    2.07790E-04
+W    W   1  2.155843E-01   2.323830E-03   
+OH   W   1  2.69859E-02    1.30042E-05    
+CH3 CH3 1 0.0064005401714 1.02417286214e-05 ;original 0.014075 4.95262e-05
+CH2 CH3 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CH1 CH3 1 0.00350572023209 5.6096257938e-06 ;original 0.00629151 2.21382e-05
+CH3 COH 1 0.0064005401714 1.02417286214e-05 ;original 0.014075 4.95262e-05
+CH2 COH 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CH1 COH 1 0.00350572023209 5.6096257938e-06 ;original 0.00629151 2.21382e-05
+COH COH 1 0.0064005401714 1.02417286214e-05 ;original 0.014075 4.95262e-05
+CH2 CH2 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CH1 CH2 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+CH1 CH1 1 0.00192016205142 3.07251858643e-06 ;original 0.002815 9.90525e-06
+OH   OH    1   7.66111E-03   2.36664E-06          
+OH CH1 1 0.00160877078547 1.32075641866e-06 ;original 0.00247169 3.81827e-06
+OH CH2 1 0.00227514546356 1.86783163985e-06 ;original 0.00370753 5.72741e-06
+OH CH3 1 0.00293720016352 2.41136027822e-06 ;original 0.00552422 8.53384e-06
+OH COH 1 0.00293720016352 2.41136027822e-06 ;original 0.00552422 8.53384e-06
+OH CZ 1 0.00182106323031 1.24986676908e-06 ;original 0.00241611 3.26488e-06
+OH CO 1 0.00137916941472 8.20362131488e-07 ;original 0.00210702 2.48295e-06
+OH    OC  1   8.89677E-03  2.74835E-06  
+OH NT 1 0.00164387424558 8.44475792279e-07 ;original 0.00317371 2.81668e-06
+OH NZ0 1 0.00164387424558 8.44475792279e-07 ;original 0.00317371 2.81668e-06
+OH NZ+ 1 0.00164387424558 8.44475792279e-07 ;original 0.00317371 2.81668e-06
+KAL   KAL  1  5.16587E-03    6.67156E-06    
+KAL   CH2 1  5.84248E-03    1.27178E-05    
+KAL   CH3 1  8.70713E-03    1.89535E-05    
+KAL   COH 1  8.70713E-03    1.89535E-05
+CO CO 1 0.00149100618408 1.32327347676e-06 ;original 0.00217678 4.73838e-06
+OC OC 1 0.0012397455648 4.8030283295e-07 ;original 0.00154205 7.43098e-07
+CO CH3 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+OC CH3 1 0.00293720016352 2.41136027822e-06 ;original 0.00505436 7.1439e-06
+CO COH 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+OC COH 1 0.00293720016352 2.41136027822e-06 ;original 0.00505436 7.1439e-06
+CO CH2 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+CO CH1 1 0.00170431891638 2.04576839395e-06 ;original 0.0024917 6.9292e-06
+CO CX 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+OC CH2 1 0.00227514546356 1.86783163985e-06 ;original 0.00339219 4.79456e-06
+OC CH1 1 0.00160877078547 1.32075641866e-06 ;original 0.00226146 3.19637e-06
+OC CX 1 0.00227514546356 1.86783163985e-06 ;original 0.00339219 4.79456e-06
+W    OC  1  5.56130E-02    8.59111E-05        
+W    CO  1  1.63470E-02    8.35078E-05      
+CX   W   1  2.90783E-02    1.83814E-04       
+CX CH2 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CX CH3 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CX COH 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CX CH1 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+CX OH 1 0.00227514546356 1.86783163985e-06 ;original 0.00370753 5.72741e-06
+CX   KAL  1  5.84248E-03    1.27178E-05    
+CX CX 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+NT   W   1  1.40902E-02    5.77136E-05    
+NZ0  W   1  7.536640E-02   3.087008E-04   ;8.35584E-02   3.42255E-04   ;   5.1  0.400
+NZ+  W   1   8.35584E-02   3.42255E-04   ;   5.1  0.400
+NTP W 1  0.0  0.0
+C3P W 1  0.0  0.0
+C2P W 1  0.0  0.0
+CZP W 1  0.0  0.0
+C1P W 1  0.0  0.0
+OHP W 1  0.0  0.0
+NT NT 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NT CH3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NT COH 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NT CH2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NT CH1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NT CX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NT CZ 1 0.00235481336795 2.08990553212e-06 ;original 0.00383694 7.36104e-06
+NZ0 NT 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NZ0 CH3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ0 COH 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ0 CH2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ0 CH1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NZ0 CX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ0 CZ 1 0.00235481336795 2.08990553212e-06 ;original 0.00383694 7.36104e-06
+NZ0 NZ0 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NZ+ NT 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NZ+ CH3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ+ COH 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ+ CH2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ+ CH1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NZ+ CX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ+ CZ 1 0.00235481336795 2.08990553212e-06 ;original 0.00383694 7.36104e-06
+NZ+ NZ0 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NZ+ NZ+ 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NTP   CZP   1    3.83694E-03    7.36104E-06
+NTP   C3P  1    8.70713E-03    1.89535E-05
+HA  HA   1  0.0   0.0
+HA  CH3  1  0.0   0.0
+HA  COH  1  0.0   0.0
+HA  CH2  1  0.0   0.0
+HA  CH1  1  0.0   0.0
+HA  CX   1  0.0   0.0
+HA  NT   1  0.0   0.0
+HA  NZ0  1  0.0   0.0
+HA  NZ+  1  0.0   0.0
+HA   OH  1   0.0   0.0
+HA  CZ   1  0.0   0.0
+HA  W    1  6.553708E-03   3.158168E-06       
+HH  HH   1  0.0   0.0
+HH  HA   1  0.0   0.0
+HH  CH3  1  0.0   0.0
+HH  COH  1  0.0   0.0
+HH  CH2  1  0.0   0.0
+HH  CH1  1  0.0   0.0
+HH  CX   1  0.0   0.0
+HH  NT   1  0.0   0.0
+HH  NZ0   1  0.0   0.0
+HH  NZ+   1  0.0   0.0
+HH    OH   1   0.0  0.0
+HH   CZ  1   0.0     0.0  
+HH   W   1   0.0    0.0
+H+  HH   1  0.0   0.0
+H+  HA   1  0.0   0.0
+H+  CH3  1  0.0   0.0
+H+  COH  1  0.0   0.0
+H+  CH2  1  0.0   0.0
+H+  CH1  1  0.0   0.0
+H+  CX   1  0.0   0.0
+H+  NT   1  0.0   0.0
+H+  NZ0   1  0.0   0.0
+H+  NZ+   1  0.0   0.0
+H+    OH   1   0.0  0.0
+H+   CZ  1   0.0     0.0  
+H+   W   1   0.0    0.0
+H+   H+  1   0.0    0.0
+OC CO 1 0.00137916941472 8.20362131488e-07 ;original 0.00191985 2.06142e-06
+NT CO 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+NZ0 CO 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+NZ+ CO 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+OC   NT   1   0.0    1.70202E-06
+OC   NZ0   1   0.0    1.70202E-06
+OC   NZ+   1   0.0    1.70202E-06
+OC   HA   1   1.54350E-03   2.58957E-08  
+OC   HH   1   1.54350E-03   2.58957E-08  
+OC   H+   1   1.54350E-03   2.58957E-08
+CO   HA   1   0.0    1.70202E-06
+CO   HH   1   0.0    1.70202E-06
+CO   H+   1   0.0    1.70202E-06
+C- C- 1 0.00149100618408 1.32327347676e-06 ;original 0.00217678 4.73838e-06
+C-  W   1  4.08675E-02  2.08770E-04  
+C- CH1 1 0.00170431891638 2.04576839395e-06 ;original 0.0024917 6.9292e-06
+C- CH2 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+C- CH3 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+C- COH 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+C- CZ 1 0.00195083956338 1.9795985539e-06 ;original 0.00246345 6.06859e-06
+C- CO 1 0.00149100618408 1.32327347676e-06 ;original 0.00217678 4.73838e-06
+C- OC 1 0.00137916941472 8.20362131488e-07 ;original 0.00191985 2.06142e-06
+C- NT 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+C- NZ0 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+C- NZ+ 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+C-  HA  1  0.0   1.70202E-06  
+C-  HH  1  0.0   1.70202E-06  
+C-  H+  1  0.0   0.0  
+C- CX 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+C- OH 1 0.00137916941472 8.20362131488e-07 ;original 0.00210702 2.48295e-06
+O- O- 1 0.0012397455648 4.8030283295e-07 ;original 0.00154205 7.43098e-07
+O-  W    1   3.70753E-02   5.72741E-05
+O- CH1 1 0.00160877078547 1.32075641866e-06 ;original 0.00247169 3.81827e-06
+O- CH2 1 0.00227514546356 1.86783163985e-06 ;original 0.00370753 5.72741e-06
+O- CH3 1 0.00293720016352 2.41136027822e-06 ;original 0.00552422 8.53384e-06
+O- COH 1 0.00293720016352 2.41136027822e-06 ;original 0.00552422 8.53384e-06
+O- CZ 1 0.00182106323031 1.24986676908e-06 ;original 0.00220615 2.72209e-06
+O- CO 1 0.00137916941472 8.20362131488e-07 ;original 0.00191985 2.06142e-06
+O- OC 1 0.0012397455648 4.8030283295e-07 ;original 0.00154205 7.43098e-07
+O-  NT   1   0.0  1.70202E-06 
+O-  NZ0   1   0.0  1.70202E-06
+O-  NZ+   1   2.87870E-03   2.31737E-06
+O-  HA   1   1.54350E-03   2.58957E-08   
+O-  HH   1   1.54350E-03   2.58957E-08   
+O-  H+   1   0.0    1E-10
+O- CX 1 0.00227514546356 1.86783163985e-06 ;original 0.00370753 5.72741e-06
+O-   OH    1  8.89677E-03   2.74835E-06   
+O- C- 1 0.00137916941472 8.20362131488e-07 ;original 0.00191985 2.06142e-06
+O-   N+   1  2.87870E-03   2.31737E-06
+C-  N+   1  3.37244E-03   5.68668E-06  
+N+ N+ 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+N+  W    1  7.41506E-02  1.14548E-04 
+N+ CH1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+N+ CH2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+N+ CH3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+N+ COH 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+N+ CZ 1 0.00235481336795 2.08990553212e-06 ;original 0.00383694 7.36104e-06
+N+ CO 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+N+   OC  1   1.23566E-02  3.81716E-06  
+N+ NT 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+N+ NZ0 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+N+ NZ+ 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+N+  HA   1  0.0   0.0
+N+  HH   1  0.0   0.0
+N+  H+   1  0.0   1E-10
+N+ CX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+N+ OH 1 0.00164387424558 8.44475792279e-07 ;original 0.00317371 2.81668e-06
+Nr Nr 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+Nr  W    1  3.02782E-02   4.67738E-05
+Nr CH1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+Nr CH2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+Nr CH3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+Nr COH 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+Nr CZ 1 0.00235481336795 2.08990553212e-06 ;original 0.00383694 7.36104e-06
+Nr CO 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+Nr  OC   1  8.74800E-03    6.37729E-06   
+Nr NT 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+Nr NZ0 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+Nr NZ+ 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+Nr  HA   1  0.0   0.0
+Nr  HH   1  0.0   0.0
+Nr  H+   1  0.0   0.0
+Nr CX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+Nr OH 1 0.00164387424558 8.44475792279e-07 ;original 0.00317371 2.81668e-06
+Cr Cr 1 0.00149100618408 1.32327347676e-06 ;original 0.00217678 4.73838e-06
+Cr  W   1  3.02782E-02   4.67738E-05
+Cr CH1 1 0.00170431891638 2.04576839395e-06 ;original 0.0024917 6.9292e-06
+Cr CH2 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+Cr CH3 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+Cr COH 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+Cr CZ 1 0.00195083956338 1.9795985539e-06 ;original 0.00246345 6.06859e-06
+Cr CO 1 0.00149100618408 1.32327347676e-06 ;original 0.00217678 4.73838e-06
+Cr OC 1 0.00137916941472 8.20362131488e-07 ;original 0.00191985 2.06142e-06
+Cr NT 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+Cr NZ0 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+Cr NZ+ 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+Cr  HA  1  0.0   0.0
+Cr  HH  1  0.0   0.0
+Cr  H+  1  0.0   0.0
+Cr CX 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+Cr OH 1 0.00137916941472 8.20362131488e-07 ;original 0.00210702 2.48295e-06
+Nr   O-   1    7.507989E-03   1.546147E-06
+Nr  C-  1  3.37244E-03    5.68668E-06
+Nr N+ 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+Cr  O-  1  1.91985E-03    2.06142E-06  
+Cr  C-  1  -5.0113E-02   0.0  
+Cr N+ 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+Nr Cr 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+NZ NZ 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NZ CH1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NZ CH2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ CH3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ COH 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ CZ 1 0.00235481336795 2.08990553212e-06 ;original 0.00383694 7.36104e-06
+NZ CO 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+NZ OC 1 0.00164387424558 8.44475792279e-07 ;original 0.0028787 2.31737e-06
+NZ   HA   1   1.54350E-03   2.58957E-08  
+NZ   HH   1   1.54350E-03   2.58957E-08  
+NZ   H+   1   1.54350E-03   2.58957E-08
+NZ   NT   1   0.0    1.70202E-06
+NZ   NZ0   1   0.0    1.70202E-06
+NZ   NZ+   1   0.0    1.70202E-06
+NZ CX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ  OH  1  8.64964E-03   2.67201E-06  
+NZ C- 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+NZ O- 1 0.00164387424558 8.44475792279e-07 ;original 0.0028787 2.31737e-06
+NZ  N+  1   1.23566E-02  3.81716E-06  
+NZ Nr 1 0.00215228730803 1.4476064551e-06 ;original 0.00516587 6.67156e-06
+NZ Cr 1 0.00179426010601 1.38848493505e-06 ;original 0.00337244 5.68668e-06
+S  S     1  1.54480E-02  2.38642E-05
+S NZ 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+S CH1 1 0.00510926269917 8.03312466934e-06 ;original 0.00668708 1.58123e-05
+S CH2 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+S CH3 1 0.00932819477519 1.46664119622e-05 ;original 0.0149443 3.53371e-05
+S COH 1 0.00932819477519 1.46664119622e-05 ;original 0.0149443 3.53371e-05
+S CZ 1 0.00589225018501 7.89059369152e-06 ;original 0.0066053 1.37895e-05
+S CO 1 0.00453102170731 5.33944735255e-06 ;original 0.00581627 1.06919e-05
+S OC 1 0.00427184377035 3.43885922282e-06 ;original 0.00501972 4.45502e-06
+S NT 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+S NZ0 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+S NZ+ 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+S  HA   1  0.0   0.0
+S  HH   1  0.0   0.0
+S  H+   1  0.0   0.0
+S CX 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+S OH 1 0.00427184377035 3.43885922282e-06 ;original 0.00552551 5.39804e-06
+S C- 1 0.00453102170731 5.33944735255e-06 ;original 0.00581627 1.06919e-05
+S O- 1 0.00427184377035 3.43885922282e-06 ;original 0.00501972 4.45502e-06
+S N+ 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+S Nr 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+S Cr 1 0.00453102170731 5.33944735255e-06 ;original 0.00581627 1.06919e-05
+S  W    1  6.88422E-02   3.03798E-04
+SH  SH  1  1.54480E-02  2.38642E-05
+SH  S     1  1.54480E-02  2.38642E-05
+SH NZ 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+SH CH1 1 0.00510926269917 8.03312466934e-06 ;original 0.00668708 1.58123e-05
+SH CH2 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+SH CH3 1 0.00932819477519 1.46664119622e-05 ;original 0.0149443 3.53371e-05
+SH COH 1 0.00932819477519 1.46664119622e-05 ;original 0.0149443 3.53371e-05
+SH CZ 1 0.00589225018501 7.89059369152e-06 ;original 0.0066053 1.37895e-05
+SH CO 1 0.00453102170731 5.33944735255e-06 ;original 0.00581627 1.06919e-05
+SH OC 1 0.00427184377035 3.43885922282e-06 ;original 0.00501972 4.45502e-06
+SH NT 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+SH NZ0 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+SH NZ+ 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+SH  HA   1  0.0   0.0
+SH  HH   1  0.0   0.0
+SH  H+   1  0.0   0.0
+SH CX 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+SH OH 1 0.00427184377035 3.43885922282e-06 ;original 0.00552551 5.39804e-06
+SH C- 1 0.00453102170731 5.33944735255e-06 ;original 0.00581627 1.06919e-05
+SH O- 1 0.00427184377035 3.43885922282e-06 ;original 0.00501972 4.45502e-06
+SH N+ 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+SH Nr 1 0.00548755701001 5.67468507926e-06 ;original 0.00893277 1.26257e-05
+SH Cr 1 0.00453102170731 5.33944735255e-06 ;original 0.00581627 1.06919e-05
+SH  W    1  6.00163E-02   2.64850E-04
+N  N     1  5.16587E-03    6.67156E-06    
+N  CA    1  3.89209E-03       8.47223E-06    
+O  O     1  1.54205E-03    7.43098E-07    
+CA CA    1  6.33374E-03    2.22868E-05  
+HD HD    1  0.0            1.0E-07        
+HD N     1  0.0            0.0
+HD NPR     1  0.0            0.0
+HD C     1  0.0            0.0
+HD CA    1  0.0            0.0
+HD O     1  0.0            0.0
+N  NPR     1  5.16587E-03    6.67156E-06    
+NPR  CA    1  3.89209E-03       8.47223E-06
+NPR NPR    1  5.16587E-03    6.67156E-06    
+NPR  O    1   2.87870E-03   2.31737E-06      
+NPR  C    1   3.37244E-03      5.68668E-06  
+N   O  1  1.35301E-02  2.58564E-06
+N  C    1   0.0            4.00293E-05    
+O  CA   1   0.0            6.36867E-06   
+O  C    1   0.0            6.36867E-06    
+C    CA  1   1.34313E-02   1.73461E-05   ;  0.33 nm 2.6kJ/mol
+C    C   1   1.34313E-02   1.73461E-05
+OH  N   1   3.17371E-03   2.81668E-06
+OH  NPR   1   3.17371E-03   2.81668E-06
+OH  CA  1   2.47169E-03     3.81827E-06
+OH  C   1   2.10702E-03     2.48295E-06
+OH   O   1    1.54205E-03    7.43098E-07 ; ignore OH...O=C backbone HB
+OH  HD  1  0.0            0.0
+CZ  N   1   5.75541E-03   1.10416E-05
+CZ  NPR   1   5.75541E-03   1.10416E-05
+CZ   CA    1  5.63717E-03   1.76543E-05
+CZ  C   1   6.53184E-04  4.76171E-07
+CZ  O   1   2.20615E-03   2.72209E-06
+CZ  HD  1  0.0            0.0
+N+  N   1  5.16587E-03    6.67156E-06 
+N+  NPR 1  5.16587E-03    6.67156E-06
+N+  CA  1  3.89209E-03       8.47223E-06
+N+  C   1  3.37244E-03      5.68668E-06
+N+  O   1  7.414079E-03    2.290295E-06
+N+  HD  1  0.0           0.0
+Nr  N   1  5.16587E-03    6.67156E-06
+Nr  NPR 1  5.16587E-03    6.67156E-06
+Nr  CA  1  3.89209E-03       8.47223E-06
+Nr  C   1  3.37244E-03      5.68668E-06
+Nr  O   1 5.561484E-03  1.717721E-06
+Nr  HD  1  0.0           0.0
+NZ  N   1  5.16587E-03    6.67156E-06
+NZ  NPR 1  5.16587E-03    6.67156E-06
+NZ  CA  1  3.89209E-03       8.47223E-06
+NZ  C   1  3.37244E-03      5.68668E-06
+NZ  O   1  2.87870E-03   2.31737E-06
+NZ  HD  1  0.0           0.0    
+S  N   1  8.93277E-03   1.26257E-05
+S  NPR 1  8.93277E-03   1.26257E-05
+S  CA  1  1.00259E-02   2.37072E-05
+S  C   1  5.81627E-03   1.06919E-05
+S  O   1  5.01972E-03    4.45502E-06
+S  HD  1  0.0           0.0
+SH  N  1   3.28682E-03   6.04205E-06 
+SH  NPR  1   3.28682E-03   6.04205E-06 
+SH  CA  1  1.00259E-02   2.37072E-05
+SH   C   1   1.15716E-03  1.49443E-06  
+SH  O   1  5.01972E-03    4.45502E-06
+SH  HD  1  1.74675E-03   1.70645E-06
+O-  N   1   0.0   1.70202E-06
+O-  NPR   1   2.87870E-03   2.31737E-06
+O-  CA  1   2.26146E-03    3.19637E-06
+O-   C   1   1.06354E-03   6.32621E-07    
+O-  O   1   0.0   1.70E-06  
+O-  HD   1    1.67772E-03  2.81465E-08  ;   29 KJ 0.16
+C-  N   1  3.37244E-03      5.68668E-06 
+C-  NPR   1   3.37244E-03      5.68668E-06
+C-  CA  1    2.44720E-03   6.80547E-06
+C-  C   1   2.17678E-03    4.73838E-06
+C-  O   1   1.91985E-03       2.06142E-06 
+C-  HD  1  0.0   1.70202E-06  
+Cr  N   1  3.37244E-03      5.68668E-06
+Cr  NPR   1   3.37244E-03      5.68668E-06
+Cr  CA  1    2.44720E-03   6.80547E-06
+Cr  C   1   2.17678E-03    4.73838E-06
+Cr  O   1   1.91985E-03       2.06142E-06
+Cr  HD  1  0.0   0.0
+NT   N   1  5.16587E-03    6.67156E-06
+NT   NPR 1  5.16587E-03    6.67156E-06
+NT   CA  1  3.89209E-03       8.47223E-06
+NT   HD  1  0.0           0.0
+NT   C   1   6.53184E-04  4.76171E-07  
+NZ0   N   1  5.16587E-03    6.67156E-06
+NZ0   NPR 1  5.16587E-03    6.67156E-06
+NZ0   CA  1  3.89209E-03       8.47223E-06
+NZ0   HD  1  0.0           0.0
+NZ0   C   1   6.53184E-04  4.76171E-07
+NZ+   N   1  5.16587E-03    6.67156E-06
+NZ+   NPR 1  5.16587E-03    6.67156E-06
+NZ+   CA  1  3.89209E-03       8.47223E-06
+NZ+   HD  1  0.0           0.0
+NZ+   C   1   6.53184E-04  4.76171E-07
+CO  NPR   1   3.37244E-03      5.68668E-06
+CO  CA  1    2.44720E-03   6.80547E-06
+CO  C   1   6.53184E-04  4.76171E-07 
+CO  O   1   1.91985E-03       2.06142E-06
+CO  N   1  3.37244E-03      5.68668E-06
+OC  NPR   1   2.87870E-03   2.31737E-06
+OC  O   1   0.000  1.70E-06  
+OC  C   1   1.06354E-03   6.32621E-07    
+OC  CA  1   2.26146E-03    3.19637E-06
+HA  N   1   0.0   0.0
+HA  NPR   1   0.0   0.0
+HA  CA  1   0.0     0.0
+HA  HD  1  0.0       0.0
+HH  N   1   0.0   0.0
+HH  NPR   1   0.0   0.0
+HH  CA  1   0.0     0.0
+HH  HD  1  0.0       0.0
+H+  N   1   0.0   0.0
+H+  NPR   1   0.0   0.0
+H+  CA  1   0.0     0.0
+H+  HD  1  0.0       0.0
+O  NT    1   0.0    1.70202E-06
+O  NZ0    1   0.0    1.70202E-06
+O  NZ+    1   0.0    1.70202E-06
+HA   O    1    1.34218E-03   2.25180E-08  
+HA   C   1   0.0    1.70202E-06
+HH   O    1    1.54350E-03   2.58957E-08  
+H+   O    1    1.54350E-03   2.58957E-08 
+HH   C   1   0.0    1.70202E-06
+H+   C   1   0.0    1.70202E-06
+OC   N   1    0.0    1.70202E-06
+HD   OC   1   1.81194E-03  3.03993E-08  ;   27 KJ 0.16 
+CO   HD  1    0.0    1.70202E-06
+CH3  N  1   3.28682E-03   6.04205E-06
+CH3  NPR  1   3.28682E-03   6.04205E-06 
+CH3  CA  1  9.44431E-03   3.32321E-05  
+CH3   C   1   1.15716E-03  1.49443E-06  
+CH3  O   1  5.05436E-03    7.14390E-06
+CH3  HD  1  0.0            0.0
+COH  N  1   3.28682E-03   6.04205E-06
+COH  NPR  1   3.28682E-03   6.04205E-06
+COH  CA  1  9.44431E-03   3.32321E-05
+COH   C   1   1.15716E-03  1.49443E-06
+COH  O   1  5.05436E-03    7.14390E-06
+COH  HD  1  0.0            0.0
+CH2  N  1   3.28682E-03   6.04205E-06 
+CH2  NPR  1   3.28682E-03   6.04205E-06 
+CH2  CA  1  6.33374E-03   2.22868E-05  
+CH2   C   1   1.15716E-03  1.49443E-06  
+CH2  O   1  3.39219E-03    4.79456E-06
+CH2  HD  1  0.0            0.0
+CX  N  1   3.28682E-03   6.04205E-06 
+CX  NPR  1   3.28682E-03   6.04205E-06 
+CX  CA  1  6.33374E-03   2.22868E-05  
+CX   C   1   1.15716E-03  1.49443E-06  
+CX  O   1  3.39219E-03    4.79456E-06
+CX  HD  1  0.0            0.0
+CH1  N  1   3.28682E-03   6.04205E-06 
+CH1  NPR  1   3.28682E-03   6.04205E-06 
+CH1  CA  1  4.22249E-03   1.48579E-05  
+CH1   C   1   1.15716E-03  1.49443E-06  
+CH1  O   1  2.26146E-03    3.19637E-06
+CH1  HD  1  0.0            0.0
+CB3  N   1  8.70713E-03    1.89535E-05  
+CB3  NPR   1  8.70713E-03    1.89535E-05  
+CB3  CA  1  9.44431E-03   3.32321E-05  
+CB3  C   1  5.56183E-03   1.54670E-05  
+CB3   O   1   3.83970E-03  4.12285E-06  
+CB3  HD  1  1.74675E-03   1.70645E-06
+CB2  N   1  5.84248E-03    1.27178E-05 
+CB2  NPR   1  5.84248E-03    1.27178E-05
+CB2  CA  1  6.33374E-03   2.22868E-05  
+CB2  C   1  3.72643E-03    1.03629E-05 
+CB2   O   1   3.83970E-03  4.12285E-06  
+CB2  HD  1  1.74675E-03   1.70645E-06
+CBX  N   1  5.84248E-03    1.27178E-05
+CBX  NPR   1  5.84248E-03    1.27178E-05
+CBX  CA  1  6.33374E-03   2.22868E-05    
+CBX  C   1  3.72643E-03    1.03629E-05
+CBX   O   1   3.83970E-03  4.12285E-06  
+CBX  HD  1  1.74675E-03   1.70645E-06
+CB1  N   1  3.89209E-03    8.47223E-06
+CB1  NPR   1  3.89209E-03    8.47223E-06
+CB1  CA  1  4.22249E-03   1.48579E-05  
+CB1  C   1  2.49170E-03    6.92920E-06
+CB1   O   1   3.83970E-03  4.12285E-06 
+CB1  HD  1  1.74675E-03   1.70645E-06
+CB3 CB3 1 0.0064005401714 1.02417286214e-05 ;original 0.014075 4.95262e-05
+CB2 CB2 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CB3 CB2 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CB1 CB1 1 0.00192016205142 3.07251858643e-06 ;original 0.002815 9.90525e-06
+CB3 CB1 1 0.00350572023209 5.6096257938e-06 ;original 0.00629151 2.21382e-05
+CB2 CB1 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+CBX CB3 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CBX CB2 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CBX CB1 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+CBX CBX 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CB3 CH3 1 0.0064005401714 1.02417286214e-05 ;original 0.014075 4.95262e-05
+CB3 COH 1 0.0064005401714 1.02417286214e-05 ;original 0.014075 4.95262e-05
+CB3 CH2 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CB3 CH1 1 0.00350572023209 5.6096257938e-06 ;original 0.00629151 2.21382e-05
+CB2 CH3 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CB2 COH 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CB2 CH2 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CB2 CH1 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+CB1 CH3 1 0.00350572023209 5.6096257938e-06 ;original 0.00629151 2.21382e-05
+CB1 COH 1 0.00350572023209 5.6096257938e-06 ;original 0.00629151 2.21382e-05
+CB1 CH2 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+CB1 CH1 1 0.00192016205142 3.07251858643e-06 ;original 0.002815 9.90525e-06
+CBX CH3 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CBX COH 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CBX CH2 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CBX CH1 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+OH CB1 1 0.00160877078547 1.32075641866e-06 ;original 0.00247169 3.81827e-06
+OH CB2 1 0.00227514546356 1.86783163985e-06 ;original 0.00370753 5.72741e-06
+OH CB3 1 0.00293720016352 2.41136027822e-06 ;original 0.00552422 8.53384e-06
+OH CBX 1 0.00227514546356 1.86783163985e-06 ;original 0.00370753 5.72741e-06
+CZ CB1 1 0.0022154776056 3.02087507251e-06 ;original 0.00375811 1.17695e-05
+CZ CB2 1 0.00313315847698 4.27216249777e-06 ;original 0.00563717 1.76543e-05
+CZ CB3 1 0.00404489020079 5.51533806872e-06 ;original 0.00840565 2.63245e-05
+CZ CBX 1 0.00313315847698 4.27216249777e-06 ;original 0.00563717 1.76543e-05
+S CB1 1 0.00510926269917 8.03312466934e-06 ;original 0.00668708 1.58123e-05
+S CB2 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+S CB3 1 0.00932819477519 1.46664119622e-05 ;original 0.0149443 3.53371e-05
+S CBX 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+SH CB1 1 0.00510926269917 8.03312466934e-06 ;original 0.00668708 1.58123e-05
+SH CB2 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+SH CB3 1 0.00932819477519 1.46664119622e-05 ;original 0.0149443 3.53371e-05
+SH CBX 1 0.0072255886029 1.13605538556e-05 ;original 0.0100259 2.37072e-05
+NT CB1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NT CB2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NT CB3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NT CBX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ0 CB1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NZ0 CB2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ0 CB3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ0 CBX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ+ CB1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NZ+ CB2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ+ CB3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ+ CBX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ CB1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+NZ CB2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+NZ CB3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+NZ CBX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+OC CB1 1 0.00160877078547 1.32075641866e-06 ;original 0.00226146 3.19637e-06
+OC CB2 1 0.00227514546356 1.86783163985e-06 ;original 0.00339219 4.79456e-06
+OC CB3 1 0.00293720016352 2.41136027822e-06 ;original 0.00505436 7.1439e-06
+OC CBX 1 0.00227514546356 1.86783163985e-06 ;original 0.00339219 4.79456e-06
+CO CB1 1 0.00170431891638 2.04576839395e-06 ;original 0.0024917 6.9292e-06
+CO CB2 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+CO CB3 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+CO CBX 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+HA   CB1 1  0.0   0.0
+HA   CB2 1  0.0   0.0
+HA   CB3 1  0.0   0.0
+HA   CBX 1  0.0   0.0  
+HH   CB1 1  0.0   0.0
+HH   CB2 1  0.0   0.0
+HH   CB3 1  0.0   0.0
+HH   CBX 1  0.0   0.0
+H+   CB1 1  0.0   0.0
+H+   CB2 1  0.0   0.0
+H+   CB3 1  0.0   0.0
+H+   CBX 1  0.0   0.0
+N+ CB1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+N+ CB2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+N+ CB3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+N+ CBX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+O- CB1 1 0.00160877078547 1.32075641866e-06 ;original 0.00226146 3.19637e-06
+O- CB2 1 0.00227514546356 1.86783163985e-06 ;original 0.00339219 4.79456e-06
+O- CB3 1 0.00293720016352 2.41136027822e-06 ;original 0.00505436 7.1439e-06
+O- CBX 1 0.00227514546356 1.86783163985e-06 ;original 0.00339219 4.79456e-06
+Nr CB1 1 0.00206495080957 2.17597453639e-06 ;original 0.00389209 8.47223e-06
+Nr CB2 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+Nr CB3 1 0.00377006712847 3.97276779378e-06 ;original 0.00870713 1.89535e-05
+Nr CBX 1 0.00292028144053 3.07729270074e-06 ;original 0.00584248 1.27178e-05
+Cr CB1 1 0.00170431891638 2.04576839395e-06 ;original 0.0024917 6.9292e-06
+Cr CB2 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+Cr CB3 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+Cr CBX 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+C- CB1 1 0.00170431891638 2.04576839395e-06 ;original 0.0024917 6.9292e-06
+C- CB2 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+C- CB3 1 0.00311164638561 3.73504498932e-06 ;original 0.00556183 1.5467e-05
+C- CBX 1 0.00241027092615 2.8931534082e-06 ;original 0.00372643 1.03629e-05
+CX CB1 1 0.00271551921507 4.34519745557e-06 ;original 0.00422249 1.48579e-05
+CX CB2 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+CX CB3 1 0.00495783709811 7.93320887743e-06 ;original 0.00944431 3.32321e-05
+CX CBX 1 0.00384032410284 6.14503717285e-06 ;original 0.00633374 2.22868e-05
+W    N   1  1.40902E-02   5.77136E-05    
+W    NPR   1  1.40902E-02   5.77136E-05    
+W    CA  1  2.90783E-02    1.83814E-04    
+W    C   1  1.63470E-02    8.35078E-05        
+W    O   1    3.48285E-02  7.58141E-05
+W     HD  1   2.61214E-02  5.68606E-05
+CB3  W   1  3.28711E-02    2.07790E-04   
+CB2  W   1  2.17455E-02   1.37461E-04    
+CB1  W  1   7.58564E-03   4.79516E-05
+CBX   W   1  2.90783E-02    1.83814E-04        
+[ pairtypes ]
+
+C    C   1   5.32929E-04  7.88926E-08                 
+C    CBX 1  1.73481E-03  8.35986E-07  
+C    CB3 1  1.73481E-03  8.35986E-07    
+C    CB2 1  1.73481E-03  8.35986E-07    
+C    CB1 1  1.73481E-03  8.35986E-07    
+O    N   1  1.55704E-03  6.73434E-07   
+O    NPR   1  1.55704E-03  6.73434E-07   
+N    N   1  6.87971E-04  1.31473E-07   
+N   NPR 1  6.87971E-04  1.31473E-07   
+NPR NPR  1  6.87971E-04  1.31473E-07   
+
+;terminal pairs
+N+    O   1  1.55704E-03  6.73434E-07
+N+    N   1  6.87971E-04  1.31473E-07
+N+   NPR  1  6.87971E-04  1.31473E-07
+N+   CH1  1  3.19501E-03  2.83559E-06 
+;O-    CBX 1  1.73481E-03  8.35986E-07   
+;O-    CB3 1  1.73481E-03  8.35986E-07    
+;O-    CB2 1  1.73481E-03  8.35986E-07    
+;O-    CB1 1  1.73481E-03  8.35986E-07    
+
+
+N     OC  1  1.55704E-03  6.73434E-07
+N     O-  1  1.55704E-03  6.73434E-07
+NPR     O-  1  1.55704E-03  6.73434E-07 
+C-    HD   1  0.0          0.0
+;C     C-  1   5.32929E-04  7.88926E-08  
+C-  CZ  1  2.91600E-04   2.12576E-07 
+
+
+OC   CBX 1  1.73481E-03  8.35986E-07
+OH   CBX 1  1.73481E-03  8.35986E-07
+O    CBX 1  1.73481E-03  8.35986E-07   
+O    CB3 1  1.73481E-03  8.35986E-07    
+O    CB2 1  1.73481E-03  8.35986E-07    
+O    CB1 1  1.73481E-03  8.35986E-07    
+N    CBX 1  3.19501E-03  2.83559E-06   
+N    CB3 1  3.19501E-03  2.83559E-06    
+N    CB2 1  3.19501E-03  2.83559E-06    
+N    CB1 1  3.19501E-03  2.83559E-06    
+NPR    CBX 1  3.19501E-03  2.83559E-06  
+NPR    CB3 1  3.19501E-03  2.83559E-06    
+NPR    CB2 1  3.19501E-03  2.83559E-06    
+NPR    CB1 1  3.19501E-03  2.83559E-06    
+
+
+
+
+
+
+
+CA   CA  1  8.70713E-04  1.89535E-06   
+O    CA  1  1.15654E-03  5.57324E-07   
+
+HD   CA  1  0.0          0.0
+HD   O   1  0.0          0.0
+HD   C   1  0.0          0.0
+HD   CB3 1  0.0          0.0
+HD   CB2 1  0.0          0.0
+HD   CB1 1  0.0          0.0
+HD   CBX 1  0.0          0.0
+HD   CO  1  0.0          0.0
+
+OH   N   1  2.91600E-04   2.12576E-07 
+OH   N+   1  2.91600E-04   2.12576E-07
+OH   C   1  2.91600E-04   2.12576E-07 
+OH   C-  1  2.91600E-04   2.12576E-07
+OH   CO  1  2.91600E-04   2.12576E-07
+
+CH3  N+  1  2.37929E-04  1.41526E-07
+CH3  N   1  2.37929E-04  1.41526E-07   
+COH  N   1  2.37929E-04  1.41526E-07
+CH2  N   1  2.37929E-04  1.41526E-07    
+CH1  N   1  2.37929E-04  1.41526E-07    
+CH3  C-   1  5.16587E-04  6.67156E-07
+CH3  CO   1  5.16587E-04  6.67156E-07
+CH3  C   1  5.16587E-04  6.67156E-07  
+COH  C   1  5.16587E-04  6.67156E-07
+CH2  C   1  5.16587E-04  6.67156E-07      
+CH2  C-   1  5.16587E-04  6.67156E-07
+CH1  C-   1  5.16587E-04  6.67156E-07
+CH1  C   1  5.16587E-04  6.67156E-07     
+CX   N   1  2.37929E-04  1.41526E-07   
+CX   C   1  5.16587E-04  6.67156E-07  
+CX   C-   1  5.16587E-04  6.67156E-07
+
+SH  N   1  3.55001E-04  3.15065E-07   
+SH  C   1  7.35306E-04  1.35169E-06   
+SH  CA  1  1.20437E-03  3.6263E-06 ; 0.1 0.38nm JCTC 
+
+CB2 HH 1  0.0  0.0
+CB2 H+ 1  0.0  0.0
+CB2 NZ 1  0.0  0.0
+HH  NZ 1  0.0  0.0
+H+  NZ+ 1 0.0  0.0
+HH  CZ 1  0.0  0.0
+H+  CZ 1  0.0  0.0
+NZ  CZ 1  0.0  0.0  
+NT  CZ 1  0.0  0.0
+NZ0  CZ 1  0.0  0.0
+NZ  NT 1  0.0  0.0
+
+CX  CA  1  8.70713E-04  1.89535E-06
+Nr  CB2  1  6.74489E-04   1.13734E-06
+Nr  CBX  1  6.74489E-04   1.13734E-06
+CH2 Cr  1  4.29497E-04  4.61169E-07
+CX  Cr  1  4.29497E-04  4.61169E-07
+Nr  CX  1  6.74489E-04   1.13734E-06
+
+CB2  CH2  1  8.70713E-04   1.89535E-06  
+CBX  CBX  1  8.70713E-04   1.89535E-06
+CA   CH2  1  8.70713E-04   1.89535E-06
+CH2  O    1  1.15654E-03  5.57324E-07   
+CH2  CA   1  8.70713E-04  1.89535E-06  
+CH2  NPR  1  6.74489E-04  1.13734E-06
+
+CO  C   1  2.91600E-04   2.12576E-07   
+CO  C-   1  2.91600E-04   2.12576E-07
+CO  N+  1  2.37929E-04   1.41526E-07
+CO  N   1  2.37929E-04   1.41526E-07  
+CA  OC   1  1.15654E-03  5.57324E-07   
+CA  NT  1  6.74489E-04  1.13734E-06   
+CA  NZ0  1  6.74489E-04  1.13734E-06
+CA  NZ  1  6.74489E-04  1.13734E-06
+CA  NZ+  1  6.74489E-04  1.13734E-06
+CBX HA  1 0.0 0.0
+
+C-  C   1  2.91600E-04   2.12576E-07   
+C-  N   1  2.37929E-04   1.41526E-07  
+C-  N+  1  2.37929E-04   1.41526E-07
+CA  O-    1  1.15654E-03  5.57324E-07   
+
+CZ OH 1 0.0  0.0
+
+CZ  C   1  2.91600E-04   2.12576E-07   
+CZ  N   1  2.37929E-04   1.41526E-07  
+CZ  N+   1  2.37929E-04   1.41526E-07
+CZ  CA  1  4.29497E-04   4.61169E-07   
+CZ  CZ  1  0.0   0.0
+CB2 CZ  1  0.0   0.0
+
+CH3  CH3  1  8.70713E-04  1.89535E-06
+CH3  CA  1  8.70713E-04  1.89535E-06 
+CH2  CA  1  8.70713E-04  1.89535E-06  
+CX  CA  1  8.70713E-04  1.89535E-06
+CX   CB2 1  8.70713E-04  1.89535E-06 
+CX   CBX 1  8.70713E-04  1.89535E-06 
+N+   CH2 1  6.74489E-04  1.13734E-06   
+N+   CX 1  6.74489E-04  1.13734E-06
+C-   CA  1  4.29497E-04  4.61169E-07   
+CB2  O-  1  1.15654E-03  5.57324E-07   
+CBX  O-  1  1.15654E-03  5.57324E-07
+CB1  O-  1  1.15654E-03  5.57324E-07
+CB3  O-  1  1.15654E-03  5.57324E-07
+CH3  O-  1  1.15654E-03  5.57324E-07
+CA  OH  1  1.15654E-03  5.57324E-07
+CB2 OH  1  1.15654E-03  5.57324E-07
+CO   CA  1  4.29497E-04  4.61169E-07  
+CB2  OC  1  1.15654E-03  5.57324E-07   
+CB2  NT    1  6.74489E-04  1.13734E-06  
+CB2  NZ0    1  6.74489E-04  1.13734E-06
+CB2  NZ+   1  6.74489E-04  1.13734E-06
+HA   CX  1  0.0   0.0
+HA   OC  1  0.0   0.0
+
+CA  S    1  1.20437E-03   3.62630E-06
+CB2 CH3  1  8.70713E-04  1.89535E-06
+
+
+[ bondtypes ]
+;terminal
+N+   CA  1  0.152 125000
+C-   CA  1  0.155 125000 
+CO   OH  1  0.136 125000
+
+CA   CO  1  0.152   125000
+CA   C   1  0.152   125000 
+C    O   1  0.122   125000
+C    N   1  0.133   125000
+C    NPR   1  0.133   125000
+N    HD  1  0.100   125000
+NPR    CA  1  0.145   125000
+N    CA  1  0.145   125000
+CH3  CA  1  0.153   125000
+COH  CA  1  0.153   125000
+CH2  CA  1  0.153   125000
+CH1  CA  1  0.153   125000
+CB3  CA  1  0.153   125000
+CB2  CA  1  0.153   125000
+CB1  CA  1  0.153   125000
+CBX  CA  1  0.153   125000
+
+CH2 S  1   0.182  125000
+S  CH3  1  0.182  125000
+S  COH  1  0.182  125000
+CBX SH  1  0.182  125000
+SH  SH  1  0.204 125000
+
+CH2  NPR  1  0.145   125000
+CBX CO  1  0.152  125000
+
+CX   CO  1  0.152  125000
+CO   OC  1  0.122  125000
+CO   NT  1  0.133  125000
+NT   HA  1  0.100  125000
+CO   NZ0  1  0.133  125000
+NZ0   HA  1  0.100  125000
+
+
+NT   HH  1  0.100  125000
+NZ0   HH  1  0.100  125000
+CB2  CZ  1  0.152  125000
+CZ  CZ  1  0.139 125000
+OH  CZ  1 0.143  125000 
+
+
+CB1 CH2  1  0.153  125000
+CH2 CH3  1  0.153  125000
+CB2  CH1 1  0.153 125000
+CH1  CH3 1  0.153 125000
+CH1  COH 1  0.153 125000
+
+CB2  CH2 1  0.153 125000
+CH2  CH2 1  0.153 125000
+CH2  CX  1  0.153 125000
+CX  CX  1  0.153 125000
+CX   N+  1  0.152 125000
+
+CB1  CH3 1  0.153   125000
+CB1  COH 1  0.153   125000
+CBX  OH  1  0.143  125000
+CBX CH3  1  0.153  125000
+CBX COH  1  0.153  125000
+CBX  C-  1  0.155 125000
+CB2  CX  1  0.153 125000
+CBX  CX  1  0.153 125000
+CX   C-  1  0.155 125000
+C-   O-  1  0.124 125000
+CX Nr  1  0.147  125000  
+Nr Cr  1  0.134  125000
+
+[ angletypes ]
+;terminal
+
+N+ CA C  1  112.0  300.0
+O- C- CA 1  115.0  300.0
+C-   CA CB3  1  110.0  300.0
+C-   CA CB2  1  110.0  300.0
+C-   CA CB1  1  110.0  300.0
+C-   CA CBX  1  110.0  300.0
+CO   CA CBX  1  110.0  300.0
+C- CA N  1  112.0  300.0
+CO CA N  1  112.0  300.0
+C- CA NPR 1  112.0  300.0 
+N+   CA CB3  1  110.0  300.0
+N+   CA CB2  1  110.0  300.0
+N+   CA CB1  1  110.0  300.0
+N+   CA CBX  1  110.0  300.0
+
+
+CA  CB2  CH1  1  110.0  300.0
+CB2 CH1  CH3  1  110.0  300.0
+CH3 CH1  CH3  1  110.0  300.0
+
+CA  CB2  CZ  1  110.0  300.0
+CB2 CZ  CZ  1  120.0  300.0
+CZ  CZ  CZ  1  120.0  300.0
+
+CZ  CZ  OH  1  120.0  300.0
+CB2 CH2 S  1  110.0   300.0
+CH2 S CH3  1  100.2  300.0
+CA  CBX  SH  1  110.0  300.0
+CBX SH SH   1  103.7  300.0
+CA  CB2 CH2   1  110.0  300.0
+CA  CB2 CX    1  110.0  300.0
+CB2 CH2 CH2   1  110.0  300.0
+CB2 CX  CX    1  110.0  300.0
+CBX CX  CX    1  110.0  300.0
+CH2 CH2 CX    1  110.0  300.0
+CX  CX  CX    1  110.0  300.0
+CH2 CX  N+    1  110.0  300.0
+CX  CX  N+    1  110.0  300.0
+CA  CB1 CH3 1  110.0  300.0
+CH3 CB1 CH3 1  110.0  300.0
+
+
+CA  CB1  CH2  1  110.0  300.0
+CB1 CH2  CH3  1  110.0  300.0
+CH2 CB1  CH3  1  110.0  300.0
+
+
+CA CBX OH  1  110.0  300.0
+CA CBX CH3 1  110.0  300.0
+OH CBX CH3 1  110.0  300.0
+CA CBX COH 1  110.0  300.0
+OH CBX COH 1  110.0  300.0
+CA CB2 CX  1  110.0  300.0
+CA CBX CX  1  110.0  300.0
+CB2 CX C-  1  110.0  300.0
+CBX CX C-  1  110.0  300.0
+CX  C- O-  1  115.0  300.0
+O-  C- O-  1  130.0  300.0
+
+CA CBX C-  1  110.0  300.0
+CBX C- O-  1  115.0  300.0
+
+CB2 CX CO  1  110.0  300.0
+CX  CO OC  1  122.0  300.0
+CA  CO OC  1  122.0  300.0
+CX  CO NT  1  117.0  300.0
+CX  CO OH  1  117.0  300.0
+CA  CO OH  1  117.0  300.0
+OC  CO NT  1  121.0  300.0
+OC  CO  OH 1  121.0  300.0
+CO  NT  HA 1  120.0  300.0
+HA  NT  HA 1  120.0  300.0
+CX  CO NZ0  1  117.0  300.0
+OC  CO NZ0  1  121.0  300.0
+CO  NZ0  HA 1  120.0  300.0
+HA  NZ0  HA 1  120.0  300.0
+
+
+CA CBX CO  1  110.0  300.0
+CBX CO  OC  1  122.0  300.0
+CBX CO  NT  1  117.0  300.0
+CBX CO  OH  1  117.0  300.0
+CBX CO  NZ0  1  117.0  300.0
+
+
+CH2 CX Nr 1 110.0  300.0
+CX  CX Nr 1 110.0  300.0
+CX Nr Cr 1  124.0 300.0
+Nr Cr Nr 1  120.0  300.0
+CB2 CH2 CX 1  110.0  300.0
+
+
+CA   C   O  1  122.0  300.0
+CA   C   N  1  117.0  300.0
+O    C   N  1  121.0  300.0
+C    N  CA  1  120.0  300.0
+N   CA   C  1  112.0  300.0
+N   CA CB3  1  110.0  300.0
+N   CA CB2  1  110.0  300.0
+N   CA CB1  1  110.0  300.0
+N   CA CBX  1  110.0  300.0
+
+CA   C   NPR  1  117.0  300.0
+O    C   NPR  1  121.0  300.0
+C    NPR  CA  1  120.0  300.0
+NPR   CA   C  1  112.0  300.0
+NPR   CA CB3  1  110.0  300.0
+NPR   CA CB2  1  110.0  300.0
+NPR   CA CB1  1  110.0  300.0
+
+
+C   CA CB3  1  110.0  300.0
+C   CA CB2  1  110.0  300.0
+C   CA CB1  1  110.0  300.0
+C   CA CBX  1  110.0  300.0
+CH2 CH2  CH3  1  110.0 300.0
+HD   N   C  1  120.0  300.0
+HD   N  CA  1  120.0  300.0
+
+[ dihedraltypes ]
+
+;terminal
+C- CA   1    0.000   2.5   6
+CO CA   1    0.000   2.5   6
+
+CA  CB3  1    0.000   4.90   3
+CA  CB2  1    0.000   4.90   3
+CA  CB1  1    0.000   4.90   3
+CA  CBX  1    0.000   4.90   3
+
+;N   CA   1  180.000   0.00   6  
+;NPR   CA   1  180.000   0.0   6
+
+;CA  C    1    0.000   2.5   6
+C   N    1  180.000  42.00   2
+C   NPR    1  180.000  42.00   2
+
+CH2  NPR  1  180.000   0.0   6
+CX Nr  1  0.0  3.5  3
+Nr Cr  1  180.000  42.00   2
+CX  CO  1  0.000   1.26   6
+CO  NT  1  180.000  42.00   2
+CO  NZ0  1  180.000  42.00   2
+CBX  CO  1  0.000   1.26   6
+
+
+CB2  CZ  1  0.0  2.0   2
+CH2  CB1  1  0.000 4.90  3
+
+
+CB2  CH1  1    0.000   4.90   3
+CB2  CH2  1    0.000   4.90   3
+CH2  CH2  1    0.000   4.90   3
+CX   CX   1    0.000   4.90   3
+CH2  CX   1    0.000   4.90   3
+CBX C-  1    180.0   2.8    2
+
+CH2 S  1  0.0  3.9  3
+SH SH 1 0.0 16.7 2 ; from gromos53a6
+CBX SH  1  0.0  3.9  3 ; from JCTC 2008 Han et al.
+
+CB2  CX  1    0.000   4.90   3
+CBX  CX  1    0.000   4.90   3
+CX   C-  1    180.0   2.8    2
+
+#define planar 0.0 300.0

@@ -1,0 +1,42 @@
+define                   = -DFLEXIBLE
+integrator               = steep
+tinit                    = 0.0
+nsteps                   = 5000
+
+nstlog                   = 5000
+nstenergy                = 5000
+nstxout-compressed       = 5000
+compressed-x-precision   = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+pbc                      = xyz
+verlet-buffer-tolerance  = 0.005
+
+epsilon_r                = 15
+coulombtype              = reaction-field
+rcoulomb                 = 1.1
+vdw_type                 = cutoff
+vdw-modifier             = Potential-shift-verlet
+rvdw                     = 1.1
+
+tcoupl                   = v-rescale
+tc-grps                  = system
+tau_t                    = 1.0 
+ref_t                    = 323
+
+; Pressure coupling:
+Pcoupl                   = berendsen
+Pcoupltype               = semiisotropic
+tau_p                    = 5.0
+compressibility          = 3e-4 3e-4
+ref_p                    = 1.0  1.0
+
+; GENERATE VELOCITIES FOR STARTUP RUN:
+gen_vel                  = yes
+gen_temp                 = 310.15
+gen_seed                 = 9436082111
+
+refcoord_scaling         = all
+

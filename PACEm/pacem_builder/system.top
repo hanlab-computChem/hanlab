@@ -1,0 +1,15 @@
+#include "toppar/ffPACE_1.3vdW.itp"
+#include "toppar/martini_v2.0_ions.itp"
+#include "toppar/cg_Water.itp"
+#include "PROA_P.itp"
+
+[ system ]
+; name
+Martini system
+
+[ molecules ]
+; name        number
+PROA_P 1
+W 1412
+NA 19
+CL 15

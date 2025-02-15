@@ -1,0 +1,50 @@
+;       User spoel (236)
+;       Wed Nov  3 17:12:44 1993
+;       Input file
+;
+title               =  Yo
+cpp                 =  /lib/cpp
+constraints         =  none
+;define              =  -DPOSRES
+integrator          =  md
+dt                  =  0.004
+nsteps              =  25000000 ; total 10 ps.
+;nstcomm             =  1
+nstxout             =  0
+nstvout             =  0
+nstxtcout           =  250000
+;nstxtcout           =  51000
+;xtc_grps            =  Protein
+nstfout             =  0
+nstlog              =  250000
+nstenergy           =  250000
+nstlist             =  10
+ns_type             =  grid
+rlist               =  1.2
+coulombtype         =  reaction-field
+epsilon_r           =  15
+vdw_type            =  cutoff
+vdw-modifier        =  Potential-shift-verlet
+rcoulomb            =  1.2
+rcoulomb_switch     =  0.0
+rvdw                =  1.2
+rvdw_switch         =  0.9
+table-extension     =  1.8
+; Berendsen temperature coupling is on in two groups
+Tcoupl              =  nose-hoover
+tc-grps             =  protein membrane solute
+tau_t               =  1.0  1.0 1.0
+ref_t               =  323 323 323
+; Energy monitoring
+;energygrps          =  protein solute
+; Pressure coupling is not on
+Pcoupl              = Parrinello-Rahman 
+Pcoupltype          = semiisotropic
+tau_p                    = 12.0
+compressibility          = 3e-4 3e-4
+ref_p               = 1.0 1.0
+; Generate velocites is on at 300 K.
+gen_vel             =  no
+gen_temp            =  305.0
+gen_seed            =  878594
+
