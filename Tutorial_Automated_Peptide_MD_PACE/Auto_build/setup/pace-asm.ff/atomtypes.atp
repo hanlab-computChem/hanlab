@@ -1,0 +1,47 @@
+HA     5.000 ; H in amide
+HQ     5.000 ; GLN sidechain
+HH     5.000 ; H in aro ring
+H+     5.000 ; H+ in his
+SH    33.000 ; thiol
+S     32.000 ; sulfide
+CZ    13.000 ; benz CH
+NA    14.000 ; sp3 amine N 
+OH    17.000 ;  hydroxy
+OY    17.000 ;  TYR sidechain
+OHP   17.000
+NH    15.000 ; amide NH
+NZ0   10.000 ; hetercycle N(H)
+NZW   10.000 ; TRP sidechain
+NZ+   10.000 ;  HisH N
+NZ    14.000 ;  hetercycle N 
+Nr    16.000 ; N of arginine
+Cr    12.000 ; C of arginine
+N+    17.000 ; ammonium +
+C+    14.000 ;  carbon right attached to N+
+N     10.000 ; backbone amide NH
+NPR   14.000 ; proline backbone amide N 
+HD     5.000 ; backbone amide H
+NT     6.000 ; amide NH2
+NQ     6.000 ; GLN sidechain
+W     72.000 ;  large water with reduced mass
+C3P   15.000
+C1P   13.000
+C2P   14.000
+CZP   13.000
+NTP   14.000
+CH2   14.000 ;  non-terminal hydrocarbon group
+CH3   15.000 ;  terminal hydrocarbon
+CH1   13.000 ;  non-terminal hydrocarbon
+COH   15.000 ;  CH3 in THR
+CB3   15.000 ;  Cb carbon of aa
+CB2   14.000 ;  Cb carbon of aa
+CB1   13.000 ;  Cb carbon of aa
+CBX   14.000 ;  cb carbon connected to polar groups
+CO    12.000 ;  carbonylcarbon 
+OC    16.000 ;  carbonyl oxygen
+O     16.000 ;  backbone carbonyl oxygen
+O-    16.000 ;  carboxylic o
+CA    13.000 ;  alpha carbon of aa
+C     12.000 ;  bakbone carbonyl carbon of aa
+C-    12.000 ;   carbonyl carbon of COO-
+CX    14.000 ; hydrocarbon connecting to polar group

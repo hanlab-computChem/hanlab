@@ -1,0 +1,1406 @@
+[ bondedtypes ]
+; bonds  angles  dihedrals  impropers all_dihedrals nrexcl HH14 RemoveDih
+     1      1         1          2         0           3     0     1
+;originally angle type 1
+
+[ ALA ]
+ [ atoms ]
+  N  N   0.000 0
+  H  HD  0.000 0
+  CA CA  0.000 1
+  CB CB3 0.000 2
+  C  C   0.000 3
+  O  O   0.000 3
+
+ [ bonds ]
+  -C  N
+   N  CA
+   N  H
+   CA CB
+   CA C
+   C  O
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300 
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0 1.0  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0  1.7  1
+
+[ SER ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CBX   0.000     2
+    OG    OH   0.000     3
+     C     C   0.000     4
+     O     O   0.000     4
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    OG
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  -C  N  CA  C   -120.0  1.5   1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.5  1 
+  N  CA CB OG  
+  N  CA CB OG   -120.0  2.0   1
+
+[ CYS ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CBX   0.000     2
+    SG    SH   0.000     3
+     C     C   0.000     4
+     O     O   0.000     4
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    SG
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 ; ord
+  N  CA CB SG
+  N  CA  CB  SG  -120.0  1.0  1 
+
+
+
+[ CYS2 ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CBX   0.000     2
+    SG    SH   0.000     3
+     C     C   0.000     4
+     O     O   0.000     4
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    SG
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300
+  C  CA  +N   O   0.0   300
+
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 ; ord
+  N  CA CB SG
+  N  CA  CB  SG  -120.0  1.0  1
+
+
+
+
+[ CYSH ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CBX   0.000     2
+    SG    SH   0.000     3
+     C     C   0.000     4
+     O     O   0.000     4
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    SG
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300
+  C  CA  +N   O   0.0   300
+
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 ; ord
+  N  CA CB SG
+  N  CA  CB  SG  -120.0  1.0  1
+
+
+[ THR ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CBX   0.000     2
+    OG1    OH   0.000     3
+    CG2   CH3  0.0     4
+     C     C   0.000     5
+     O     O   0.000     5
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    OG1
+    CB    CG2
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+  CB  OG1  CG2  CA  35.264  300
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -2.0  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 
+  N  CA  CB   CG2
+  N  CA  CB   OG1  -120.0   1.0   1
+
+
+[ LEU ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG   CH1   0.000     3
+   CD1   CH3   0.000     4
+   CD2   CH3   0.000     5
+     C     C   0.000     6
+     O     O   0.000     6
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   CD1
+    CG   CD2
+ [ impropers ]
+    CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+    CG   CD2   CD1    CB   35.264  300
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1 
+  N  CA  CB  CG
+  N  CA  CB  CG  120.0  0.75  1 
+  CA  CB  CG CD1
+
+[ LYSH ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CB2   0.000     2
+    CG   CH2  0.000     3
+    CD   CH2   0.000     4
+    CE    CX   0.300     5
+    NZ    N+   0.700     5
+     C     C   0.000     6
+     O     O   0.000     6
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG    CD
+    CD    CE
+    CE    NZ
+ [ impropers ]
+    CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1 
+ N  CA  CB CG
+ N  CA  CB  CG  180.0  0.5    1
+ CA CB  CG  CD
+ CB  CG  CD  CE
+ CG  CD  CE  NZ
+
+[ LYS ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CB2   0.000     2
+    CG   CH2  0.000     3
+    CD   CH2   0.000     4
+    CE    CX   0.300     5
+    NZ    N+   0.700     5
+     C     C   0.000     6
+     O     O   0.000     6
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG    CD
+    CD    CE
+    CE    NZ
+ [ impropers ]
+    CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1
+ N  CA  CB CG
+ N  CA  CB  CG  180.0  0.5    1
+ CA CB  CG  CD
+ CB  CG  CD  CE
+ CG  CD  CE  NZ
+
+
+
+[ NLE ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD  0.000     0
+    CA   CA    0.000     1
+    CB   CB2   0.000     2
+    CG   CH2   0.000     3
+    CD   CH2   0.000     4
+    CE    CH3   0.000     5
+     C     C   0.000     6
+     O     O   0.000     6
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG    CD
+    CD    CE
+ [ impropers ]
+    CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1
+ N  CA  CB CG
+ N  CA  CB  CG  180.0  0.5    1
+ CA CB  CG  CD
+ CB  CG  CD  CE
+
+
+
+
+[ GLU ]  
+ [ atoms ]
+    N     N     0.00000     0
+    H     HD     0.00000     0
+   CA   CA      0.00000     1
+   CB   CB2     0.00000     2
+   CG   CX      -0.10000     3
+   CD     C-     0.70000     3
+  OE1    O-     -0.80000     3
+  OE2    O-     -0.80000     3
+    C     C       0.000     4
+    O     O       0.000     4
+ [ bonds ]
+    N     H    
+    N    CA    
+   CA     C    
+    C     O    
+    -C    N    
+   CA    CB    
+   CB    CG    
+   CG    CD    
+   CD   OE1    
+   CD   OE2    
+
+ [ impropers ]
+     CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+    CD   OE1   OE2    CG   0.0  300
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1 
+  N  CA  CB  CG
+ N  CA  CB  CG  180.0  0.5    1
+  CA CB  CG  CD
+  CB  CG  CD  OE1
+
+
+[ GLUH ]    
+ [ atoms ]
+    N     N     0.00000     0
+    H     HD     0.00000     0
+   CA   CA      0.00000     1
+   CB   CB2     0.00000     2
+   CG   CX      0.0000     3
+   CD     CO     0.0000     3
+  OE1    OC     0.0000     3
+  OE2    OH     0.0000     3
+    C     C       0.000     4
+    O     O       0.000     4
+ [ bonds ]
+    N     H      
+    N    CA    
+   CA     C     
+    C     O  
+    -C    N     
+   CA    CB   
+   CB    CG    
+   CG    CD    
+   CD   OE1
+   CD   OE2
+
+ [ impropers ]
+     CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+    CD   OE1   OE2    CG   0.0  300
+    
+ [ dihedrals ] 
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1
+  N  CA  CB  CG
+ N  CA  CB  CG  180.0  0.5    1
+  CA CB  CG  CD
+  CB  CG  CD  OE1
+
+
+[ ASP ]   
+ [ atoms ]
+     N     N  0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CBX   -0.100     2
+    CG     C-   0.700     2
+   OD1    O-   -0.800     2
+   OD2    O-   -0.800     2
+     C     C   0.000     3
+     O     O   0.000     3
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   OD1
+    CG   OD2
+ [ impropers ]
+     CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+   CG  OD1  OD2  CB  0.0  300.0
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -1.5  1
+  -C  N  CA  C   -120.0  2.0   1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.5  1 
+  N  CA  CB  CG
+  N  CA  CB  CG  165.0  2.75   1 
+  CA CB  CG  OD1
+
+
+
+[ ASPH ]  
+ [ atoms ]
+     N     N  0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CBX   0.00     2
+    CG     CO   0.00     2
+   OD1    OC   0.00     2
+   OD2    OH   0.00     2
+     C     C   0.000     3
+     O     O   0.000     3
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   OD1
+    CG   OD2
+ [ impropers ]
+     CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+   CG  OD1  OD2  CB  0.0  300.0
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -1.5  1
+  -C  N  CA  C   -120.0  2.0   1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.5  1
+  N  CA  CB  CG
+  N  CA  CB  CG  165.0  2.75   1
+  CA CB  CG  OD1
+
+
+[ GLN ]
+ [ atoms ]
+    N     N     0.00000     0
+    H     HD     0.00000     0
+   CA   CA      0.00000     1
+   CB   CB2     0.00000     2
+   CG   CX      0.00000     3
+   CD     CO     0.00000     4
+  OE1    OC     0.00000     4
+  NE2    NQ     0.00000     5
+  HE21   HQ      0.0000     5
+  HE22   HQ      0.000      5   
+    C     C       0.000     6
+    O     O       0.000     6
+ [ bonds ]
+    N     H
+    N    CA
+   CA     C
+    C     O
+    -C    N
+   CA    CB
+   CB    CG
+   CG    CD
+   CD   OE1
+   CD   NE2
+   NE2  HE21
+   NE2  HE22
+
+ [ impropers ]
+     CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+    CD   OE1   NE2    CG   0.0  300
+    NE2 HE21 HE22 CD    0.0  300.0
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1 
+  N  CA  CB  CG
+ N  CA  CB  CG  180.0  0.5    1
+  CA  CB  CG  CD
+  CB  CG  CD  NE2
+
+
+[ ASN ]
+ [ atoms ]
+     N     N  0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CBX   0.000     2
+    CG     CO   0.000     3
+   OD1     OC  0.000     3
+   ND2    NQ  0.000     4
+  HD21     HQ   0.000     4
+  HD22     HQ   0.000     4
+     C     C   0.000     5
+     O     O  0.000     5
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   OD1
+    CG   ND2
+   ND2  HD21
+   ND2  HD22
+ [ impropers ]
+     CA     N     C    CB  35.264  300
+    C  CA  +N  O    0.0     300
+   CG OD1 ND2 CB   0.0  300.0
+   ND2 HD21 HD22 CG 0.0 300.0
+
+  [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -1.0  1
+  -C  N  CA  C   -120.0  2.75  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1 
+  N  CA  CB  CG
+  N  CA  CB  CG  -150.0   2.0   1  
+  CA  CB  CG  ND2
+
+
+[ PRO ]
+ [ atoms ]
+     N     NPR   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG   CH2   0.000     3
+    CD   CH2   0.000     4
+     C     C   0.000     5
+     O     O  0.000     5
+ [ bonds ]
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG    CD
+    CD     N
+[ angles ]
+ -C  N  CA   122.0  300.0
+-C  N  CD  122.0  300.0
+CD  N  CA  116.0  300.0
+N  CA  CB   103.2  300.0
+CA  CB  CG  103.2  300.0
+CB  CG  CD  103.2  300.0
+CG  CD  N   103.2  300.0
+ 
+
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+ -C  N  CA  C   -63.0  41.0
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   3.0  1 
+  N  CA  CB  CG
+  CA CB  CG  CD
+ CB  CG  CD  N
+  CG  CD  N  -C
+
+
+[ DPR ]
+ [ atoms ]
+     N     NPR   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG   CH2   0.000     3
+    CD   CH2   0.000     4
+     C     C   0.000     5
+     O     O  0.000     5
+ [ bonds ]
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG    CD
+    CD     N
+[ angles ]
+ -C  N  CA   122.0  300.0
+-C  N  CD  122.0  300.0
+CD  N  CA  116.0  300.0
+N  CA  CB   103.2  300.0
+CA  CB  CG  103.2  300.0
+CB  CG  CD  103.2  300.0
+CG  CD  N   103.2  300.0
+
+
+
+ [ impropers ]
+  CA  N  C  CB  -35.264  300 
+  C  CA  +N   O   0.0   300
+  -C  N  CA  C   63.0  41.0
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   3.0  1 
+  N  CA  CB  CG
+  CA CB  CG  CD
+ CB  CG  CD  N
+  CG  CD  N  -C
+
+
+
+[  VAL  ]
+  [ atoms ]
+   N  N    0.000  0
+   H  HD   0.000  0
+   CA CA   0.000  1
+   CB CB1   0.000  2
+   C  C    0.000  3
+   O  O    0.000  3
+   CG1 CH3 0.000  4
+   CG2 CH3 0.000  5
+
+
+  [ bonds ]
+  -C  N
+   N  CA
+   N  H
+   CA CB
+   CA C
+   C  O
+   CB CG1
+   CB CG2
+
+  [ impropers ]
+   CA  N   C   CB   35.264  300
+    C  CA  +N  O    0.0     300
+    CB   CG2   CG1    CA  35.264  300
+
+  [ dihedrals ]
+   -CA  -C  N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -2.0  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 
+    N    CA    CB   CG1
+
+[ ILE ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA    CA   0.000     1
+    CB   CB1   0.000     2
+   CG1   CH2   0.000     3
+   CG2   CH3   0.000     4
+    CD   CH3   0.000     5
+     C     C   0.000     6
+     O     O  -0.000     6
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB   CG1
+    CB   CG2
+   CG1    CD
+ [ impropers ]
+   CA  N   C   CB   35.264  300
+    C  CA  +N  O    0.0     300
+    CB   CG1   CG2    CA   35.264  300.0
+
+  [ dihedrals ]
+   -CA  -C  N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -2.0  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 
+    N    CA    CB   CG1
+   CA  CB  CG1  CD
+
+
+
+[ GLY ]
+
+ [ atoms ]
+  N  N   0.000 0
+  H  HD  0.000 0
+  CA CA  0.000 1
+  C  C   0.000 2
+  O  O   0.000 2
+
+ [ bonds ]
+  -C  N
+   N  CA
+   N  H
+   CA C
+   C  O
+
+ [ impropers ]
+  C  CA  +N   O   0.0   300
+
+ [ dihedrals ]
+  -CA -C   N  CA
+
+  -C  N  CA  C   0.0   2.0   3
+  -C  N  CA  C  -180.0 3.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    0.0 -1.0  1
+
+
+[ ACE ]
+ [ atoms ]
+  CA  CA  0.000  0
+  C   C   0.000  1
+  O   O   0.000  1
+ 
+ [ bonds ]
+  CA   C
+  C    O
+
+[ impropers ]
+  C  CA  +N  O  0.0  300
+
+
+[ NMA ]
+  [ atoms ]
+  N    N    0.000   0
+  H    HD   0.000   0
+  CA   CA   0.000   1
+  
+  [ bonds ]
+  -C   N
+   N   CA
+   N   H
+
+ [ dihedrals ]
+  -CA -C   N  CA
+
+
+
+[ PHE ]  
+ [ atoms ]
+     N     N  0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.000     3
+   CD1   CZ  0.000     4
+   CD2   CZ  0.000     5
+   CE1   CZ  0.000     6
+   CE2   CZ  0.000     7
+    CZ   CZ  0.000     8
+     C     C   0.000     9
+     O     O  0.000     9
+ [ bonds ]
+     N     H 
+     N    CA  
+    CA     C   
+     C     O  
+    -C     N  
+    CA    CB  
+    CB    CG  
+    CG   CD1  
+    CG   CD2   
+   CD1   CE1   
+   CD2   CE2
+   CE1    CZ
+   CE2    CZ
+ [ impropers ]
+
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+  CG  CB  CD1  CD2  0.0  150.0
+  CG  CD1  CE1  CZ  0.0 150.0
+  CD1  CE1  CZ  CE2  0.0  150.0
+  CE1  CZ  CE2  CD2  0.0  150.0
+  CZ  CE2  CD2  CG  0.0  150.0
+  CE2  CD2  CG  CD1  0.0  150.0
+  CD2  CG  CD1  CE1  0.0  150.0
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -1.75  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.5  1 
+  N  CA CB  CG
+  N  CA CB  CG  120.0  0.4   1  
+  CA  CB  CG  CD1
+
+
+
+
+[ TYR ]
+ [ atoms ]
+     N     N  0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.000     3
+   CD1   CZ  0.000     4
+   CD2   CZ  0.000     5
+   CE1   CZ  0.000     6
+   CE2   CZ  0.000     7
+    CZ   CZ  0.000     8
+    OH   OY    0.000   9
+     C     C   0.000     10
+     O     O  0.000     10
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   CD1
+    CG   CD2
+   CD1   CE1
+   CD2   CE2
+   CE1    CZ
+   CE2    CZ
+   OH    CZ
+ [ impropers ]
+
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+  CG  CB  CD1  CD2  0.0  150.0
+  CG  CD1  CE1  CZ  0.0 150.0
+  CD1  CE1  CZ  CE2  0.0  150.0
+  CE1  CZ  CE2  CD2  0.0  150.0
+  CZ  CE2  CD2  CG  0.0  150.0
+  CE2  CD2  CG  CD1  0.0  150.0
+  CD2  CG  CD1  CE1  0.0  150.0
+  CZ  CE1  CE2  OH  0.0  150.0
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -1.75  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.5  1 
+  N  CA CB  CG
+  N  CA CB  CG  120.0  0.4   1
+  CA  CB  CG  CD1
+
+
+
+[ ARG ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG   CH2   0.000     3
+    CD   CX   0.000     4
+    NE    Nr   0.100     5
+    CZ     Cr   0.600     5
+   NH1    Nr   0.150     5
+   NH2    Nr   0.150     5
+     C     C   0.000     6
+     O     O   0.000     6
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG    CD
+    CD    NE
+    NE    CZ
+    CZ   NH1
+    CZ   NH2
+ [ impropers ]
+
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+  CZ  NH1 NH2 NE  0.0  300.0
+
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1 
+  N  CA CB  CG
+ N  CA  CB  CG  180.0  0.5    1
+  CA CB  CG  CD
+  CB CG  CD NE
+  CG  CD NE CZ
+  CD  NE CZ  NH1
+
+
+[ HISA ]  
+ [ atoms ]
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.000     3
+   ND1  NZ0   0.000     4
+   HD1     HH   0.000     4
+   CD2  CZ   0.000     5
+   CE1  CZ   0.000     6
+   NE2   NZ   0.000     7
+     C     C   0.000     8
+     O     O   0.000     8
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   ND1  0.138  125000
+    CG   CD2  0.135  125000 
+   ND1   HD1  
+   ND1   CE1  0.135  125000
+   CD2   NE2  0.137  125000
+   CE1   NE2  0.129  125000
+ [ angles ]
+  CB CG CD2  132.5  300.0
+  CB CG ND1  123.0  300.0
+  ND1 CG  CD2  104.5  300.0
+  CG ND1 CE1 107.2  300.0
+  ND1 CE1 NE2 112.1 300.0
+  CE1 NE2 CD2  105.2 300.0
+  NE2 CD2 CG  110.0 300.0
+  HD1 ND1 CG 126.0 300.0
+  HD1 ND1 CE1 126.0 300.0
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+  ND1 HD1 CG CE1 0.0  150
+  CG ND1 CD2 CB 0.0  150
+  ND1 CG CD2 NE2 0.0 150
+  CG CD2 NE2 CE1 0.0 150
+  CD2 NE2 CE1 ND1 0.0 150
+  NE2 CE1 ND1 CG 0.0 150
+  CE1 ND1 CG CD2 0.0 150
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -2.25  1 
+  -C  N  CA  C   -120.0   2.00  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 
+  N  CA CB  CG
+  N  CA CB  CG  120.0  0.3   1
+  CA CB CG CD2
+
+[ HISB ]  
+ [ atoms ]
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.000     3
+   ND1  NZ   0.000     4
+   CD2  CZ   0.000     5
+   CE1  CZ   0.000     6
+   NE2   NZ0   0.000     7
+   HE2   HH   0.000     7
+     C     C   0.000     8
+     O     O   0.000     8
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   ND1  0.138  125000
+    CG   CD2  0.135  125000 
+   NE2   HE2  
+   ND1   CE1  0.135  125000
+   CD2   NE2  0.137  125000
+   CE1   NE2  0.129  125000
+ [ angles ]
+  CB CG CD2  132.5  300.0
+  CB CG ND1  123.0  300.0
+  ND1 CG  CD2  104.5  300.0
+  CG ND1 CE1 107.2  300.0
+  ND1 CE1 NE2 112.1 300.0
+  CE1 NE2 CD2  105.2 300.0
+  NE2 CD2 CG  110.0 300.0
+  HE2 NE2 CD2 126.0 300.0
+  HE2 NE2 CE1 126.0 300.0
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+  NE2 HE2 CD2 CE1 0.0  150
+  CG ND1 CD2 CB 0.0  150
+  ND1 CG CD2 NE2 0.0 150
+  CG CD2 NE2 CE1 0.0 150
+  CD2 NE2 CE1 ND1 0.0 150
+  NE2 CE1 ND1 CG 0.0 150
+  CE1 ND1 CG CD2 0.0 150
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -54.18  2.13600  1
+;  -C  N  CA  C   -180.0  -2.25  1 
+;  -C  N  CA  C   -120.0   2.00  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1 
+  N  CA CB  CG  0.000   4.90   3
+  N  CA CB  CG  120.0  0.3   1
+  CA CB CG CD2
+
+[ HISD ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.000     3
+   ND1  NZ   0.000     4
+   CD2  CZ   0.000     5
+   CE1  CZ   0.000     6
+   NE2   NZ0   0.000     7
+   HE2   HH   0.000     7
+     C     C   0.000     8
+     O     O   0.000     8
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   ND1  0.138  125000
+    CG   CD2  0.135  125000
+   NE2   HE2
+   ND1   CE1  0.135  125000
+   CD2   NE2  0.137  125000
+   CE1   NE2  0.129  125000
+[ angles ]
+  CB CG CD2  132.5  300.0
+  CB CG ND1  123.0  300.0
+  ND1 CG  CD2  104.5  300.0
+  CG ND1 CE1 107.2  300.0
+  ND1 CE1 NE2 112.1 300.0
+  CE1 NE2 CD2  105.2 300.0
+  NE2 CD2 CG  110.0 300.0
+  HE2 NE2 CD2 126.0 300.0
+  HE2 NE2 CE1 126.0 300.0
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300
+  C  CA  +N   O   0.0   300
+  NE2 HE2 CD2 CE1 0.0  150
+  CG ND1 CD2 CB 0.0  150
+  ND1 CG CD2 NE2 0.0 150
+  CG CD2 NE2 CE1 0.0 150
+  CD2 NE2 CE1 ND1 0.0 150
+  NE2 CE1 ND1 CG 0.0 150
+  CE1 ND1 CG CD2 0.0 150
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -54.18  2.13600  1
+;  -C  N  CA  C   -180.0  -2.25  1
+;  -C  N  CA  C   -120.0   2.00  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1
+  N  CA CB  CG  0.000   4.90   3
+  N  CA CB  CG  120.0  0.3   1
+  CA CB CG CD2
+
+[ HISE ]
+ [ atoms ]
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.000     3
+   ND1  NZ   0.000     4
+   CD2  CZ   0.000     5
+   CE1  CZ   0.000     6
+   NE2   NZ0   0.000     7
+   HE2   HH   0.000     7
+     C     C   0.000     8
+     O     O   0.000     8
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   ND1  0.138  125000
+    CG   CD2  0.135  125000
+   NE2   HE2
+   ND1   CE1  0.135  125000
+   CD2   NE2  0.137  125000
+   CE1   NE2  0.129  125000
+ [ angles ]
+  CB CG CD2  132.5  300.0
+  CB CG ND1  123.0  300.0
+  ND1 CG  CD2  104.5  300.0
+  CG ND1 CE1 107.2  300.0
+  ND1 CE1 NE2 112.1 300.0
+  CE1 NE2 CD2  105.2 300.0
+  NE2 CD2 CG  110.0 300.0
+  HE2 NE2 CD2 126.0 300.0
+  HE2 NE2 CE1 126.0 300.0
+
+ [ impropers ]
+  CA  N  C  CB  35.264  300
+  C  CA  +N   O   0.0   300
+  NE2 HE2 CD2 CE1 0.0  150
+  CG ND1 CD2 CB 0.0  150
+  ND1 CG CD2 NE2 0.0 150
+  CG CD2 NE2 CE1 0.0 150
+  CD2 NE2 CE1 ND1 0.0 150
+  NE2 CE1 ND1 CG 0.0 150
+  CE1 ND1 CG CD2 0.0 150
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -54.18  2.13600  1
+;  -C  N  CA  C   -180.0  -2.25  1
+;  -C  N  CA  C   -120.0   2.00  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1
+  N  CA CB  CG  0.000   4.90   3
+  N  CA CB  CG  120.0  0.3   1
+  CA CB CG CD2
+
+
+
+[ HISH ]   
+ [ atoms ] 
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.200     3
+   ND1  NZ+   -0.500     3
+   HD1     H+   0.500     3
+   CD2  CZ   0.300     3
+   CE1  CZ   0.500     3
+   NE2   NZ+   -0.500     3
+   HE2   H+    0.500     3
+     C     C   0.000     4
+     O     O   0.000     4
+ [ bonds ] 
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N 
+    CA    CB
+    CB    CG  
+    CG   ND1  0.138  125000
+    CG   CD2  0.135  125000
+   ND1   HD1  0.1    125000 
+   NE2   HE2  0.1    125000    
+   ND1   CE1  0.135  125000
+   CD2   NE2  0.137  125000 
+   CE1   NE2  0.129  125000 
+ [ angles ]  
+  CB CG CD2  132.5  300.0
+  CB CG ND1  123.0  300.0
+  ND1 CG  CD2  104.5  300.0
+  CG ND1 CE1 107.2  300.0
+  ND1 CE1 NE2 112.1 300.0
+  CE1 NE2 CD2  105.2 300.0
+  NE2 CD2 CG  110.0 300.0
+  HD1 ND1 CG 126.0 300.0 
+  HD1 ND1 CE1 126.0 300.0 
+  HE2 NE2 CE1 126.0 300.0
+  HE2 NE2 CD2 126.0 300.0
+
+    
+ [ impropers ] 
+  CA  N  C  CB  35.264  300
+  C  CA  +N   O   0.0   300
+  ND1 HD1 CG CE1 0.0  150
+  NE2 HE2 CE1 CD2 0.0  150
+  CG ND1 CD2 CB 0.0  150 
+  ND1 CG CD2 NE2 0.0 150
+  CG CD2 NE2 CE1 0.0 150  
+  CD2 NE2 CE1 ND1 0.0 150
+  NE2 CE1 ND1 CG 0.0 150
+  CE1 ND1 CG CD2 0.0 150
+ [ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -2.25  1
+  -C  N  CA  C   -120.0   2.00  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.0  1
+  N  CA CB  CG
+  N  CA CB  CG  120.0  0.3   1
+  CA CB CG CD2
+
+
+[ MET ]
+ [ atoms ]
+     N     N  0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG   CH2   0.000     3
+    SD     S   0.000     4
+    CE   CH3   0.000     5
+     C     C   0.000     6
+     O     O   0.000     6
+ [ bonds ]
+     N     H
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG    SD
+    SD    CE
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+[ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -0.0  1
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   1.0  1 
+  N  CA  CB  CG
+ N  CA  CB  CG  180.0  0.5    1
+  CA CB CG SD
+  CB CG SD CE
+
+
+[ TRP ]  
+ [ atoms ]
+     N     N   0.000     0
+     H     HD   0.000     0
+    CA   CA   0.000     1
+    CB   CB2   0.000     2
+    CG    CZ   0.000     3
+   CD1   CZ   0.000     4
+   CD2    CZ   0.000     5
+   NE1  NZW   0.000     6
+   HE1     HH   0.000     6
+   CE2    CZ   0.000     7
+   CE3   CZ   0.000     8
+   CZ2   CZ   0.000     9
+   CZ3   CZ   0.000     10
+   CH2   CZ   0.000     11
+     C     C   0.000     12
+     O     O   0.000     12
+ [ bonds ]
+     N     H   
+     N    CA
+    CA     C
+     C     O
+    -C     N
+    CA    CB
+    CB    CG
+    CG   CD1   0.135  125000
+    CG   CD2   0.145  125000
+   CD1   NE1   0.137  125000
+   CD2   CE2   
+   CD2   CE3   
+   NE1   HE1   
+   NE1   CE2   0.137  125000
+   CE2   CZ2   
+   CE3   CZ3
+   CZ2   CH2
+   CZ3   CH2
+
+[ angles ]
+  CB  CG  CD1  127.4  300.0
+  CB  CG  CD2  126.6  300.0
+  CD1 CG  CD2  106.0  300.0
+  CG  CD1 NE1  110.6  300.0
+  CD1 NE1 CE2  108.8  300.0
+  CD1 NE1 HE1  125.6  300.0
+  CE2 NE1 HE1  125.6  300.0
+  NE1 CE2 CD2  109.6  300.0
+  NE1 CE2 CZ2  130.4  300.0
+  CG  CD2 CE3  133.7  300.0
+  CG  CD2 CE2  106.3  300.0
+  
+ [ impropers ]
+  CA  N  C  CB  35.264  300 
+  C  CA  +N   O   0.0   300
+  CG CB  CD1  CD2  0.0  150.0
+  CD2 CG CD1 NE1  0.0  150.0
+  CG  CD1 NE1 CE2 0.0 150.0
+  CD1 NE1 CE2 CD2 0.0 150.0
+  NE1 CE2 CD2 CG 0.0  150.0
+  CE2 CD2 CG CD1 0.0  150.0
+  CE2 CD2 CE3 CZ3 0.0 150.0
+  CD2 CE3 CZ3 CH2 0.0  150.0
+  CE3 CZ3 CH2 CZ2 0.0  150.0
+  CZ3 CH2 CZ2 CE2 0.0  150.0
+  CH2 CZ2 CE2 CD2 0.0  150.0
+  CZ2 CE2 CD2 CE3 0.0  150.0
+  NE1 CD1 CE2 HE1 0.0  150.0
+  CE2 NE1 CZ2 CD2 0.0  150.0
+  CD2 CG CE2 CE3  0.0  150.0
+[ dihedrals ]
+  -CA -C   N  CA
+  -C  N  CA  C   0.0   2.5   3
+  -C  N  CA  C   -180.0  -1.75  1 
+  N  CA C +N   -180.0  4.0  2
+  N  CA C +N    -0.0   2.5  1 
+  N  CA CB CG
+  N  CA CB  CG  120.0  0.4   1
+  CA CB CG CD1
+
