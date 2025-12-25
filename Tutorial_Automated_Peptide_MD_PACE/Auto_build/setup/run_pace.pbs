@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -N prod
+#PBS -q q2
+#PBS -j oe 
+#PBS -l nodes=1:ppn=24
+cd $PBS_O_WORKDIR
+#source /share/scripts/intel.env
+#source /share4/home/huangsy/software_hsy/plumed-2.3.7/sourceme.sh
+#source /share4/home/huangsy/software_hsy/gromacs-5.1.4/plumed-2.3.7-nucleation/bin/GMXRC.bash
+# main cluster gpu
+#source /share/scripts/gromacs-2023_cuda-12.1_plumed-2.9.0.env
+# main cluster cpu
+source /share/scripts/gromacs-2023_plumed-2.9.0.env
+
+
+mpirun -np 1  gmx_mpi mdrun  -ntomp 24   \
+ -deffnm prod \
+ -cpt 5  -cpi prod.cpt  #-maxh 0.05 #-noappend
+
+touch SIM_DONE

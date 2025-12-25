@@ -1,0 +1,12 @@
+[ None ]
+
+[ COO- ]
+[ replace ]
+C               C-       12  0.6
+[ add ]
+2       3       O       C       CA      N
+        O-      16    -0.8
+[ delete ]
+O
+[ impropers ]
+C       O1      O2      CA   planar
