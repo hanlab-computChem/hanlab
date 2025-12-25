@@ -14,7 +14,6 @@ __pycache__/
 .Python
 *.egg-info/
 dist/
-build/
 *.egg
 *.whl
 
