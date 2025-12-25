@@ -1,0 +1,65 @@
+;
+;	User spoel (236)
+;	Wed Nov  3 17:12:44 1993
+;	Input file
+;
+title               =  Yo
+cpp                 =  /lib/cpp
+;define              = -DPOSRES
+constraints         =  none
+integrator          =  md
+dt                  =  0.005	; ps !
+nsteps              =  10000	; total 10 ps.
+nstcomm             =  1
+nstxout             =  10000
+nstvout             =  10000
+nstxtcout           =  200
+xtc_grps            =  Protein
+nstfout             =  0
+nstlog              =  1000
+nstenergy           =  1000
+;nstlist             =  10
+;ns_type             =  grid
+;rlist               =  1.4
+
+cutoff-scheme = Verlet
+nstlist             =  10
+ns_type             =  grid
+rlist               =  1.2
+;coulombtype         =  Shift
+coulombtype         = Cut-off
+coulomb-modifier = Potential-shift
+epsilon_r           =  15
+vdwtype = Cut-off
+vdw_modifier=Force-switch
+rcoulomb            =  1.2
+rcoulomb_switch     =  0.0
+rvdw                =  1.2
+rvdw_switch         =  0.9
+
+
+;coulombtype         =  Shift
+;epsilon_r           =  15
+;vdwtype             =  Shift
+;rcoulomb            =  1.2
+;rcoulomb_switch     =  0.0
+;rvdw                =  1.2
+;rvdw_switch         =  0.9
+table-extension     =  2.0
+; Berendsen temperature coupling is on in two groups
+Tcoupl              =  berendsen
+tc-grps             =  Protein  non-Protein
+tau_t               =  0.3      0.3
+ref_t               =  330      330
+; Energy monitoring
+energygrps          =  Protein  non-Protein
+; Pressure coupling is on
+Pcoupl              =  berendsen
+tau_p               =  0.5
+compressibility     =  4.5e-5
+ref_p               =  1.0
+; Generate velocites is on at 330 K.
+gen_vel             =  no
+gen_temp            =  330.0
+gen_seed            =  103993
+

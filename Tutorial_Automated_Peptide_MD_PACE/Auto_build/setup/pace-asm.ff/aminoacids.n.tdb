@@ -1,0 +1,15 @@
+[ None ]
+
+
+[ NH3+ ]
+[ replace ]
+N               N+      17  0.7
+CA              CA      13  0.3  0
+[ delete ]
+H
+
+[ PRO-NH2+ ]
+[ replace ]
+N		NPR	14	0.6
+CA		CA	13	0.2
+CD		CH2	14	0.2

@@ -1,0 +1,67 @@
+ALA     1
+1       1       H       N       -C      CA
+GLY     1
+1       1       H       N       -C      CA
+NMA     1
+1       1       H       N       -C      CA
+ILE     1
+1       1       H       N       -C      CA
+VAL     1
+1       1       H       N       -C      CA
+LEU     1
+1       1       H       N       -C      CA
+LYS     1
+1       1       H       N       -C      CA
+NLE     1
+1       1       H       N       -C      CA
+SER     1
+1       1       H       N       -C      CA
+CYSH    1
+1       1       H       N       -C      CA
+CYS     1
+1       1       H       N       -C      CA
+THR     1
+1       1       H       N       -C      CA
+GLU     1
+1       1       H       N       -C      CA
+GLUH    1
+1       1       H       N       -C      CA
+GLN     2
+1       1       H       N       -C      CA
+2       3       HE2     NE2     CD      CG
+ASN     2
+1       1       H       N       -C      CA
+2       3       HD2     ND2     CG      CB
+PHE     1
+1       1       H       N       -C      CA
+TYR     1
+1       1       H       N       -C      CA
+HISA    2
+1       1       H       N       -C      CA
+1       1       HD1     ND1      CG     CE1 
+HISB    2
+1       1       H       N       -C      CA
+1       1       HE2     NE2      CD2     CE1 
+HISD    2
+1       1       H       N       -C      CA
+1       1       HE2     NE2      CD2     CE1
+HISE    2
+1       1       H       N       -C      CA
+1       1       HE2     NE2      CD2     CE1
+HISH    3
+1       1       H       N       -C      CA
+1       1       HD1     ND1      CG     CE1 
+1       1       HE2     NE2      CD2     CE1 
+TRP     2
+1       1       H       N       -C      CA
+1       1       HE1     NE1      CD1     CE2
+ASP     1
+1       1       H       N       -C      CA
+ASPH    1
+1       1       H       N       -C      CA
+ARG     1
+1       1       H       N       -C      CA
+MET     1
+1       1       H       N       -C      CA
+LYSH    1
+1       1       H       N       -C      CA
