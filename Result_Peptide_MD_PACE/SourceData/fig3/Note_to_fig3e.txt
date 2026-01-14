@@ -1,0 +1,13 @@
+F0 was determined via n=60 inpedenpent measurements for ThT blank:
+F0_mean = 1671.3
+SEM0 = 26.5
+
+For each peptide, three self-assembly experiments were performed 
+and the resulting samples were measured via the ThT binding assay 
+separately, and F_mean and SEM for the peptide were then determined.
+
+Based on the results above, the following expressions were employed to
+determine log10(F/F0) and its SEM (in python style):
+
+log10(F/F0) = np.log10(F_mean/F0_mean)
+SEM(log10(F/F0)) = np.log10(np.exp(1))*np.sqrt((SEM/F_mean)**2 + (SEM0/F0_mean)**2)
