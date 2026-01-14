@@ -161,7 +161,7 @@ Self_Assembling_Amyloid_Like_Peptides_Predictor/
 │   └── predictor.py      # Predictor implementation
 ├── data/                 # Data files
 │   └── seq2smi_1to5.json # Peptide sequence to SMILES mapping
-├── trained_model/        # Fine-tuned models used for tetrapeptide prediction
+├── trained_model/        # Fine-tuned models used for production prediction such as tetrapeptide prediction
 │   ├── config.yaml       # Model configuration
 │   ├── model_*.pth       # Model weight files
 │   └── target_scaler.ss  # Target value scaler
