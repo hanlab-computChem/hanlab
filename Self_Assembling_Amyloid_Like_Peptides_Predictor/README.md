@@ -76,7 +76,7 @@ Use the `examples/train.py` script to train new models:
 
 ```bash
 cd examples
-python train.py --data ../data/23pep.pkl --output ../output --epochs 500 --batch-size 128
+python train.py --data ../data/3pep_assembly_train.pkl --output ../output --epochs 500 --batch-size 128
 ```
 
 **Main Parameters**:
