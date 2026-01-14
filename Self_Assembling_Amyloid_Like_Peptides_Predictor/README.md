@@ -60,9 +60,9 @@ python predict.py -p FFFF WWWW YYYY -o predict_result.csv
 **Output Format**:
 ```csv
 Peptide,Pred_AP,Pred_SHB
-AAAA,0.1234,0.5678
-VVVV,0.2345,0.6789
-WWWW,0.3456,0.7890
+FFFF,3.8230,0.5959
+WWWW,3.1570,0.2713
+YYYY,3.2162,0.2086
 ```
 
 **Notes**:
