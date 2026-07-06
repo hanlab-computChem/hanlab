@@ -1,5 +1,5 @@
 pandas
-# rdkit
+rdkit>=2022.9.3
 pymatgen
 addict
 tqdm

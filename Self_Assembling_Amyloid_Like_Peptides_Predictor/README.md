@@ -16,21 +16,31 @@ A property prediction tool for self-assembling amyloid-like peptides based on th
 
 ### Prerequisites
 
-- Python >= 3.6
-- PyTorch >= 2.0.0
+- OS: Linux (Uni-Core ships custom CUDA kernels that are only pre-built for Linux; other OSes are not officially supported)
+- Python 3.7 – 3.10
+- PyTorch >= 2.0.0, with a CUDA build that matches the CUDA toolkit used to build Uni-Core (see below)
+- RDKit (used for SMILES → 3D conformer generation, `rdkit>=2022.9.3`)
 - [Uni-Core](https://github.com/dptech-corp/Uni-Core) - Please install Uni-Core first
 
 ### Installation Steps
 
-1. **Install dependencies**:
+1. **Install PyTorch** matching your CUDA version first (see the [PyTorch install guide](https://pytorch.org/get-started/locally/)), then **install the remaining dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. **Install Uni-Core** (if not already installed):
+2. **Install Uni-Core** (if not already installed). Pick one of the following, and make sure the CUDA version matches the one used to build your PyTorch:
 ```bash
-# Please refer to Uni-Core installation documentation
-# https://github.com/dptech-corp/Uni-Core#installation
+# Option A: pre-compiled wheel (fastest, see the Releases page for the
+# wheel matching your python/torch/cuda version)
+# https://github.com/dptech-corp/Uni-Core/releases
+pip install unicore-<version>+cu<cuda>torch<torch_version>-<abi_tag>-linux_x86_64.whl
+
+# Option B: build from source
+git clone https://github.com/dptech-corp/Uni-Core.git
+cd Uni-Core
+python setup.py install
+# use `python setup.py install --disable-cuda-ext` on machines without a GPU/CUDA toolchain
 ```
 
 3. **Install this package**:
@@ -40,7 +50,7 @@ python setup.py install
 
 ### Additional Dependencies
 
-The prediction functionality requires the `confgen` tool to generate 3D conformations. Please ensure it is installed and configured in your system PATH.
+The prediction functionality can optionally use the `confgen` command-line tool — the CONFORGE conformer generator bundled with [CDPKit](https://cdpkit.org/) ([molinfo-vienna/CDPKit](https://github.com/molinfo-vienna/CDPKit)) — to generate 3D conformations. `confgen` is a CLI binary rather than just the `pip install cdpkit` Python bindings, so grab it from the [CDPKit installer packages](https://github.com/molinfo-vienna/CDPKit/releases) (macOS/Linux/Windows) or build CDPKit from source, and add its `Bin` folder to your `PATH` (see the [CDPKit installation docs](https://cdpkit.org/installation.html)). If `confgen` isn't found in `PATH`, `examples/predict.py` falls back automatically to an RDKit-based pipeline (`Chem.AddHs` + `EmbedMultipleConfs` + MMFF optimization), so it's optional as long as RDKit is available. Either way, conformers are generated with explicit hydrogens first for accurate 3D geometry, and the hydrogens are then stripped before the coordinates reach the model (see `remove_hs` under Technical Details).
 
 ## Quick Start
 
@@ -95,6 +105,8 @@ Training data should be a dictionary or pickle file containing the following fie
 - `coordinates`: List of 3D coordinate arrays
 - `target`: Label array containing both AP and SHB values
 
+Note that `examples/train.py` doesn't currently expose a `--remove-hs` flag and relies on `MolTrain`'s default, so if you're retraining to reproduce the released models, call `MolTrain` through the Python API instead and pass `remove_hs=True` explicitly (see below).
+
 ## Using Python API
 
 ### Prediction
@@ -107,9 +119,12 @@ from pathlib import Path
 model_path = Path("trained_model")
 clf = MolPredict(load_model=str(model_path))
 
-# Prepare data (dictionary format)
+# Prepare data (dictionary format). Generate atoms/coordinates with
+# hydrogens included (e.g. via RDKit's AddHs + conformer embedding) for
+# accurate geometry — MolPredict will strip them automatically per the
+# loaded model's remove_hs setting.
 data = {
-    'atoms': [['C', 'C', 'O', 'N', ...], ...],  # List of atom symbols
+    'atoms': [['C', 'C', 'O', 'N', 'H', 'H', ...], ...],  # List of atom symbols
     'coordinates': [np.array([...]), ...],      # 3D coordinate arrays
 }
 
@@ -127,6 +142,7 @@ from unimol_tools import MolTrain
 clf = MolTrain(
     task='multilabel_regression',
     data_type='molecule_all_h',
+    remove_hs=True,  # strip hydrogens after conformer generation, to match the released models
     epochs=500,
     batch_size=128,
     metrics=['mse'],
@@ -178,9 +194,9 @@ Self_Assembling_Amyloid_Like_Peptides_Predictor/
 
 ### Model Architecture
 
-- **Base Model**: Uni-Mol (Universal 3D Molecular Representation Learning Framework)
+- **Base Model**: Uni-Mol (Universal 3D Molecular Representation Learning Framework), fine-tuned from the all-hydrogen pretrained checkpoint (`data_type=molecule_all_h`)
 - **Task Type**: Multilabel regression (multilabel_regression)
-- **Data Format**: Molecular 3D coordinates with hydrogens (molecule_all_h)
+- **Data Format**: Molecular 3D coordinates generated with explicit hydrogens (for accurate conformer geometry), then with hydrogens removed before tokenization — i.e. `remove_hs=True`, as set in each model's `config.yaml`. `MolPredict` picks this up automatically from the loaded model directory, so no extra step is needed for prediction; when training your own model with `MolTrain`, pass `remove_hs=True` explicitly to match it
 - **Loss Function**: Weighted mean squared error (weighted_mse)
 - **Evaluation Metric**: Mean squared error (MSE)
 
