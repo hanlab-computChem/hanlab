@@ -21,7 +21,7 @@ metrics:
 model_name: unimolv1
 num_classes: 2
 patience: 10
-remove_hs: false
+remove_hs: true
 seed: 42
 smi_strict: true
 smiles_col: SMILES

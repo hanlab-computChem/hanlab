@@ -50,15 +50,7 @@ python setup.py install
 
 ### Additional Dependencies
 
-The prediction functionality can optionally use the `confgen` tool (DP Technology's internal conformer generator) to generate 3D conformations. If `confgen` is not found in your system `PATH`, `examples/predict.py` automatically falls back to an RDKit-based conformer generation pipeline (`Chem.AddHs` + `EmbedMultipleConfs` + MMFF optimization), so installing `confgen` is optional as long as RDKit is available.
-
-### Hydrogen Handling (`remove_hs`) — Required for Reproducible Predictions
-
-Both released models (`trained_model/` and `validated_model/`) were trained with `data_type="molecule_all_h"` and `remove_hs=False` (see `config.yaml` in each model directory). This means **all hydrogen atoms must be kept, not removed**, in the 3D structures fed to the model:
-
-- The bundled `examples/predict.py` and `examples/train.py` scripts already do the right thing by default: `Chem.AddHs`/`confgen` always produce explicit hydrogens, and `remove_hs` is never set to `True`, so no action is needed to reproduce the documented results when using these scripts as-is.
-- If you build your own `atoms`/`coordinates` input for the Python API (see below), make sure hydrogen atoms are included and **not** stripped out — omitting or removing hydrogens will silently change the input representation and will not reproduce the reported AP/SHB predictions.
-- If you retrain or fine-tune a model, keep `remove_hs=False` (the default in `MolTrain`/`MolPredict`) unless you intentionally want a no-hydrogen (`molecule_no_h`) model, in which case predictions must also be made with `remove_hs=True` to stay consistent.
+The prediction functionality can optionally use the `confgen` command-line tool — the CONFORGE conformer generator bundled with [CDPKit](https://cdpkit.org/) ([molinfo-vienna/CDPKit](https://github.com/molinfo-vienna/CDPKit)) — to generate 3D conformations. `confgen` is a CLI binary rather than just the `pip install cdpkit` Python bindings, so grab it from the [CDPKit installer packages](https://github.com/molinfo-vienna/CDPKit/releases) (macOS/Linux/Windows) or build CDPKit from source, and add its `Bin` folder to your `PATH` (see the [CDPKit installation docs](https://cdpkit.org/installation.html)). If `confgen` isn't found in `PATH`, `examples/predict.py` falls back automatically to an RDKit-based pipeline (`Chem.AddHs` + `EmbedMultipleConfs` + MMFF optimization), so it's optional as long as RDKit is available. Either way, conformers are generated with explicit hydrogens first for accurate 3D geometry, and the hydrogens are then stripped before the coordinates reach the model (see `remove_hs` under Technical Details).
 
 ## Quick Start
 
@@ -113,6 +105,8 @@ Training data should be a dictionary or pickle file containing the following fie
 - `coordinates`: List of 3D coordinate arrays
 - `target`: Label array containing both AP and SHB values
 
+Note that `examples/train.py` doesn't currently expose a `--remove-hs` flag and relies on `MolTrain`'s default, so if you're retraining to reproduce the released models, call `MolTrain` through the Python API instead and pass `remove_hs=True` explicitly (see below).
+
 ## Using Python API
 
 ### Prediction
@@ -125,13 +119,12 @@ from pathlib import Path
 model_path = Path("trained_model")
 clf = MolPredict(load_model=str(model_path))
 
-# Prepare data (dictionary format)
-# NOTE: 'atoms'/'coordinates' must include explicit hydrogen atoms
-# (do NOT remove hydrogens) to match how the released models were
-# trained (remove_hs=False, data_type='molecule_all_h'). See
-# "Hydrogen Handling" above.
+# Prepare data (dictionary format). Generate atoms/coordinates with
+# hydrogens included (e.g. via RDKit's AddHs + conformer embedding) for
+# accurate geometry — MolPredict will strip them automatically per the
+# loaded model's remove_hs setting.
 data = {
-    'atoms': [['C', 'C', 'O', 'N', 'H', 'H', ...], ...],  # List of atom symbols, including H
+    'atoms': [['C', 'C', 'O', 'N', 'H', 'H', ...], ...],  # List of atom symbols
     'coordinates': [np.array([...]), ...],      # 3D coordinate arrays
 }
 
@@ -149,7 +142,7 @@ from unimol_tools import MolTrain
 clf = MolTrain(
     task='multilabel_regression',
     data_type='molecule_all_h',
-    remove_hs=False,  # keep all hydrogens, required to reproduce the released models
+    remove_hs=True,  # strip hydrogens after conformer generation, to match the released models
     epochs=500,
     batch_size=128,
     metrics=['mse'],
@@ -201,10 +194,9 @@ Self_Assembling_Amyloid_Like_Peptides_Predictor/
 
 ### Model Architecture
 
-- **Base Model**: Uni-Mol (Universal 3D Molecular Representation Learning Framework)
+- **Base Model**: Uni-Mol (Universal 3D Molecular Representation Learning Framework), fine-tuned from the all-hydrogen pretrained checkpoint (`data_type=molecule_all_h`)
 - **Task Type**: Multilabel regression (multilabel_regression)
-- **Data Format**: Molecular 3D coordinates with hydrogens (molecule_all_h)
-- **Hydrogen Handling**: `remove_hs=False` — hydrogens are kept, not removed (see "Hydrogen Handling" note in the Installation section above)
+- **Data Format**: Molecular 3D coordinates generated with explicit hydrogens (for accurate conformer geometry), then with hydrogens removed before tokenization — i.e. `remove_hs=True`, as set in each model's `config.yaml`. `MolPredict` picks this up automatically from the loaded model directory, so no extra step is needed for prediction; when training your own model with `MolTrain`, pass `remove_hs=True` explicitly to match it
 - **Loss Function**: Weighted mean squared error (weighted_mse)
 - **Evaluation Metric**: Mean squared error (MSE)
 
