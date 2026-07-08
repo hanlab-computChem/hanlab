@@ -4,7 +4,11 @@ pymatgen
 addict
 tqdm
 yacs
-transformers
+# NOTE: transformers must stay on a version contemporary with PyTorch 2.0.0.
+# Newer transformers releases (e.g. 4.5x+) assume torch>=2.1's
+# torch.optim.lr_scheduler.LRScheduler and will crash with
+# "NameError: name 'LRScheduler' is not defined" on torch==2.0.0.
+transformers==4.30.2
 wandb
 iopath
 lmdb
@@ -14,4 +18,6 @@ scipy
 tensorboardX
 tqdm
 tokenizers
+scikit-learn
+joblib
 # git+https://github.com/dptech-corp/Uni-Core.git
